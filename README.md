@@ -71,7 +71,7 @@
 	
    **Tela para selecionar o tipo de Uber e o respectivo valor da viagem**
 	
-   ![imagem](https://i.imgur.com/fQGBuHD.png)
+   ![imagem](https://i.imgur.com/S1VOmHY.png)
 	
    **Tela de confirmação do ponto partida**
 	
@@ -79,7 +79,7 @@
 	
    **Tela de confirmação da viagem**
 	
-   ![imagem](https://i.imgur.com/BpLPGxX.png)
+   ![imagem](https://i.imgur.com/c8YHKOU.png)
 	
 
 ### Diagrama
