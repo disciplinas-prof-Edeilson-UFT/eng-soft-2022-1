@@ -1,18 +1,18 @@
-**R13 –Visualizar carteira**
+# **R13 –Visualizar carteira**
 
-**- Atores:**
+### **- Atores:**
 
 Usuário Final – Visualizar e manipular a parte de pagamentos do aplicativo;
 
-**- Descrição sucinta:**
+### **- Descrição sucinta:**
 
 Possibilitar o acesso da parte financeira do aplicativo ao usuário, podendo visualizar, editar, adicionar e excluir formas de pagamento e usar descontos.
 
-**- Pré-condição:**
+### **- Pré-condição:**
 
 O ator deve ter o aplicativo pré-instalado em seu dispositivo móvel e precisa estar logado no mesmo com login e senha;
 
-**- Fluxo Principal:**
+### **- Fluxo Principal:**
 
 * 1 – O ator ao abrir a tela inicial do aplicativo seleciona o ícone “Perfil”;
 
@@ -36,7 +36,7 @@ O ator deve ter o aplicativo pré-instalado em seu dispositivo móvel e precisa 
 
 * 11 - A terceira trata-se de códigos promocionais do aplicativo, é possível ver as promoções disponíveis e adicionar o código promocional para uso;
 
-**- Fluxos alternativos:**
+### **- Fluxos alternativos:**
 
 **FA01 – Dados incorretos na alteração**
 
@@ -50,11 +50,11 @@ O ator deve ter o aplicativo pré-instalado em seu dispositivo móvel e precisa 
 
 1. No passo 10 e 11 do fluxo principal quando o ator digitar o código, de voucher ou de promoção, e apertar em “Adicionar”, aparecera um aviso caso o código esteja incorreto ou já tenha expirado.
 
-**User Story**
+### **User Story**
 
 Como usuário final eu quero poder ter acesso a parte financeira do aplicativo, para que eu possa ter controle sobre minhas formas de pagamento, podendo adicionar, excluir e alterar formas de pagamento, escolher qual forma quero usar como padrão, se será para finalidade pessoal ou profissional e ainda ter acesso e utilizar eventuais descontos.
 
-**Prototipação de telas**
+### **Prototipação de telas**
 
 * Tela inicial da carteira
 
@@ -88,6 +88,6 @@ Como usuário final eu quero poder ter acesso a parte financeira do aplicativo, 
 
 ![opçoes](https://i.imgur.com/mLamtnt.jpg "opções")
 
-**Diagrama de Caso de Uso**
+### **Diagrama de Caso de Uso**
 
 ![Imgur](https://i.imgur.com/d6tDL5j.jpg "Diagrama caso de uso")
