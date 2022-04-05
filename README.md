@@ -2,7 +2,7 @@
 
 **- Atores:**
 
-usuário Final – Visualizar e manipular a parte de pagamentos do aplicativo;
+Usuário Final – Visualizar e manipular a parte de pagamentos do aplicativo;
 
 **- Descrição sucinta:**
 
