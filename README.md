@@ -87,3 +87,98 @@
    + Modelo de Caso de Uso
 
    ![imagem](https://i.imgur.com/PnFLBan.png)
+
+# R16 - Histórico de viagens
+
+### Atores
+
++ Cliente – Cosulta o histórico de viagens e de pedidos do cliente.
+
+### Descrição sucinta
+
++ Este caso de uso é responsável por consultar as viagens já realizadas pela cliente, mostrando a data da viagem, hora, trajeto e método de pagamento.
+
+### Pré-condição
+
++ O ator deve ter o software instalado no seu dispositivo e deverá estar logado em sua conta.
+
+### Fluxo principal
+
+1. O ator na tela inicial do aplicativo deverá selecionar a opção "Perfil";
+
+2. O aplicativo deverá abrir outra tela com diversas opções, e o ator deverá selecionar a opção "Viagens";
+
+3. O aplicativo apresentará uma lista com o histórico de viagens do cliente com data, hora, trajeto e método de pagamento;
+
+4. Para o cliente obter mais informações sobre a viajem realizada, deverá selecionar a viagem desejada e o aplicativo abrirá outra tela com mais informações;
+
+### Campo de formulário
+
++ Não tem campo de formulário para este requisito.
+
+### Campos do usuário
+
+|**Opção**|**Descrição**|**Atalho**|
+| :-- | :-: | :-: |
+|Viagens|Exibe o histórico de viagens|-|
+|Pedido|Exibe a aba de ajuda com pedidos do cliente|-|
+|-|Seleciona viagens anteriores, perfil corporativo ou agendadas|-|
+|-|Ver mais detalhes sobre a viagem|>|
+
+### Fluxos alternativos
+
++ Este requisito não possui fluxos alternativos.
+
+### User story
+
++ Como usuário final do aplicativo, eu quero ter acesso completo ao meu histórico das viagens que fiz no aplicativo, de modo que eu possa acessar todas as informações disponíveis sobre cada viagem realizada.
+
+### Prototipação 
+
++ Tela inicial - Anteriores
+
+![imgur](https://imgur.com/l45JqTx.png) 
+
++ Informações da viagem
+
+![imgur](https://imgur.com/MJhZceg.png)
+
++ Encontrar objeto perdido
+
+![imgur](https://imgur.com/rYo5coC.png)
+
++ Informar problema de segurança
+
+![imgur](https://imgur.com/z5kOItW.png)
+
++ Enviar comentário ao motorista parceiro
+
+![imgur](https://imgur.com/c6EbOEt.png)
+
++ Solicitar ajuda com viagens
+
+![imgur](https://imgur.com/1JAEOOF.png)
+
++ Tela inicial - Perfil corporativo
+
+![imgur](https://imgur.com/lUgOsYZ.png)
+
++ Tela inicial - Agendadas
+
+![imgur](https://imgur.com/G6CL6lZ.png)
+
++ Pedido
+
+![imgur](https://imgur.com/81TaFkC.png)
+
++ Pedido em andamento
+
+![imgur](https://imgur.com/MUA9YDC.png)
+
++ Pedido anterior
+
+![imgur](https://imgur.com/miGkBmZ.png)
+
+### Diagrama
+
+![imgur](https://imgur.com/PPIyYNo.png)
