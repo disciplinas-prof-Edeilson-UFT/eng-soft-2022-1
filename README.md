@@ -253,6 +253,60 @@
 
 
 
+**G3-R09- Solicitar Ajuda**
+
+**- Atores:**
+
+Usuário final (perfil de cliente) – exibição da tela de ajuda. 
+
+**- Descrição sucinta:**
+
+O ator poderá visualizar um resumo da sua última viagem e todos os tópicos relacionados à ajuda do app.
+
+**- Pré-condição:**
+
+O ator precisa ter o aplicativo instalado e logado com perfil de passageiro em seu dispositivo.
+
+**- Fluxo principal:**
+
+FP01 - O ator abre o aplicativo na tela inicial e seleciona a opção do usuário “Insere seus Dados”;
+
+FP02 - O aplicativo exibe na tela principal, onde é possível solicitar a corrida;
+
+FP03 - O ator vai até o ícone com sua foto de perfil;
+
+FP04 - O ator seleciona a opção do usuário “Ajuda”, em seguida abrirá a tela de “Ajuda”;
+
+FP05 – O ator irá ver que as informações de sua última viagem além da opção de visualizar também seu último pedido;
+
+FP06 – Será exibida a tela com todos os tópicos relacionados a ajuda e os dados sobre a última viagem;
+
+` `**- Fluxos alternativos**
+
+FA01 – “Outras opções” de cadastro \*\* 1 - Durante o FP01 o ator pode alternativamente se cadastrar caso não tenha cadastro, com a opção de usuário “número de celular” escolher entre “continuar com o Facebook”, “continuar com o Google” para se cadastrar.
+
+FA02 – Durante o FP06, o ator pode selecionar a visualização de detalhes da última viagem realizada.
+
+FA03 – Durante o FP06, o ator pode selecionar algum dos tópicos exibidos.
+
+**- Prototipação** 
+
+<https://i.imgur.com/Kp9T4Ml.png>
+
+**- Tela de Cadastro Uber**
+
+<https://i.imgur.com/DqRJlsW.jpg>
+
+**- Tela inicial** 
+
+<https://i.imgur.com/5qFJaFd.jpg> 
+
+**- Diagrama de caso de uso**
+
+<https://i.imgur.com/dF9IEI6.png>
+
+
+
 # **R13 –Visualizar carteira**
 
 ### **- Atores:**
