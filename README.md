@@ -154,6 +154,48 @@
 
 
 
+## R04 - Viagens recentes
+
+### Atores:
++ Usuário final - Visualiza mapa contendo os motoristas do aplicativo próximos a sua localização.
+
+### Descrição sucinta:
++ Disponibilizar um mapa para visualização de motoristas do aplicativo próximos ao usuário.
+
+### Pré-condição:
++ O usuário deve ter o aplicativo Uber instalado no dispositivo, estar logado em sua conta, visualisar o mapa na tela inicial do aplicativo, ou clicar no mapa para mais detalhes.
+
+### Fluxo principal:
+1. O usuário deve abrir o aplicativo
+2. Visualizar o mapa na tela inicial
+3. Caso deseje mais detalhes, clicar no mapa
+
+### Opções dos Usuários:
+|**Campo**|**Descrição**|**Atalho**|
+| - | - | - |
+|Navegar|Navegar pelo mapa|Botão|
+|Local de partida|Definir o local de partida e destino|Botão|
+
+### Fluxos Alternativos
+1. O usuário deve abrir o aplicativo
+2. Clicar no mapa na tela inicial
+3. Navegar pelo mapa
+
+### User Story:
++ Eu sou um usuário do aplicativo e desejo visualizar a existência de motoristas na minha proximidade, para isso devo abrir o aplicativo, e visualizar a tela inicial, ou para mais detalhes clicar no mapa.
+
+### Prototipação:
+**Visualização do mapa na tela inicial:**
+![imagem](https://i.imgur.com/GIjfO0O.png)
+
+**Visualização do mapa em detalhes:**
+![imagem](https://i.imgur.com/IaDVm0v.png)
+
+### Diagrama de caso de uso:
+![imagem](https://i.imgur.com/kutKloz.png)
+
+
+
 # **R13 –Visualizar carteira**
 
 ### **- Atores:**
