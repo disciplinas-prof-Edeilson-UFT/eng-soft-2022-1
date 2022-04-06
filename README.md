@@ -443,5 +443,3 @@ Como usuário final eu quero poder ter acesso a parte financeira do aplicativo, 
 ### Diagrama
 
 ![imgur](https://imgur.com/PPIyYNo.png)
-
-![Imgur](https://i.imgur.com/d6tDL5j.jpg "Diagrama caso de uso")
