@@ -10,7 +10,7 @@ O ator poderá visualizar o ultimo pedido, com as informações de preço, data 
 
 **- Pré-condição:**
 
-O ator precisa ter o aplicativo instalado em seu dispositivo.
+O ator precisa ter o aplicativo instalado em seu dispositivo, e ter conta ativa.
 
 **- Fluxo principal:**
 
