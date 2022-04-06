@@ -90,7 +90,8 @@
 
 
 
-# RQ02 - Solicitar Entrega
+# R02 - Solicitar Entrega
+
 ### **- Atores:**
 + Usuário Cliente — O usuário se cadastra, insere os endereços em seus respectivos campos e solicita uma viagem para entrega ou recebimento de mercadorias
 + Usuário Empresa — A empresa se cadastra, insere os endereços em seus respectivos campos e solicita uma viagem para entrega ou recebimento de mercadorias.
@@ -152,7 +153,63 @@
 #### **4. Mapa de rotas:**
 ![localization map](https://user-images.githubusercontent.com/101363425/161869797-8be6a93e-5655-4a8b-a5c6-5438934f850e.png)
 
+# R03 - Visualizar Perfil do Usuário
 
+### Atores
+
++   Usuário final - Visualizar o seu nome de usuário, foto do perfil, nota,foto de perfil, versão do aplicativo e vários menus, como: Ajuda, pagamento, mudar foto de perfil, histórico de viagens, Mensagens, Uber pass, Configurações, Se tornar motorista e informações jurídicas.
+
+
+### Descrição sucinta
+
++   Mostrar informações do usuário e vários menus.
+
+
+### Pre-condição
+
++   A priore, o usuário final deve ter instalado o aplicativo uber em seu smartphone e uma conta no serviço.
+
+
+### Fluxo Principal
+
+ 1.   O usuário final ao estar na tela inicial do uber deve selecionar no canto superior direito o icone de usuário, que pode ser um círculo com um avatar genérico para representar um suposto usuário ou sua foto de perfil, caso você tenha carregado alguma.
+
+
+### Campo do Formulário
+
++   Não há formulário para este requisito.
+
+### Opções dos Usuários
+
+|**Campo**|**Descrição**|**Atalho**|
+| :-: | :-: | :-: |
+|Ajuda|Menu com vários guias e formas de ajuda|-|
+|Pagamento|Menu com todas as configurações de pagamento|-|
+|Viagens|Histórico de Viagens|-|
+|Mensagens|Mensagens do uber|-|
+|Configurações|Todas as configurações do aplicativo|-|
+|Dirigir ou entregar com o uber|Solicitar se tornar um motorista ou entregador uber|-|
+|Legal|Informações jurídicas do aplicativo|-|
+
+### Fluxo Alternativos:
+
+   + Não há fluxo alternativo para esse requisito
+
+### User Story	
+
+   + Eu, como usuário final, gostaria de poder visualizar meu nome, nota, foto de perfil, versão do aplicativo e acessar menus, como pagamento, ajuda , histórico de viagens, mensagens, uber pass, configurações, dirigir com uber e informações jurídicas.
+
+### Prototipação
+
+   **Tela de Perfil do Usuário**
+   
+   ![Tela](https://i.imgur.com/s7HlNfs.png)
+
+### Diagrama
+
+   + Modelo de Caso de Uso
+
+   ![Diagrama](https://i.imgur.com/16rsgYq.png)
 
 ## R04 - Viagens recentes
 
