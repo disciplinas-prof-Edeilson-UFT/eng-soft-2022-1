@@ -292,6 +292,82 @@ Como usuário final eu quero poder ter acesso a parte financeira do aplicativo, 
 
 
 
+# R014 - Editar informações do usuário
+
+### Atores 
+
++ Usuário final - Terá varias opções para alterar suas informações uma sendo até mesmo sua foto de perfil ou outras como: nome, sobrenome, telefone, e-mail e senha.
+
+### Descrição sucinta 
+
++ Caso o usuário venha a deseje trocar de número ou até mesmo o seu e-mail, senha ou telefone esse requisito apresenta está função.
+
+### Pré-condição 
+
++ Inicialmente, o usuário deve ter em seu dispositivo movél o aplicativo instalado e após realizar o mesmo criar sua conta para que ele possa adicionar informações adicionais ou alterar caso tenha errado alguma.
+
+### Fluxo Principal 
+
+1. O usuário final logo ao acessar a tela inicial do aplicativo deve clicar no canto superior direito onde pode está sua foto ou uma imagem padrão do aplicativo.
+
+2. Logo após clicar nesse botão será aberto uma nova aba com varias opções e então novamente no canto superior direito o usuário deve clicar onde está sua foto ou imagem padão do aplicativo.
+
+3. Com isso será aberta a aba que requerida com varias opções de alterações nas informações do usuário, sendo elas: foto de perfil, nome, sobrenome, telefone, e-mail e senha. Além de outras formas de adcicionar uma conta com conta da Google e facebook.
+
+### Campo do Formulário 
+
++ Não tem campo de formulario para esse requisito.
+
+### Opções dos usuários
+
+| **Campo** | **Dados** |
+|:---:|:---:|
+| Nome | Nome do usuário |
+| Sobrenome | Sobrenome do usuário |
+| Telefone | Telefone do usuário |
+| E-mail | E-mail do usuário  |
+| Senha | Senha do usuário |
+
+### Fluxo Alternativos
+
++ Não tem fluxos alternativos para esse requisito.
+
+### User Story 
+
++ Eu sendo o usuário final desta aplicação gostaria de ter total liberdade de escolher e alterar minhas informações que eu quero que sejam apresentados no aplicativo.
+
+### Prototipação
+
++ Tela inicial
+
+![Imgur](https://i.imgur.com/hxq24Do.png)
+
++ Tela de alteração do nome
+
+![Imgur](https://i.imgur.com/cXzbjEf.png)
+
++ Tela de alteração do sobrenome
+
+![Imgur](https://i.imgur.com/WQp6VhZ.png)
+
++ Tela de alteração do número
+
+![Imgur](https://i.imgur.com/Zttnh9W.png)
+
++ Tela de alteração do e-mail
+
+![Imgur](https://i.imgur.com/YrRBtpS.png)
+
++ Tela de alteração da senha
+
+![Imgur](https://i.imgur.com/KCUctU6.png)
+
+### Diagrama
+
+![Imgur](https://i.imgur.com/PtXiz5h.png)
+
+
+
 # R16 - Histórico de viagens
 
 ### Atores
