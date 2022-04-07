@@ -57,4 +57,4 @@ FA01 – “Outras opções” de cadastro \*\* 1 - Durante o passo 1 do “Flux
 
 ![image2](https://i.imgur.com/R3BNjfX.png)
 
-Entregar relatório de lições aprendidas, documento único....
+
