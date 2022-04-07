@@ -319,6 +319,59 @@ FA05 – Inicia a tela de inserir criar senha como primeiro caso. O ator passa p
 ![Imgur](https://i.imgur.com/s1ehwhS.png)
 
 
+# R06 – Finalizar cadastro usuário
+### Atores:
+Usuário Inicial que está finalizando o processo de criação do seu usuário informando os dados de nome e sobrenome 
+Usuário Inicial que está finalizando o processo de criação do seu usuário, tendo nessa tela os termos de uso e aviso de privacidades o qual o mesmo deve concordar para utilização do app
+Usuário Inicial que acaba de finalizar a criação do seu usuário
+
+### Descrição sucinta:
+O ator poderá visualizar as caixas de texto que pedem a confirmação de um nome dentro do app.
+O ator poderá visualizar as todos os termos de uso do app e o aviso de privacidade, concordar com os mesmos e confirmar ser maior de idade 
+O ator poderá visualizar uma seta indicando a próxima tela  e a entrada definitiva do aplicativo
+O ator precisa ter o aplicativo instalado em seu dispositivo, o ator deve passar pelas partes de “digitar um número", “confirmação de um número","endereço de email”,”senha”,”qual é o seu nome”.”aceite os termos”
+### Pré-condição:
+O ator precisa ter o aplicativo instalado em seu dispositivo, o ator deve passar pelas partes de “digitar um numero”, “confirmação de um numero”,”endereço de email”,”senha”.
+O ator precisa ter o aplicativo instalado em seu dispositivo, o ator deve passar pelas partes de “digitar um número", “confirmação de um número","endereço de email”,”senha”,”qual é o seu nome”.
+O ator precisa ter o aplicativo instalado em seu dispositivo, o ator deve passar pelas partes de “digitar um número", “confirmação de um número","endereço de email”,”senha”,”qual é o seu nome”.”aceite os termos”
+
+###  Fluxo principal:
+1.  O aplicativo exibe a mensagem ”Qual é o seu nome”, abaixo é mostrada uma caixinha de inserção de dados “informe o primeiro nome”
+2.   O aplicativo exibe a mensagem ”Qual é o seu nome”, abaixo é mostrada uma caixinha de inserção de dados “informe o segundo  nome”
+3. O usuário passa para a próxima página 
+4.  O aplicativo exibe a mensagem ”Aceito os termos e condições e leia o aviso de privacidade da Uber”.
+5.   O usuário lê os termos de uso. 
+6. O usuário lê os avisos de privacidade.
+7. O usuário marca a opção “concordo”.
+8. O usuário avança para a próxima tela.
+9. O aplicativo exibe a mensagem ”Uber te dá as boas vindas”.
+10. O usuário pode avançar clicando na seta
+
+ ### Fluxo Alternativo
+ 
+FA01 – O usuário clica no botão de voltar a tela e retorna para a tela de “senha”.
+FA02 – O usuário marca a opção “Concordo”
+2- O usuário avança para a próxima tela
+###  Prototipação 
+Figma
+
++Tela de inserção de nome e sobrenome do usuario
+
+![imagem](https://imgur.com/mBsTAMu.png)
+
++Tela de confirmação de termos de uso
+
+![Imgur](https://imgur.com/cSBzj4l.png) 
+
++Tela “Uber te dá as boas vindas”
+
+![Imgur](https://imgur.com/8msrvB4.png) 
+
+### - Diagrama de caso de uso
+
+![Imgur](https://imgur.com/NEJQqCG.png) 
+
+
 
 # **R08 – Visualizar Home **
 ### **- Atores -**
