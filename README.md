@@ -535,6 +535,183 @@ Como usuário final eu quero poder ter acesso a parte financeira do aplicativo, 
 
 
 
+# R15 - Configuração da Conta
+### **- Atores:**
+
++ Usuário final - Altera as informações fornecidas previamente e configura o ambiente à sua maneira.
+
+
+### **- Descrição sucinta:**
+
++ Este caso de uso garante ao usuário final autonomia para realizar alterações e/ou inserir dados complementares referentes ao seu cadastro, segurança e preferências. O usuário pode, ainda, obter informações legais e orientações para um melhor uso do aplicativo. 
+
+
+### **- Pré-condição:**
+
++ O usuário final deve ter o aplicativo pré-instalado em seu dispositivo móvel e precisa ter feito login no mesmo com uma conta.
+
+
+### **- Fluxo Principal:**
+1. O usuário final  abre a página inicial do aplicativo da Uber estando logado. 
+1. O sistema mostra a tela inicial.
+1. O usuário final clica no seu avatar.
+1. O sistema mostra o caso de uso “R03 -  Visualizar perfil do usuário”.
+1. O usuário final clica no botão "Configurações".
+1. O aplicativo apresenta as seguintes opções:
+	* Detalhes da conta;
+	* Adicionar locais favoritos;
+	* Gerenciar contatos de confiança;
+	* Confirme sua viagem;
+	* Gerenciar notificações U-ajuda;
+    	* Gerenciar privacidade;
+    	* Configurar verificação em duas etapas;
+    	* Encerrar sessão.
+1. Caso de uso encerrado.
+
+
+### **- Fluxo alternativo (Detalhes da conta):**
+1. No passo 6, o usuário final clica no botão com as informações do perfil.
+1 O sistema apresenta a tela do requisito R14 – Editar informações do usuário.
+1. O usuário final escolhe um dos campos que deseja editar:
+	* Foto de perfil;
+	* Primeiro nome;
+	* Sobrenome;
+	* Número de telefone;
+	* E-mail;
+	* Senha;
+	* Relacionar outra conta ao perfil (Facebook e Google).
+1. O sistema salva as alterações automaticamente, um campo por vez.
+1. Caso de uso encerrado.
+
+
+### **- Fluxo alternativo (Adicionar locais favoritos):**
+1. No passo 6, o usuário seleciona entre as opções "Adicionar casa" e "Adicionar trabalho" ou clicar em “Mais locais salvos" e seleciona “Adicionar local salvo”.
+1. O sistema exibe um campo de pesquisa já preenchido com uma sugestão de endereço baseado nas permissões do GPS.
+1. O usuário final pesquisa um endereço.
+1. O sistema exibe um resultado
+1. Caso o campo de busca seja limpo, ou após uma pesquisa, um botão para selecionar um local manualmente utilizando o Google Maps™ é exibido.
+1. Caso utilize o passo 5 um mapa é mostrado.
+1. O usuário escolhe uma localização.
+1. Caso de uso encerrado.
+
+
+### **- Fluxo alternativo (Gerenciar Contatos de Segurança):**
+1. No passo 6, o usuário clica no botão “Gerenciar contatos de confiança”.
+1. O sistema exibe uma lista de contatos de segurança.
+1. O usuário seleciona um novo contato ou um existente.
+1. O sistema exibe uma tela informativa desse contato e as seguintes opções:
+	*Apagar o contato de confiança;
+	* Customizar a frequência de lembretes para compartilhar informações sobre o 		destino, o carro e o motorista com o contato de confiança;
+	* Permitir a ligação de funcionários da Uber para o contato de confiança;
+	* Obter informativos sobre essa função de emergência;
+1. Caso de uso encerrado.
+
+
+### **- Fluxo alternativo (Confira sua viagem):**
+1. No passo 6, o usuário clica no botão “Confira sua viagem”.
+1. O sistema exibe um botão para ativar ou desativar o recurso.
+1. O usuário final ativa o recurso.
+1. O sistema exibe uma opção para programar horários de funcionamento do recurso.
+1. Caso de uso encerrado.
+
+
+### **- Fluxo alternativo (Gerenciar notificações U-ajuda):**
+1. No passo 6, o usuário clica no botão “U-Ajuda”.
+2. O sistema exibe uma tela com um botão para ativação do recurso.
+3. Usuário ativa a funcionalidade.
+4. Caso de uso encerrado.
+
+
+### **- Fluxo alternativo (Gerenciar Privacidade):**
+1. No passo 6, o usuário final clica no botão “Privacidade”.
+1. O usuário final pode escolher entre três opções para alterar: 
+	* Localização;
+	* Notificação
+	* Identidade de gênero.
+1. O usuário modifica uma ou mais opções.
+1. Caso de uso encerrado.
+
+
+### **- Fluxo alternativo (Verificação em duas etapas):**
+1. No passo 6, o usuário final clica no botão “Segurança”.
+1. O sistema exibe uma tela com um botão para ativação/desativação do recurso “Verificação em duas etapas”.
+1. Fim do caso de uso.
+
+
+### **- Fluxo alternativo (Encerrar sessão):**
+1. No passo 6, o usuário final clica no botão “Encerrar sessão;
+1. O sistema exibe um pop-up pedindo a confirmação.
+1. Usuário confirma a ação;
+1. O logout é efetuado com sucesso;
+1. retornamos ao caso de uso “R06 – Fazer login”;
+1. Caso de uso encerrado.
+
+
+### **- Fluxo de exceção:**
+
++ Não se aplica.
+
+
+### **- Pós-condições:**
+
++ O usuário terá alterado as configurações e as preferências de sua conta no sistema.
+
+
+### **- User Stories:**
+
++ Como um usuário final cadastrado eu quero poder alterar minhas informações e configurações para que seja possível manter o aplicativo sempre atualizado com as minhas preferências.
+
+
+### **- Prototipação das telas:**
+
+**Configurações da conta:**
+![Configurações da conta](https://imgur.com/BeZhdJa.jpeg)
+
+**Mais locais salvos:**
+![Mais locais salvos](https://imgur.com/PY2kk82.jpeg)
+
+**Adicionar locais favoritos:**
+![Adcionar favorito](https://imgur.com/oQ9W40i.jpeg)
+
+**Selecionar local no mapa:**
+![Selecionar local no mapa](https://imgur.com/kDYzWio.jpeg)
+
+**Contatos de confiança:**
+![Contatos de confiança](https://imgur.com/3nl2TuL.jpeg)
+
+**Escolha um contato:**
+![Escolha um contato](https://imgur.com/ai2OCol.jpeg)
+
+**Detalhes do contato:**
+![Detalhes do contato](https://imgur.com/jrlmpsf.jpeg)
+
+**Confirme suas viagens:**
+![Confirme suas viagens](https://imgur.com/oN0Igh4.jpeg)
+
+**Confirme suas viagens:**
+![Confirme suas viagens](https://imgur.com/QFk5ruP.jpeg)
+
+**U-Ajuda:**
+![U-Ajuda](https://imgur.com/DCUr3WZ.jpeg)
+
+**Privacidade:**
+![Privacidade](https://imgur.com/H2gSiFQ.jpeg)
+
+**Verificação em duas etapas:**
+![Verificação em duas etapas](https://imgur.com/bXg0UAy.jpeg)
+
+**Verificação em duas etapas:**
+![Verificação em duas etapas](https://imgur.com/LKqhDez.jpeg)
+
+**Terminar sessão:**
+![Terminar sessão](https://imgur.com/CghNMVN.jpeg)
+
+
+### **Diagrama de Caso de Uso**
+![Diagrama de caso de uso](https://imgur.com/XFUy4r7.jpeg)
+
+
+
 # R16 - Histórico de viagens
 
 ### Atores
