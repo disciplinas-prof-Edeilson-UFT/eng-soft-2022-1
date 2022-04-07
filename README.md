@@ -318,6 +318,65 @@ FA05 – Inicia a tela de inserir criar senha como primeiro caso. O ator passa p
  
 ![Imgur](https://i.imgur.com/s1ehwhS.png)
 
+João Pedro Resque - Grupo 2
+
+# **R07 - Recuperar Senha de Usuário **
+
+### **- Atores -**
+
+Usuário já cadastrado - aparecerá o local de inserção de digitação da nova senha
+
+### **-Descrição sucinta:**
+
+O ator irá inserir o email para receber um link que irá encaminhá-lo para a página de digitação da nova senha, em que ele a escreverá duas vezes, sendo a mesma em ambos os campos de digitação.
+
+### **- Pré-condição:**
+
+O ator precisa ter o aplicativo instalado e a conta não logada.
+
+### **- Fluxo Principal:**
+
+1. O ator abre o aplicativo na tela de login e tenta acessar a conta.
+
+2. O aplicativo exibe a tela em que se deve colocar a senha ou pedir para recuperar
+
+3. O usuário ao selecionar que esqueceu a senha.
+
+4. O Aplicativo abre a tela de inserção do email cadastrado do usuário
+
+5. O usuário insere o email  no campo e solicita o link de nova senha.
+
+6. O Aplicativo envia para o email o link que deve-se cadastrar a nova senha
+
+7. O usuário insere a nova senha nos dois campos e confirma a mudança.
+
+8. O Aplicativo leva o usuário para a página inicial
+
+### **- Fluxos Alternativos**
+“Faça Login na Uber” /*/* 1- Quando o usuário pode parar o processo de recuperação da senha, caso lembre da mesma.
+
+
+
+
+
+
+
+
+
+ + **- Tela de Inserção de E-mail**
+
+![Imgur](https://i.imgur.com/AxBRKHo.png)
+
+
++ **- Tela de inserção de nova senha**
+
+![Imgur](https://i.imgur.com/74WUGK0.png)
+
+
+### **- Diagrama de caso de uso**
+
+![Imgur](https://i.imgur.com/e8tyFcg.png)
+
 
 # R06 – Finalizar cadastro usuário
 ### Atores:
