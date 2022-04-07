@@ -253,6 +253,73 @@
 
 
 
+# **R05 – Cadastro de Usuario 
+
+
+### - Atores:
+O usuário final ainda não cadastrado ou usuário final que irá iniciar seu login no aplicativo. Caso tenha cadastro irá efetuar login, caso não irá iniciar o cadastro de um novo usuário no aplicativo.
+O usuário receberá em seu dispositivo móvel um código de 4 número ao qual deverá inserir no aplicativo para efetuar a autenticação móvel.
+O usuário irá receber em seu dispositivo móvel um informação para inserir seu e-mail
+O usuário irá visualizar o local onde poderá criar sua senha de usuário.
+
+### - Descrição sucinta:
+O ator poderá visualizar toda a parte inicial do aplicativo uber.
+O ator poderá visualizar toda a parte onde vai inserir corretamente o número de seu celular de acordo com a sua região global e DDD local.
+O ator irá visualizar a parte de inserir o seu e-mail para da continuidade na parte de criação de uma nova conta.
+O ator irá visualizar a parte onde vai criar sua senha única de usuário a qual lhe dará acesso a sua conta e todas funções do aplicativo.
+
+### - Pré-condição:
+O ator precisa ter o aplicativo instalado em seu dispositivo.
+O ator precisa ter colocado seu número de celular válido.
+O ator precisa ter e-mail válido para continuar.
+O ator precisa criar uma senha seguindo os padrões da uber com no mínimo 8 caracteres.
+
+### - Fluxo principal:
+1 - O aplicativo exibe na tela principal, toda a informação referente ao começar no aplicativo; 
+2 -  O ator abre o aplicativo na tela inicial e seleciona a opção do usuário “Começar”;
+3 - O aplicativo exibe na tela principal, toda a informação para que o usuário insira seus dados de celular número DDD e região a qual o mesmo está; 
+4 -  O ator abre o aplicativo na tela inicial e seleciona a opção do usuário “Avançar”; ou voltar para a tela anterior através do botão de seta que indica retorno.
+5 - O aplicativo exibe na tela principal, toda a informação para que o usuário insira o código que foi enviado no número que foi informado.
+6 - O ator pode informar que não recebeu o código e está incapaz de continuar 
+7 -  O ator abre o aplicativo na tela inicial e seleciona a opção do usuário “Avançar”;ou pode escolher voltar para a tela anterior através do botão de seta que indica retorno.
+8 - O aplicativo exibe na tela principal, toda a informação para que o usuário insira o seu e-mail  e selecione a opção do usuário “Avançar” ou a seta de retorno;
+9 - O aplicativo exibe na tela principal, toda a informação para que o usuário criar sua senha e selecionar a opção do usuário “Avançar” ou a seta de retorno;
+
+### - Fluxos alternativos
+FA01 – “Inicia a tela de inserir o número do celular” de cadastro ** 1 - Durante o passo 1 do “Fluxo principal” o ator pode alternativamente se cadastrar caso não tenha cadastro, com a opção de usuário “número de celular” escolher entre “continuar com o Facebook”, “continuar com o Google” para se cadastrar.
+FA02 – “Inicia a tela de inserir o número do celular” de cadastro ** 1 - Durante o passo 1 do “Fluxo principal” o ator pode alternativamente se cadastrar caso não tenha cadastro, com a opção de usuário “número de celular”  ou efetuar o login no aplicativo uber.
+FA03  – “Inicia a tela de inserir o código de 4 dígitos. Como primeiro caso o ator tem cadastro com a uber irá iniciar a pagina inicial do uber , caso não irá iniciar a parte de cadastro de um novo usuário.
+FA04 – Inicia a tela de inserir um e-mail válido. Como primeiro caso, o ator passa para a próxima etapa de cadastro.
+FA05 – Inicia a tela de inserir criar senha como primeiro caso. O ator passa para a próxima etapa de cadastro na qual irá inserir seu nome e sobrenome.
+
+
+### - Prototipação 
+
++ tela inicial Uber
+
+![Imgur](https://i.imgur.com/G5p6IX4.png)
+
++ tela de login e criar conta
+
+![Imgur](https://i.imgur.com/DqfIzFh.png)
+
++ tela de recebimento de codigo
+
+![Imgur](https://i.imgur.com/OhV22t0.png)
+
++ tela de inserir o e-mail
+
+![Imgur](https://i.imgur.com/ywcLhbp.png)
+
++ tela de criação de senha
+
+![Imgur](https://i.imgur.com/FdLhCWz.png)
+
+### **Diagrama de Caso de Uso**
+
+![Imgur](https://i.imgur.com/s1ehwhS.png)
+
+
 # **R13 –Visualizar carteira**
 
 ### **- Atores:**
