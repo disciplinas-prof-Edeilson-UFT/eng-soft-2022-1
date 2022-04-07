@@ -363,21 +363,21 @@ Caso o usuário clique em qualquer um dos botões sem querer ou tenha entrado na
 
 
 
-**R09- Solicitar Ajuda**
+# **R09- Solicitar Ajuda**
 
-**- Atores:**
+### **- Atores:**
 
 Usuário final (perfil de cliente) – exibição da tela de ajuda. 
 
-**- Descrição sucinta:**
+### **- Descrição sucinta:**
 
 O ator poderá visualizar um resumo da sua última viagem e todos os tópicos relacionados à ajuda do app.
 
-**- Pré-condição:**
+### **- Pré-condição:**
 
 O ator precisa ter o aplicativo instalado e logado com perfil de passageiro em seu dispositivo.
 
-**- Fluxo principal:**
+### **- Fluxo principal:**
 
 FP01 - O ator abre o aplicativo na tela inicial e seleciona a opção do usuário “Insere seus Dados”;
 
@@ -391,7 +391,7 @@ FP05 – O ator irá ver que as informações de sua última viagem além da op�
 
 FP06 – Será exibida a tela com todos os tópicos relacionados a ajuda e os dados sobre a última viagem;
 
-` `**- Fluxos alternativos**
+### ` `**- Fluxos alternativos**
 
 FA01 – “Outras opções” de cadastro \*\* 1 - Durante o FP01 o ator pode alternativamente se cadastrar caso não tenha cadastro, com a opção de usuário “número de celular” escolher entre “continuar com o Facebook”, “continuar com o Google” para se cadastrar.
 
@@ -399,21 +399,21 @@ FA02 – Durante o FP06, o ator pode selecionar a visualização de detalhes da 
 
 FA03 – Durante o FP06, o ator pode selecionar algum dos tópicos exibidos.
 
-**- Prototipação** 
+### **- Prototipação** 
 
-<https://i.imgur.com/Kp9T4Ml.png>
+![Imgur](https://https://i.imgur.com/Kp9T4Ml.png)
 
-**- Tela de Cadastro Uber**
+### **- Tela de Cadastro Uber**
 
-<https://i.imgur.com/DqRJlsW.jpg>
+![Imgur](https://i.imgur.com/DqRJlsW.jpg)
 
-**- Tela inicial** 
+### **- Tela inicial** 
 
-<https://i.imgur.com/5qFJaFd.jpg> 
+![Imgur](https://i.imgur.com/5qFJaFd.jpg)
 
-**- Diagrama de caso de uso**
+### **- Diagrama de caso de uso**
 
-<https://i.imgur.com/dF9IEI6.png>
+![Imgur](https://i.imgur.com/dF9IEI6.png)
 
 
 
