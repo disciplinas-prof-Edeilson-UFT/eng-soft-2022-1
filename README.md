@@ -401,7 +401,7 @@ FA03 – Durante o FP06, o ator pode selecionar algum dos tópicos exibidos.
 
 ### **- Prototipação** 
 
-![Imgur](https://https://i.imgur.com/Kp9T4Ml.png)
+![Imgur](https://i.imgur.com/Kp9T4Ml.png)
 
 ### **- Tela de Cadastro Uber**
 
