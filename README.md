@@ -528,6 +528,48 @@ FA01 – “Outras opções” de cadastro \*\* 1 - Durante o passo 1 do “Flux
 
 ![image2](https://i.imgur.com/R3BNjfX.png)
 
+
+# R11 - Solicitar Ajuda Por Pedido 
+
+
+ **- Atores:**
+
+`	`Usuário final cadastrado – aparecerá os dados do usuário que foi cadastrado na plataforma.
+
+**- Descrição sucinta:**
+
+O usuário irá visualizar o último pedido realizado, onde após entrar no pedido, ele poderá solicitar ajuda caso tenha ocorrido erro com o pedido realizado. Ele visualizará algumas ajudas na tela, mas caso mesmo assim não seja possível solucionar, pode ser pedido ajuda ao suporte do aplicativo.
+
+**- Pré-condição:**
+
+É necessário que o usuário possua o aplicativo instalado no dispositivo móvel e ter uma conta válida. 
+
+**- Fluxo Principal:** 
+
+- O usuário abre o aplicativo, e na tela inicial entra com a conta caso já possua ou cria uma nova;
+- E exibido uma tela inicial onde e solicitado a corrida ou entrega;
+- Para solicitar ajuda vai no ícone com a foto do perfil;
+- Seleciona ajuda, e após seleciona se a ajuda e com a corrida realizada ou um pedido realizado;
+- Nessa tela o usuário poderá solicitar a ajuda referente a sua última viagem ou pedido;
+- Na tela de ajuda o usuário irá visualizar as informações do pedido e logo abaixo solicitar uma ajuda;
+- Poderá tentar resolver pelo guia, ou conversar com o suporte, onde será colocado as informações do pedido e do ocorrido.
+
+**- Fluxos alternativos:** 
+
+FA01 – “Outras opções” de cadastro 
+
+` `1 - Durante o passo 1 do “Fluxo principal” o ator pode alternativamente se cadastrar caso não tenha cadastro, com a opção de usuário “número de celular” escolher entre “continuar com o Facebook”, “continuar com o Google” para se cadastrar.
+
+**- Prototipação:**
+
+![image](https://i.imgur.com/FwQSaId.png)
+
+**- Diagrama de caso de uso:**
+
+![image](https://i.imgur.com/qwiN7fs.png)
+
+
+
 # **R13 –Visualizar carteira**
 
 ### **- Atores:**
