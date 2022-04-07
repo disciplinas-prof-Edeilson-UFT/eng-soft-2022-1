@@ -253,6 +253,51 @@
 
 
 
+
+
+# **R08 – Visualizar Home **
+### **- Atores -**
+Usuário já logado – Iniciará a tela inicial onde o usuário pode fazer uma viagem, um pedido de entrega e entrar no seu perfil.
+### **- Discrição sucinta -**
+O ator ao abrir o Aplicativo já ira se deparar de cara com essa tela, na qual ele fazer o pedido de viagem onde ele irá inserir o endereço atual e o endereço de destino, ou até mesmo fazer um pedido de entrega, tanto vindo de um lugar pré-selecionado até o local atual, ou a entrega do local atual até um local pós-selecionado, ele também tem a opção de abrir o seu perfil, e de abrir o mapa para visualizar locais próximos e onde ele está.
+### **- Pré-condição -**
+O ator precisa ter o aplicativo instalado e a sua conta logada.
+### **- Fluxo Principal -**
+1. O ator abre o aplicativo e pode selecionar o botão viagem, para onde? Entrega ou até mesmo clicar no mapa.
+2. O ator ao clicar em viagem ou em para onde? Insere o local atual e logo após o local para onde quer ir.
+3. Inserir a forma de pagamento, que pode ser no cartão, uber cash, ou dinheiro.
+4. Sendo assim então o ator basta clicar no botão Solicitar uberX, Solicitar moto ou Solicitar Comfort e esperar o seu motorista chegar.
+5. E quando chegar no destino final, fazer o pagamento da corrida e avaliar o motorista, e para casos de pagamento por uber cash ou cartão, ele deverá apenas avaliar o motorista.
+6. Agora caso o ator selecione a opção Entrega e envie um item.
+7. Então ele insere o local atual e o local de destino.
+8. Logo após então insere a forma de pagamento, que pode ser no cartão, uber cash, ou dinheiro.
+9. Aguarda a chegada do motorista, e coloca a encomenda. 
+10. E quando chegar no destino final recebe a encomenda, faz o pagamento da corrida e avaliar o motorista, e para casos de pagamento por uber cash ou cartão, ele deverá apenas avaliar o motorista.
+11. Agora caso o ator selecione a opção Receba um item.
+12. O ator deve inserir o local onde e para o motorista buscar o item e o local onde o motorista deve entregar.
+13. Logo após então insere a forma de pagamento, que pode ser no cartão, uber cash, ou dinheiro.
+14. Aguarda a chegada do motorista ao local e pede para alguém entregar a encomenda para ele.
+15. Aguarda a chegada do motorista, e recebe a encomenda.
+16. Chegar no destino final, fazer o pagamento da corrida e avaliar o motorista, e para casos de pagamento por uber cash ou cartão, ele deverá apenas avaliar o motorista.
+17. Agora caso o ator clique no mapa.
+18. O mapa abrirá e ele poderá visualizar, o local atual e também pode ampliar para ver as ruas/bairros/estado/Países e pode pesquisar o destino, que entra no mesmo processo do Viagem ou Para onde?.
+19. Caso o ator clique na sua foto de perfil.
+20. Ele terá acesso a sua avaliação feita pelos motoristas.
+21. Tem acesso também ao aos processos de ajuda, pagamento, viagens, mensagens, uber pass, configurações, dirija ou faça entregas com o app da uber, jurídico e no final a versão atual do aplicativo.
+
+### **- Fluxo Alternativos -**
+Caso o usuário clique em qualquer um dos botões sem querer ou tenha entrado na opção errada ele pode voltar e selecionar outro botão novamente, ou caso tenha desistido do uso do aplicativo ele pode clicar 2 vezes no botão de voltar ou no botão home e o aplicativo irá fechar.
+
+### **- Tela Visualizar Home -** 
+
+![Imgur](https://i.imgur.com/EJzJkzB.png)
+
+### **- Diagrama de caso de uso -**
+
+![Imgur](https://i.imgur.com/oXmJ2A1.png)
+
+
+
 # **R13 –Visualizar carteira**
 
 ### **- Atores:**
