@@ -1,4 +1,4 @@
-# R01 - Solicitar viagem
+# G1-R01-Solicitar viagem
 #### Developer: Yuri de Souza Nascimento - n0xcimento
 #### Reviwer: Guilherme da Silva Rosário - GuiRosario
 
@@ -82,7 +82,7 @@
 ![imagem](https://i.imgur.com/PnFLBan.png)
 
 
-# R02 - Solicitar Entrega
+# G1-R02-Solicitar Entrega
 #### Developer: Maria Julia Silva Fonseca Guedes Nobre - maria-julia-nobre
 #### Reviwer: Guilherme da Silva Rosário - GuiRosario
 
@@ -192,7 +192,7 @@
 
 ![localization map](https://user-images.githubusercontent.com/101363425/161869797-8be6a93e-5655-4a8b-a5c6-5438934f850e.png)
 
-# R03 - Visualizar Perfil do Usuário
+# G1-R03-Visualizar Perfil do Usuário
 #### Developer: Guilherme da Silva Rosário - GuiRosario
 #### Reviwer: Marcos Dyeimison Moreira da Silva - M-Dyeimison
 
@@ -250,7 +250,7 @@
 
 
 
-## R04 - Viagens recentes
+# G1-R04-Viagens recentes
 #### Developer: Marcos Dyeimison Moreira da Silva - M-Dyeimison
 #### Reviwer: Maria Julia Silva Fonseca Guedes Nobre - maria-julia-nobre
 
@@ -309,7 +309,7 @@
 
 
 
-# R05 – Cadastro de Usuario
+# G2-R05–Cadastro de Usuario
 #### Developer: Italo Gabriel Prudencio Maia - italoGbrmaia
 #### Reviwer: Willian dos Santos Alves - Celtavhc2012
 
@@ -385,7 +385,7 @@ FA05 – Inicia a tela de inserir criar senha como primeiro caso. O ator passa p
 
 
 
-# R06 – Finalizar cadastro usuário
+# G2-R06–Finalizar cadastro usuário
 #### Developer: Lucas Dias Barreto - lucasdias33
 #### Reviwer: Joao Pedro Franco Carneiro Resque - Resquejp
 
@@ -451,7 +451,7 @@ FA02 – O usuário marca a opção “Concordo”
 
 
 
-# R07 - Recuperar Senha de Usuário
+# G2-R07-Recuperar Senha de Usuário
 #### Developer: Joao Pedro Franco Carneiro Resque - Resquejp
 #### Reviwer: Lucas Dias Barreto - lucasdias33
 
@@ -492,7 +492,6 @@ FA02 – O usuário marca a opção “Concordo”
 
 ![Imgur](https://i.imgur.com/AxBRKHo.png)
 
-
 **Tela de inserção de nova senha**
 
 ![Imgur](https://i.imgur.com/74WUGK0.png)
@@ -503,7 +502,7 @@ FA02 – O usuário marca a opção “Concordo”
 
 
 
-# R08 – Visualizar Home
+# G2-R08–Visualizar Home
 #### Developer: Willian dos Santos Alves - Celtavhc2012
 #### Reviwer: Italo Gabriel Prudencio Maia - italoGbrmaia
 
@@ -576,7 +575,7 @@ Usuário já logado – Iniciará a tela inicial onde o usuário pode fazer uma 
 
 
 
-# R09 - Solicitar Ajuda
+# G3-R09-Solicitar Ajuda
 #### Developer: Enzo Lucas Ramos Lemes - enzoolucas
 #### Reviwer: Jhonata Batista Silva - JhonataBast
 
@@ -632,7 +631,7 @@ FA03 – Durante o FP06, o ator pode selecionar algum dos tópicos exibidos.
 
 
 
-# R10 – Visualizar comida
+# G3-R10–Visualizar comida
 #### Developer: Jhonata Batista Silva - JhonataBast
 #### Reviwer: Armano Barros Alves Junior - armanoalves
 
@@ -680,7 +679,6 @@ FA01 – “Outras opções” de cadastro \*\* 1 - Durante o passo 1 do “Flux
 
 ![text](https://i.imgur.com/DqRJlsW.jpg)
 
-
 **Tela inicial** 
 
 ![image](https://i.imgur.com/5qFJaFd.jpg)
@@ -694,7 +692,8 @@ FA01 – “Outras opções” de cadastro \*\* 1 - Durante o passo 1 do “Flux
 ![image2](https://i.imgur.com/R3BNjfX.png)
 
 
-# R11 - Solicitar Ajuda Por Pedido 
+
+# G3-R11-Solicitar Ajuda Por Pedido 
 #### Developer: Tatiane Yumi Coli Shibata - TaatiShibata
 #### Reviwer: Jhonata Batista Silva - JhonataBast
 
@@ -713,11 +712,17 @@ FA01 – “Outras opções” de cadastro \*\* 1 - Durante o passo 1 do “Flux
 ### Fluxo Principal 
 
 1. O usuário abre o aplicativo, e na tela inicial entra com a conta caso já possua ou cria uma nova;
+
 2. E exibido uma tela inicial onde e solicitado a corrida ou entrega;
+
 3. Para solicitar ajuda vai no ícone com a foto do perfil;
+
 4. Seleciona ajuda, e após seleciona se a ajuda e com a corrida realizada ou um pedido realizado;
+
 5. Nessa tela o usuário poderá solicitar a ajuda referente a sua última viagem ou pedido;
+
 6. Na tela de ajuda o usuário irá visualizar as informações do pedido e logo abaixo solicitar uma ajuda;
+
 7. Poderá tentar resolver pelo guia, ou conversar com o suporte, onde será colocado as informações do pedido e do ocorrido.
 
 ### Fluxos alternativos
@@ -736,7 +741,7 @@ FA01 – “Outras opções” de cadastro
 
 
 
-# R12-Visualizar Última Viagem
+# G3-R12-Visualizar Última Viagem
 #### Developer: Helorrayne Cristine de Alcantara Rodrigues - HelorrayneC
 #### Reviwer: Jhonata Batista Silva - JhonataBast
 
@@ -779,11 +784,11 @@ Informar problema de segurança;
 Enviar comentário ao motorista parceiro;
 Solicitar ajuda com viagens.
 
-### -Fluxo alternativo
+### Fluxo alternativo
 
 + Sem fluxo alternativo.
 
-### -Prototipação
+### Prototipação
 
 + Tela Visualizar última viagem
 
@@ -795,7 +800,7 @@ Solicitar ajuda com viagens.
 
 
 
-# R13 –Visualizar carteira
+# G4-R13-Visualizar carteira
 #### Developer: Izabela Caldeira Sena Ferreira - I-sena
 #### Reviwer: Armano Barros Alves Junior - armanoalves
 
@@ -893,7 +898,7 @@ Como usuário final eu quero poder ter acesso a parte financeira do aplicativo, 
 
 
 
-# R014 - Editar informações do usuário
+# G4-R14-Editar informações do usuário
 #### Developer: Armano Barros Alves Junior - armanoalves 
 #### Reviwer: Izabela Caldeira Sena Ferreira - I-sena
 
@@ -971,7 +976,7 @@ Como usuário final eu quero poder ter acesso a parte financeira do aplicativo, 
 
 
 
-# R15 - Configuração da Conta
+# G4-R15-Configuração da Conta
 #### Reviwer: Bruno Ferreira da Silva - brFarago
 #### Developer: Luccas Castro de Souza - luccasocastro 
 
@@ -1199,7 +1204,7 @@ Como usuário final eu quero poder ter acesso a parte financeira do aplicativo, 
 
 ![Diagrama de caso de uso](https://imgur.com/XFUy4r7.jpeg)
 
-# R16 - Histórico de viagens
+# G4-R16-Histórico de viagens
 #### Reviwer: Luccas Castro de Souza - luccasocastro 
 #### Developer: Bruno Ferreira da Silva - brFarago
 
