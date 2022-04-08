@@ -1,4 +1,6 @@
 # R01 - Solicitar viagem
+#### Developer: Yuri de Souza Nascimento - n0xcimento
+#### Reviwer: Guilherme da Silva Rosário - GuiRosario
 
 ### Atores
 
@@ -6,16 +8,13 @@
 
 +   Motorista - Aceitar solicitação, buscar usuário final e deslocá-lo do ponto de embarque até o de desembarque.
 
-
 ### Descrição sucinta
 
 +   Realizar o deslocamento do usuário final de uma determinada localização para outra, ambas definidas por ele.
 
-
 ### Pre-condição
 
 +   A principio, os autores devem possuir uma conta no aplicativo Uber, ter ele instalado em seu smartphone no momento que desejam realizar o descolamento e, no caso do motorista, aceitar uma solicitação de viagem.
-
 
 ### Fluxo Principal
 
@@ -31,14 +30,12 @@
 
  6. Ao aceitá-la, o motorista se desloca para o local de embarque do usuário final, pega ele, leva-o ao destino final e, dessa forma, completa a "viagem".
 
-
 ### Campo do Formulário
 
 |**Campo**|**Obrigatório?**|**Editável?**|**Formato**|
 | :-: | :-: | :-: | :-: |
 |Insira o local de partida|Sim|Sim|Texto|
 |Para onde?|Sim|Sim|Texto|
-
 
 ### Opções dos Usuários
 
@@ -52,16 +49,13 @@
 |Dividir valor|Dividir o valor da viagem com outra pessoa|-|
 |Cancelar|Cancelar a viagem|-|
 
-
 ### Fluxo Alternativos:
 
    + Não há fluxo alternativo para esse requisito
 
-
 ### User Story	
 
    + Eu, como usuário final, gostaria de poder selecionar o local de embarque e desembarque da minha viagem, escolher a qualidade, rapidez e valor dela e, então, solicitá-la. Ainda, caso fosse necessário, queria poder cancelar a viagem.
-
 
 ### Prototipação
    
@@ -81,7 +75,6 @@
 	
    ![imagem](https://i.imgur.com/c8YHKOU.png)
 	
-
 ### Diagrama
 
    + Modelo de Caso de Uso
@@ -89,30 +82,46 @@
    ![imagem](https://i.imgur.com/PnFLBan.png)
 
 
-
 # R02 - Solicitar Entrega
 
-### **- Atores:**
-+ Usuário Cliente — O usuário se cadastra, insere os endereços em seus respectivos campos e solicita uma viagem para entrega ou recebimento de mercadorias
+### Atores
+
++ Usuário Cliente — O usuário se cadastra, insere os endereços em seus respectivos campos e solicita uma viagem para entrega ou recebimento de mercadorias.
+
 + Usuário Empresa — A empresa se cadastra, insere os endereços em seus respectivos campos e solicita uma viagem para entrega ou recebimento de mercadorias.
-### **- Descrição sucinta:**
++ 
+### Descrição sucinta
+
 + Nesta opção, é permitido que usuários do aplicativo Uber ou empresas que utilizam as soluções do Uber para Empresas solicitem viagens para o envio de artigos pessoais ou mercadorias, respectivamente, intermediado pelo app da Uber.
-### **- Fluxo principal:**
+
+### Fluxo principal
+
 1. Abra o aplicativo/site da Uber.
+
 2. Efetuar o login na respectiva plataforma acessada pelo cliente.
+
 3. Selecione a opção Entrega.
+
 4. Selecione se deseja enviar ou receber um item.
+
 5. Complete as informações solicitadas (nome e número de telefone) do remetente/destinatário.
+
 6. Selecione a opção desejada: Me encontre na porta ou Me encontre na calçada.
+
 7. Digite o ponto de retirada e de entrega do item que você deseja enviar.
+
 8. Esteja com o artigo pessoal pronto para entregar ao motorista parceiro. 
+
 9. Compartilhe a viagem com o destinatário que irá receber o item para que ele possa seguir os detalhes do envio em tempo real.
-### **- Campos de formulário:**
+
+### Campos de formulário
+
 | Campo                                 	| Obrigatório 	| Editável 	| Formato 	|
 |---------------------------------------	|-------------	|----------	|---------	|
 | Escolha a localização do remetente    	| Não         	| Sim      	| Texto   	|
 | Escolha a localização do destinatário 	| Não         	| Sim      	| Texto   	|
-### **- Opções de usuário**:
+
+### Opções de usuário
 | Opção                                 	| Descrição                                               	|
 |---------------------------------------	|---------------------------------------------------------	|
 | Escolha a localização do remetente    	| O usuário tem opção de adicionar um endereço de envio   	|
