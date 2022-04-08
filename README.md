@@ -309,7 +309,7 @@
 
 
 
-# G2-R05–Cadastro de Usuario
+# G2-R05-Cadastro de Usuario
 #### Developer: Italo Gabriel Prudencio Maia - italoGbrmaia
 #### Reviwer: Willian dos Santos Alves - Celtavhc2012
 
@@ -345,7 +345,7 @@
 
 9. O aplicativo exibe na tela principal, toda a informação para que o usuário criar sua senha e selecionar a opção do usuário “Avançar” ou a seta de retorno;
  
-### - Fluxos alternativos
+### Fluxos alternativos
 
 FA01 – “Inicia a tela de inserir o número do celular” de cadastro ** 1 - Durante o passo 1 do “Fluxo principal” o ator pode alternativamente se cadastrar caso não tenha cadastro, com a opção de usuário “número de celular” escolher entre “continuar com o Facebook”, “continuar com o Google” para se cadastrar.
 
@@ -385,7 +385,7 @@ FA05 – Inicia a tela de inserir criar senha como primeiro caso. O ator passa p
 
 
 
-# G2-R06–Finalizar cadastro usuário
+# G2-R06-inalizar cadastro usuário
 #### Developer: Lucas Dias Barreto - lucasdias33
 #### Reviwer: Joao Pedro Franco Carneiro Resque - Resquejp
 
@@ -433,15 +433,15 @@ FA02 – O usuário marca a opção “Concordo”
 
 ###  Prototipação 
 
-+Tela de inserção de nome e sobrenome do usuario
+**ela de inserção de nome e sobrenome do usuario**
 
 ![imagem](https://imgur.com/mBsTAMu.png)
 
-+Tela de confirmação de termos de uso
+**Tela de confirmação de termos de uso**
 
 ![Imgur](https://imgur.com/cSBzj4l.png) 
 
-+Tela “Uber te dá as boas vindas”
+**Tela “Uber te dá as boas vindas”**
 
 ![Imgur](https://imgur.com/8msrvB4.png) 
 
@@ -508,7 +508,7 @@ FA02 – O usuário marca a opção “Concordo”
 
 ### Atores
 
-Usuário já logado – Iniciará a tela inicial onde o usuário pode fazer uma viagem, um pedido de entrega e entrar no seu perfil.
++ Usuário já logado – Iniciará a tela inicial onde o usuário pode fazer uma viagem, um pedido de entrega e entrar no seu perfil.
 
 ### Discrição sucinta
 
@@ -747,7 +747,7 @@ FA01 – “Outras opções” de cadastro
 
 ### Atores
 
-Usuário final cadastrado
++ Usuário final cadastrado
 
 ### Descrição sucinta
 
