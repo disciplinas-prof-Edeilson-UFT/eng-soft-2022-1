@@ -700,52 +700,54 @@ Sem fluxo alternativo.
 ### -Prototipação
 
 + Tela Visualizar última viagem
-![image](https://imgur.com/a/pvqyGwC.png) 
+
+![imgur](https://i.imgur.com/BgAv9x3.png) 
 
 ### Diagrama de Caso de uso
-![image](https://imgur.com/a/kUWHZPA.png)
+
+![imgur](https://i.imgur.com/URrwfEI.png)
 
 
 
-# **R13 –Visualizar carteira**
+# R13 –Visualizar carteira
 
-### **- Atores:**
+### Atores
 
 Usuário Final – Visualizar e manipular a parte de pagamentos do aplicativo;
 
-### **- Descrição sucinta:**
+### Descrição sucinta
 
 Possibilitar o acesso da parte financeira do aplicativo ao usuário, podendo visualizar, editar, adicionar e excluir formas de pagamento e usar descontos.
 
-### **- Pré-condição:**
+### Pré-condição
 
 O ator deve ter o aplicativo pré-instalado em seu dispositivo móvel e precisa estar logado no mesmo com login e senha;
 
-### **- Fluxo Principal:**
+### Fluxo Principal
 
-* 1 – O ator ao abrir a tela inicial do aplicativo seleciona o ícone “Perfil”;
+1. O ator ao abrir a tela inicial do aplicativo seleciona o ícone “Perfil”;
 
-* 2 – O aplicativo apresentará as informações e o ator deve selecionar "Pagamento";
+2. O aplicativo apresentará as informações e o ator deve selecionar "Pagamento";
 
-* 3 – O aplicativo mostra a carteira atual do usuário final, onde tem o saldo atual do ator em Uber Cash e suas formas de pagamentos cadastradas;
+3. O aplicativo mostra a carteira atual do usuário final, onde tem o saldo atual do ator em Uber Cash e suas formas de pagamentos cadastradas;
 
-* 4 - Caso o ator queira remover ou editar alguma das opções mostradas basta clicar na forma de pagamento escolhida e clicar em “Remover forma de pagamento” para excluir e em “Editar” para alterar os dados atuais;
+4. Caso o ator queira remover ou editar alguma das opções mostradas basta clicar na forma de pagamento escolhida e clicar em “Remover forma de pagamento” para excluir e em “Editar” para alterar os dados atuais;
 
-* 5 - Caso escolha excluir irá aparecer um pedido de confirmação da ação, se tiver certeza clicar em “Excluir” caso contrário clicar em “Cancelar”;
+5. Caso escolha excluir irá aparecer um pedido de confirmação da ação, se tiver certeza clicar em “Excluir” caso contrário clicar em “Cancelar”;
 
-* 6 - Ao clicar em editar irá aparecer as informações atuais do cartão, as únicas opções editáveis são a data de vencimento do cartão e o CVV, e esses devem ser obrigatoriamente preenchidos para poder salvar as alterações;
+6. Ao clicar em editar irá aparecer as informações atuais do cartão, as únicas opções editáveis são a data de vencimento do cartão e o CVV, e esses devem ser obrigatoriamente preenchidos para poder salvar as alterações;
 
-* 7 - O ator também pode adicionar novos cartões e/ou outras formas de pagamento como dinheiro clicando em “Adicionar forma de pagamento”, escolher a opção desejada e, se necessário, preencher os dados corretamente;
+7. O ator também pode adicionar novos cartões e/ou outras formas de pagamento como dinheiro clicando em “Adicionar forma de pagamento”, escolher a opção desejada e, se necessário, preencher os dados corretamente;
 
-* 8 -  Na tela inicial da carteira, abaixo da visualização das formas de pagamento atuais, terá mais três seções;
+8. Na tela inicial da carteira, abaixo da visualização das formas de pagamento atuais, terá mais três seções;
 
-* 9 - Na primeira é possível escolher o perfil de usuário, pessoal ou perfil de viagem profissional, clicando no perfil pessoal, pode-se dar um nome ao perfil, escolher o e-mail para qual será mandado recibos quando solicitado e escolher a forma de pagamento padrão do usuário. No perfil profissional a mesma coisa, porém com os dados da empresa escolhida pelo ator;
+9. Na primeira é possível escolher o perfil de usuário, pessoal ou perfil de viagem profissional, clicando no perfil pessoal, pode-se dar um nome ao perfil, escolher o e-mail para qual será mandado recibos quando solicitado e escolher a forma de pagamento padrão do usuário. No perfil profissional a mesma coisa, porém com os dados da empresa escolhida pelo ator;
 
-* 10 - Na segunda seção pode-se visualizar e adicionar vouchers;
+10. Na segunda seção pode-se visualizar e adicionar vouchers;
 
-* 11 - A terceira trata-se de códigos promocionais do aplicativo, é possível ver as promoções disponíveis e adicionar o código promocional para uso;
+11. A terceira trata-se de códigos promocionais do aplicativo, é possível ver as promoções disponíveis e adicionar o código promocional para uso;
 
-### **- Fluxos alternativos:**
+### Fluxos alternativos
 
 **FA01 – Dados incorretos na alteração**
 
@@ -759,19 +761,19 @@ O ator deve ter o aplicativo pré-instalado em seu dispositivo móvel e precisa 
 
 1. No passo 10 e 11 do fluxo principal quando o ator digitar o código, de voucher ou de promoção, e apertar em “Adicionar”, aparecera um aviso caso o código esteja incorreto ou já tenha expirado.
 
-### **User Story**
+### User Story
 
 Como usuário final eu quero poder ter acesso a parte financeira do aplicativo, para que eu possa ter controle sobre minhas formas de pagamento, podendo adicionar, excluir e alterar formas de pagamento, escolher qual forma quero usar como padrão, se será para finalidade pessoal ou profissional e ainda ter acesso e utilizar eventuais descontos.
 
-### **Prototipação de telas**
+### Prototipação de telas
 
-* Tela inicial da carteira
++ Tela inicial da carteira
 
 ![Carteira](https://i.imgur.com/Y71FGBU.jpg "Carteria")
 
 ![Carteira pt2](https://i.imgur.com/ERMXqkE.jpg "Carteira")
 
-* Editando e excluindo forma de pagamento.
++ Editando e excluindo forma de pagamento.
 
 ![escolher](https://i.imgur.com/1j9u4Eb.jpg "clicar na opção")
 
@@ -779,11 +781,11 @@ Como usuário final eu quero poder ter acesso a parte financeira do aplicativo, 
 
 ![alterando](https://i.imgur.com/ZjyQHH8.jpg "fazendo as alterações")
 
-* Excluir
++ Excluir
 
 ![excluindo](https://i.imgur.com/fgHAENB.jpg "clicar em excluir")
 
-* Adicionar nova forma de pagamento.
++ Adicionar nova forma de pagamento.
 
 ![Adicionar nova](https://i.imgur.com/BN9kb2o.jpg "Adicionar nova")
 
@@ -791,13 +793,13 @@ Como usuário final eu quero poder ter acesso a parte financeira do aplicativo, 
 
 ![inserindo dados](https://i.imgur.com/Olpba3Y.jpg "inserir os dados")
 
-* Perfis de viagem
++ Perfis de viagem
 
 ![perfil](https://i.imgur.com/olK7zFu.jpg "clicar em perfil")
 
 ![opçoes](https://i.imgur.com/mLamtnt.jpg "opções")
 
-### **Diagrama de Caso de Uso**
+### Diagrama de Caso de Uso
 
 ![Imgur](https://i.imgur.com/d6tDL5j.jpg "Diagrama caso de uso")
 
@@ -883,7 +885,6 @@ Como usuário final eu quero poder ter acesso a parte financeira do aplicativo, 
 ### **- Atores:**
 
 + Usuário final - Altera as informações fornecidas previamente e configura o ambiente à sua maneira.
-
 
 ### **- Descrição sucinta:**
 
@@ -1041,13 +1042,16 @@ Como usuário final eu quero poder ter acesso a parte financeira do aplicativo, 
 **Privacidade:**
 ![Privacidade](https://imgur.com/H2gSiFQ.jpeg)
 
-**Verificação em duas etapas:**
++ **Verificação em duas etapas:**
+
 ![Verificação em duas etapas](https://imgur.com/bXg0UAy.jpeg)
 
-**Verificação em duas etapas:**
++ **Verificação em duas etapas:**
+
 ![Verificação em duas etapas](https://imgur.com/LKqhDez.jpeg)
 
-**Terminar sessão:**
++ **Terminar sessão:**
+
 ![Terminar sessão](https://imgur.com/CghNMVN.jpeg)
 
 
