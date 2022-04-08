@@ -621,6 +621,61 @@ FA01 – “Outras opções” de cadastro
 
 
 
+# R12-Visualizar Última Viagem
+
+### -Atores
+
+Usuário final cadastrado
+
+### -Descrição sucinta
+
+O ator poderá visualizar as últimas viagens, clicar na última viagem, visualizar o último local de origem e destino com a localização escrita e também no mapa, visualizar o último motorista, visualizar valor da corrida, visualizar o recibo na aba “recibo”, e obter uma ajuda na aba de ajuda.
+
+### -Pré-condição
+
+O ator precisa ter o aplicativo instalado, ser cadastrado e ter feito uma viagem.
+
+### -Fluxo principal
+
+1. O ator abre o aplicativo na sessão do perfil e clica em “viagens”;
+
+2. O aplicativo abre a sessão “suas viagens”, onde será possível visualizar as 
+últimas viagens;
+
+3. O ator vai poder clicar na sua última viagem;
+
+4. O ator poderá ver os detalhes da sua última viagem;
+
+5. O ator poderá ver o local de origem e destino da sua última viagem;
+
+6. O ator poderá ver o mapa com a localização da última viagem;
+
+7. O ator poderá visualizar o último motorista e a avaliação que fez ao mesmo;
+
+8. O ator poderá dar um valor extra ao motorista caso queira;
+
+9. O ator poderá clicar em “recibo” e visualizar o mesmo;
+
+10. O ator poderá solicitar ajuda referente a última viagem;
+Encontrar objeto perdido;
+Informar problema de segurança;
+Enviar comentário ao motorista parceiro;
+Solicitar ajuda com viagens.
+
+### -Fluxo alternativo
+
+Sem fluxo alternativo.
+
+### -Prototipação
+
++ Tela Visualizar última viagem
+![imgur](https://imgur.com/a/pvqyGwC.png) 
+
+### Diagrama de Caso de uso
+![imgur](https://imgur.com/a/kUWHZPA.png)
+
+
+
 # **R13 –Visualizar carteira**
 
 ### **- Atores:**
