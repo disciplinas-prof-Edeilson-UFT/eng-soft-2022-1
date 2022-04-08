@@ -83,7 +83,7 @@
 
 
 # R02 - Solicitar Entrega
-#### Developer: Maria Julia Silva Fonseca Guedes Nobre
+#### Developer: Maria Julia Silva Fonseca Guedes Nobre - maria-julia-nobre
 #### Reviwer: Guilherme da Silva Rosário - GuiRosario
 
 ### Atores
@@ -191,6 +191,8 @@
 ![localization map](https://user-images.githubusercontent.com/101363425/161869797-8be6a93e-5655-4a8b-a5c6-5438934f850e.png)
 
 # R03 - Visualizar Perfil do Usuário
+#### Developer: Guilherme da Silva Rosário - GuiRosario
+#### Reviwer: Marcos Dyeimison Moreira da Silva - M-Dyeimison
 
 ### Atores
 
@@ -247,6 +249,8 @@
 
 
 ## R04 - Viagens recentes
+#### Developer: Marcos Dyeimison Moreira da Silva - M-Dyeimison
+#### Reviwer: Maria Julia Silva Fonseca Guedes Nobre - maria-julia-nobre
 
 ### Atores
 
@@ -304,6 +308,8 @@
 
 
 # R05 – Cadastro de Usuario
+#### Developer: Italo Gabriel Prudencio Maia - italoGbrmaia
+#### Reviwer: Willian dos Santos Alves - Celtavhc2012
 
 ### Atores
 
@@ -378,6 +384,8 @@ FA05 – Inicia a tela de inserir criar senha como primeiro caso. O ator passa p
 
 
 # R06 – Finalizar cadastro usuário
+#### Developer: Lucas Dias Barreto - lucasdias33
+#### Reviwer: Joao Pedro Franco Carneiro Resque - Resquejp
 
 ### Atores
 
@@ -439,21 +447,23 @@ Figma
 
 
 
-# **R07 - Recuperar Senha de Usuário **
+# R07 - Recuperar Senha de Usuário
+#### Developer: Joao Pedro Franco Carneiro Resque - Resquejp
+#### Reviwer: Lucas Dias Barreto - lucasdias33
 
-### **- Atores -**
+### Atores
 
-Usuário já cadastrado - aparecerá o local de inserção de digitação da nova senha
++ Usuário já cadastrado - aparecerá o local de inserção de digitação da nova senha
 
-### **-Descrição sucinta:**
+### Descrição sucinta
 
-O ator irá inserir o email para receber um link que irá encaminhá-lo para a página de digitação da nova senha, em que ele a escreverá duas vezes, sendo a mesma em ambos os campos de digitação.
++ O ator irá inserir o email para receber um link que irá encaminhá-lo para a página de digitação da nova senha, em que ele a escreverá duas vezes, sendo a mesma em ambos os campos de digitação.
 
-### **- Pré-condição:**
+### Pré-condição
 
-O ator precisa ter o aplicativo instalado e a conta não logada.
++ O ator precisa ter o aplicativo instalado e a conta não logada.
 
-### **- Fluxo Principal:**
+### Fluxo Principal
 
 1. O ator abre o aplicativo na tela de login e tenta acessar a conta.
 
@@ -471,60 +481,88 @@ O ator precisa ter o aplicativo instalado e a conta não logada.
 
 8. O Aplicativo leva o usuário para a página inicial
 
-### **- Fluxos Alternativos**
+### Fluxos Alternativos
 “Faça Login na Uber” /*/* 1- Quando o usuário pode parar o processo de recuperação da senha, caso lembre da mesma.
 
-
- + **- Tela de Inserção de E-mail**
+ **Tela de Inserção de E-mail**
 
 ![Imgur](https://i.imgur.com/AxBRKHo.png)
 
 
-+ **- Tela de inserção de nova senha**
+**Tela de inserção de nova senha**
 
 ![Imgur](https://i.imgur.com/74WUGK0.png)
 
-
-### **- Diagrama de caso de uso**
+### **Diagrama de caso de uso**
 
 ![Imgur](https://i.imgur.com/e8tyFcg.png)
 
 
 
-# **R08 – Visualizar Home **
-### **- Atores -**
+# R08 – Visualizar Home
+#### Developer: Willian dos Santos Alves - Celtavhc2012
+#### Reviwer: Italo Gabriel Prudencio Maia - italoGbrmaia
+
+### Atores
+
 Usuário já logado – Iniciará a tela inicial onde o usuário pode fazer uma viagem, um pedido de entrega e entrar no seu perfil.
-### **- Discrição sucinta -**
-O ator ao abrir o Aplicativo já ira se deparar de cara com essa tela, na qual ele fazer o pedido de viagem onde ele irá inserir o endereço atual e o endereço de destino, ou até mesmo fazer um pedido de entrega, tanto vindo de um lugar pré-selecionado até o local atual, ou a entrega do local atual até um local pós-selecionado, ele também tem a opção de abrir o seu perfil, e de abrir o mapa para visualizar locais próximos e onde ele está.
-### **- Pré-condição -**
-O ator precisa ter o aplicativo instalado e a sua conta logada.
-### **- Fluxo Principal -**
+
+### Discrição sucinta
+
++ O ator ao abrir o Aplicativo já ira se deparar de cara com essa tela, na qual ele fazer o pedido de viagem onde ele irá inserir o endereço atual e o endereço de destino, ou até mesmo fazer um pedido de entrega, tanto vindo de um lugar pré-selecionado até o local atual, ou a entrega do local atual até um local pós-selecionado, ele também tem a opção de abrir o seu perfil, e de abrir o mapa para visualizar locais próximos e onde ele está.
+
+### Pré-condição
+
++ O ator precisa ter o aplicativo instalado e a sua conta logada.
+
+### Fluxo Principal
+
 1. O ator abre o aplicativo e pode selecionar o botão viagem, para onde? Entrega ou até mesmo clicar no mapa.
+
 2. O ator ao clicar em viagem ou em para onde? Insere o local atual e logo após o local para onde quer ir.
+
 3. Inserir a forma de pagamento, que pode ser no cartão, uber cash, ou dinheiro.
+
 4. Sendo assim então o ator basta clicar no botão Solicitar uberX, Solicitar moto ou Solicitar Comfort e esperar o seu motorista chegar.
+
 5. E quando chegar no destino final, fazer o pagamento da corrida e avaliar o motorista, e para casos de pagamento por uber cash ou cartão, ele deverá apenas avaliar o motorista.
+
 6. Agora caso o ator selecione a opção Entrega e envie um item.
+
 7. Então ele insere o local atual e o local de destino.
+
 8. Logo após então insere a forma de pagamento, que pode ser no cartão, uber cash, ou dinheiro.
+
 9. Aguarda a chegada do motorista, e coloca a encomenda. 
+
 10. E quando chegar no destino final recebe a encomenda, faz o pagamento da corrida e avaliar o motorista, e para casos de pagamento por uber cash ou cartão, ele deverá apenas avaliar o motorista.
+
 11. Agora caso o ator selecione a opção Receba um item.
+
 12. O ator deve inserir o local onde e para o motorista buscar o item e o local onde o motorista deve entregar.
+
 13. Logo após então insere a forma de pagamento, que pode ser no cartão, uber cash, ou dinheiro.
+
 14. Aguarda a chegada do motorista ao local e pede para alguém entregar a encomenda para ele.
+
 15. Aguarda a chegada do motorista, e recebe a encomenda.
+
 16. Chegar no destino final, fazer o pagamento da corrida e avaliar o motorista, e para casos de pagamento por uber cash ou cartão, ele deverá apenas avaliar o motorista.
+
 17. Agora caso o ator clique no mapa.
+
 18. O mapa abrirá e ele poderá visualizar, o local atual e também pode ampliar para ver as ruas/bairros/estado/Países e pode pesquisar o destino, que entra no mesmo processo do Viagem ou Para onde?.
+
 19. Caso o ator clique na sua foto de perfil.
+
 20. Ele terá acesso a sua avaliação feita pelos motoristas.
+
 21. Tem acesso também ao aos processos de ajuda, pagamento, viagens, mensagens, uber pass, configurações, dirija ou faça entregas com o app da uber, jurídico e no final a versão atual do aplicativo.
 
-### **- Fluxo Alternativos -**
-Caso o usuário clique em qualquer um dos botões sem querer ou tenha entrado na opção errada ele pode voltar e selecionar outro botão novamente, ou caso tenha desistido do uso do aplicativo ele pode clicar 2 vezes no botão de voltar ou no botão home e o aplicativo irá fechar.
+### Fluxo Alternativos
++ Caso o usuário clique em qualquer um dos botões sem querer ou tenha entrado na opção errada ele pode voltar e selecionar outro botão novamente, ou caso tenha desistido do uso do aplicativo ele pode clicar 2 vezes no botão de voltar ou no botão home e o aplicativo irá fechar.
 
-### **- Tela Visualizar Home -** 
+### Tela Visualizar Home 
 
 ![Imgur](https://i.imgur.com/EJzJkzB.png)
 
@@ -534,13 +572,15 @@ Caso o usuário clique em qualquer um dos botões sem querer ou tenha entrado na
 
 
 
-# **R09- Solicitar Ajuda**
+# R09 - Solicitar Ajuda
+#### Developer: Enzo Lucas Ramos Lemes - enzoolucas
+#### Reviwer: Jhonata Batista Silva - JhonataBast
 
-### **- Atores:**
+### Atores
 
-Usuário final (perfil de cliente) – exibição da tela de ajuda. 
++ Usuário final (perfil de cliente) – exibição da tela de ajuda. 
 
-### **- Descrição sucinta:**
+### Descrição sucinta
 
 O ator poderá visualizar um resumo da sua última viagem e todos os tópicos relacionados à ajuda do app.
 
@@ -588,6 +628,8 @@ FA03 – Durante o FP06, o ator pode selecionar algum dos tópicos exibidos.
 
 
 # R10 – Visualizar comida
+#### Developer: Jhonata Batista Silva - JhonataBast
+#### Reviwer: Armano Barros Alves Junior - armanoalves
 
 **- Atores:**
 
@@ -648,7 +690,8 @@ FA01 – “Outras opções” de cadastro \*\* 1 - Durante o passo 1 do “Flux
 
 
 # R11 - Solicitar Ajuda Por Pedido 
-
+#### Developer: Tatiane Yumi Coli Shibata - TaatiShibata
+#### Reviwer: Jhonata Batista Silva - JhonataBast
 
  **- Atores:**
 
@@ -689,8 +732,10 @@ FA01 – “Outras opções” de cadastro
 
 
 # R12-Visualizar Última Viagem
+#### Developer: Helorrayne Cristine de Alcantara Rodrigues - HelorrayneC
+#### Reviwer: Jhonata Batista Silva - JhonataBast
 
-### -Atores
+### Atores
 
 Usuário final cadastrado
 
@@ -746,6 +791,8 @@ Sem fluxo alternativo.
 
 
 # R13 –Visualizar carteira
+#### Developer: Izabela Caldeira Sena Ferreira - I-sena
+#### Reviwer: Armano Barros Alves Junior - armanoalves
 
 ### Atores
 
@@ -842,6 +889,8 @@ Como usuário final eu quero poder ter acesso a parte financeira do aplicativo, 
 
 
 # R014 - Editar informações do usuário
+#### Developer: Armano Barros Alves Junior - armanoalves 
+#### Reviwer: Izabela Caldeira Sena Ferreira - I-sena
 
 ### Atores 
 
@@ -918,6 +967,9 @@ Como usuário final eu quero poder ter acesso a parte financeira do aplicativo, 
 
 
 # R15 - Configuração da Conta
+#### Reviwer: Bruno Ferreira da Silva - brFarago
+#### Developer: Luccas Castro de Souza - luccasocastro 
+
 ### **- Atores:**
 
 + Usuário final - Altera as informações fornecidas previamente e configura o ambiente à sua maneira.
@@ -1097,6 +1149,8 @@ Como usuário final eu quero poder ter acesso a parte financeira do aplicativo, 
 
 
 # R16 - Histórico de viagens
+#### Reviwer: Luccas Castro de Souza - luccasocastro 
+#### Developer: Bruno Ferreira da Silva - brFarago
 
 ### Atores
 
@@ -1190,4 +1244,3 @@ Como usuário final eu quero poder ter acesso a parte financeira do aplicativo, 
 ### Diagrama
 
 ![imgur](https://imgur.com/PPIyYNo.png)
-
