@@ -51,35 +51,35 @@
 
 ### Fluxo Alternativos:
 
-   + Não há fluxo alternativo para esse requisito
++ Não há fluxo alternativo para esse requisito
 
 ### User Story	
 
-   + Eu, como usuário final, gostaria de poder selecionar o local de embarque e desembarque da minha viagem, escolher a qualidade, rapidez e valor dela e, então, solicitá-la. Ainda, caso fosse necessário, queria poder cancelar a viagem.
++ Eu, como usuário final, gostaria de poder selecionar o local de embarque e desembarque da minha viagem, escolher a qualidade, rapidez e valor dela e, então, solicitá-la. Ainda, caso fosse necessário, queria poder cancelar a viagem.
 
 ### Prototipação
    
-   **Tela para inserir origem e destino de viagem**
+**Tela para inserir origem e destino de viagem**
 	
-   ![imagem](https://i.imgur.com/bHUDXYa.png)
+![imagem](https://i.imgur.com/bHUDXYa.png)
 	
-   **Tela para selecionar o tipo de Uber e o respectivo valor da viagem**
+**Tela para selecionar o tipo de Uber e o respectivo valor da viagem**
 	
-   ![imagem](https://i.imgur.com/S1VOmHY.png)
+![imagem](https://i.imgur.com/S1VOmHY.png)
 	
-   **Tela de confirmação do ponto partida**
+**Tela de confirmação do ponto partida**
 	
-   ![imagem](https://i.imgur.com/LVUfllX.png)
+![imagem](https://i.imgur.com/LVUfllX.png)
 	
-   **Tela de confirmação da viagem**
+**Tela de confirmação da viagem**
 	
-   ![imagem](https://i.imgur.com/c8YHKOU.png)
+![imagem](https://i.imgur.com/c8YHKOU.png)
 	
 ### Diagrama
 
-   + Modelo de Caso de Uso
++ Modelo de Caso de Uso
 
-   ![imagem](https://i.imgur.com/PnFLBan.png)
+![imagem](https://i.imgur.com/PnFLBan.png)
 
 
 # R02 - Solicitar Entrega
@@ -124,13 +124,15 @@
 | Escolha a localização do destinatário 	| Não         	| Sim      	| Texto   	|
 
 ### Opções de usuário
+
 | Opção                                 	| Descrição                                               	|
 |---------------------------------------	|---------------------------------------------------------	|
 | Escolha a localização do remetente    	| O usuário tem opção de adicionar um endereço de envio   	|
 | Escolha a localização do destinatário 	| O usuário tem opção de adicionar um endereço de entrega 	|
 
 ### Fluxos Alternativos (FA)
-#### FA01 - Envie um item:
+
+**FA01 - Envie um item:**
 
 1. O ator ao acessar a tela de "Enviar" seleciona a opção "Envie um item"
 
@@ -148,7 +150,7 @@
 
 8. Em seguida, o ator deverá confirmar os endereços preenchidos e solicitar uma entrega, utilizando o botão "Confirmar Partida".
 
-#### FA02 - Receba um item:
+**A02 - Receba um item:**
 
 1. O ator ao acessar a tela de "Enviar" seleciona a opção "Receba um item"
 
@@ -166,49 +168,49 @@
 
 8. Em seguida, o ator deverá confirmar os endereços preenchidos e solicitar uma entrega, utilizando o botão "Confirmar Partida".
 
-### **- Casos de uso:**
+### Casos de uso
 
 ![diagrama](https://user-images.githubusercontent.com/101363425/161869755-1ea94e69-0246-4d68-aa72-4af36e5bd521.png)
 
-### **- Prototipação:**
-#### **1. Menu:**
+### Prototipação
+
+**Menu:**
+
 ![mmenu](https://user-images.githubusercontent.com/101363425/161869799-9f49e181-be05-4509-ab75-0f346870a610.png)
 
-#### **2. Uber Flash:**
+**Uber Flash:**
 ![uber flash](https://user-images.githubusercontent.com/101363425/161869688-a224f4f8-2f94-4313-83b5-ce4963c6b767.png)
 
-#### **3. Para onde vai?:
-É apresentado para escolher a localização em ambas as opções de "Enviar um item" e "Receber um item".
+**Para onde vai?:**
+
++ É apresentado para escolher a localização em ambas as opções de "Enviar um item" e "Receber um item".
+
 ![para onde vai](https://user-images.githubusercontent.com/101363425/161869800-27eabe14-cfa4-4b34-be4e-a677af9e8746.png)
 
-#### 4. Mapa de rotas:
+**Mapa de rotas:**
 ![localization map](https://user-images.githubusercontent.com/101363425/161869797-8be6a93e-5655-4a8b-a5c6-5438934f850e.png)
 
 # R03 - Visualizar Perfil do Usuário
 
 ### Atores
 
-+   Usuário final - Visualizar o seu nome de usuário, foto do perfil, nota,foto de perfil, versão do aplicativo e vários menus, como: Ajuda, pagamento, mudar foto de perfil, histórico de viagens, Mensagens, Uber pass, Configurações, Se tornar motorista e informações jurídicas.
-
++ Usuário final - Visualizar o seu nome de usuário, foto do perfil, nota,foto de perfil, versão do aplicativo e vários menus, como: Ajuda, pagamento, mudar foto de perfil, histórico de viagens, Mensagens, Uber pass, Configurações, Se tornar motorista e informações jurídicas.
 
 ### Descrição sucinta
 
-+   Mostrar informações do usuário e vários menus.
++ Mostrar informações do usuário e vários menus.
 
+### Pré-condição
 
-### Pre-condição
-
-+   A priore, o usuário final deve ter instalado o aplicativo uber em seu smartphone e uma conta no serviço.
-
++ A priore, o usuário final deve ter instalado o aplicativo uber em seu smartphone e uma conta no serviço.
 
 ### Fluxo Principal
 
- 1.   O usuário final ao estar na tela inicial do uber deve selecionar no canto superior direito o icone de usuário, que pode ser um círculo com um avatar genérico para representar um suposto usuário ou sua foto de perfil, caso você tenha carregado alguma.
-
+ 1. O usuário final ao estar na tela inicial do uber deve selecionar no canto superior direito o icone de usuário, que pode ser um círculo com um avatar genérico para representar um suposto usuário ou sua foto de perfil, caso você tenha carregado alguma.
 
 ### Campo do Formulário
 
-+   Não há formulário para este requisito.
++ Não há formulário para este requisito.
 
 ### Opções dos Usuários
 
@@ -222,162 +224,196 @@
 |Dirigir ou entregar com o uber|Solicitar se tornar um motorista ou entregador uber|-|
 |Legal|Informações jurídicas do aplicativo|-|
 
-### Fluxo Alternativos:
+### Fluxo Alternativos
 
-   + Não há fluxo alternativo para esse requisito
++ Não há fluxo alternativo para esse requisito
 
 ### User Story	
 
-   + Eu, como usuário final, gostaria de poder visualizar meu nome, nota, foto de perfil, versão do aplicativo e acessar menus, como pagamento, ajuda , histórico de viagens, mensagens, uber pass, configurações, dirigir com uber e informações jurídicas.
++ Eu, como usuário final, gostaria de poder visualizar meu nome, nota, foto de perfil, versão do aplicativo e acessar menus, como pagamento, ajuda , histórico de viagens, mensagens, uber pass, configurações, dirigir com uber e informações jurídicas.
 
 ### Prototipação
 
-   **Tela de Perfil do Usuário**
+**Tela de Perfil do Usuário**
    
-   ![Tela](https://i.imgur.com/s7HlNfs.png)
+![Tela](https://i.imgur.com/s7HlNfs.png)
 
 ### Diagrama
 
-   + Modelo de Caso de Uso
++ Modelo de Caso de Uso
 
-   ![Diagrama](https://i.imgur.com/16rsgYq.png)
+![Diagrama](https://i.imgur.com/16rsgYq.png)
+
+
 
 ## R04 - Viagens recentes
 
-### Atores:
+### Atores
+
 + Usuário final - Visualiza mapa contendo os motoristas do aplicativo próximos a sua localização.
 
-### Descrição sucinta:
+### Descrição sucinta
+
 + Disponibilizar um mapa para visualização de motoristas do aplicativo próximos ao usuário.
 
-### Pré-condição:
+### Pré-condição
+
 + O usuário deve ter o aplicativo Uber instalado no dispositivo, estar logado em sua conta, visualisar o mapa na tela inicial do aplicativo, ou clicar no mapa para mais detalhes.
 
-### Fluxo principal:
+### Fluxo principal
+
 1. O usuário deve abrir o aplicativo
+
 2. Visualizar o mapa na tela inicial
+
 3. Caso deseje mais detalhes, clicar no mapa
 
-### Opções dos Usuários:
+### Opções dos Usuários
+
 |**Campo**|**Descrição**|**Atalho**|
 | - | - | - |
 |Navegar|Navegar pelo mapa|Botão|
 |Local de partida|Definir o local de partida e destino|Botão|
 
 ### Fluxos Alternativos
+
 1. O usuário deve abrir o aplicativo
+
 2. Clicar no mapa na tela inicial
+
 3. Navegar pelo mapa
 
-### User Story:
+### User Story
+
 + Eu sou um usuário do aplicativo e desejo visualizar a existência de motoristas na minha proximidade, para isso devo abrir o aplicativo, e visualizar a tela inicial, ou para mais detalhes clicar no mapa.
 
-### Prototipação:
+### Prototipação
+
 **Visualização do mapa na tela inicial:**
+
 ![imagem](https://i.imgur.com/GIjfO0O.png)
 
 **Visualização do mapa em detalhes:**
+
 ![imagem](https://i.imgur.com/IaDVm0v.png)
 
-### Diagrama de caso de uso:
+### Diagrama de caso de uso
+
 ![imagem](https://i.imgur.com/kutKloz.png)
 
 
-# **R05 – Cadastro de Usuario
 
+# R05 – Cadastro de Usuario
+
+### Atores
+
++ O usuário final ainda não cadastrado ou usuário final que irá iniciar seu login no aplicativo. Caso tenha cadastro irá efetuar login, caso não irá iniciar o cadastro de um novo usuário no aplicativo. O usuário receberá em seu dispositivo móvel um código de 4 número ao qual deverá inserir no aplicativo para efetuar a autenticação móvel. O usuário irá receber em seu dispositivo móvel um informação para inserir seu e-mail. O usuário irá visualizar o local onde poderá criar sua senha de usuário.
  
-### - Atores:
-O usuário final ainda não cadastrado ou usuário final que irá iniciar seu login no aplicativo. Caso tenha cadastro irá efetuar login, caso não irá iniciar o cadastro de um novo usuário no aplicativo.
-O usuário receberá em seu dispositivo móvel um código de 4 número ao qual deverá inserir no aplicativo para efetuar a autenticação móvel.
-O usuário irá receber em seu dispositivo móvel um informação para inserir seu e-mail
-O usuário irá visualizar o local onde poderá criar sua senha de usuário.
+### Descrição sucinta
+
++ O ator poderá visualizar toda a parte inicial do aplicativo uber. O ator poderá visualizar toda a parte onde vai inserir corretamente o número de seu celular de acordo com a sua região global e DDD local. O ator irá visualizar a parte de inserir o seu e-mail para da continuidade na parte de criação de uma nova conta. O ator irá visualizar a parte onde vai criar sua senha única de usuário a qual lhe dará acesso a sua conta e todas funções do aplicativo.
  
-### - Descrição sucinta:
-O ator poderá visualizar toda a parte inicial do aplicativo uber.
-O ator poderá visualizar toda a parte onde vai inserir corretamente o número de seu celular de acordo com a sua região global e DDD local.
-O ator irá visualizar a parte de inserir o seu e-mail para da continuidade na parte de criação de uma nova conta.
-O ator irá visualizar a parte onde vai criar sua senha única de usuário a qual lhe dará acesso a sua conta e todas funções do aplicativo.
+### Pré-condição
+
++ O ator precisa ter o aplicativo instalado em seu dispositivo. O ator precisa ter colocado seu número de celular válido. O ator precisa ter e-mail válido para continuar. O ator precisa criar uma senha seguindo os padrões da uber com no mínimo 8 caracteres.
  
-### - Pré-condição:
-O ator precisa ter o aplicativo instalado em seu dispositivo.
-O ator precisa ter colocado seu número de celular válido.
-O ator precisa ter e-mail válido para continuar.
-O ator precisa criar uma senha seguindo os padrões da uber com no mínimo 8 caracteres.
- 
-### - Fluxo principal:
+### Fluxo principal
+
 1 - O aplicativo exibe na tela principal, toda a informação referente ao começar no aplicativo;
+
 2 -  O ator abre o aplicativo na tela inicial e seleciona a opção do usuário “Começar”;
+
 3 - O aplicativo exibe na tela principal, toda a informação para que o usuário insira seus dados de celular número DDD e região a qual o mesmo está;
+
 4 -  O ator abre o aplicativo na tela inicial e seleciona a opção do usuário “Avançar”; ou voltar para a tela anterior através do botão de seta que indica retorno.
+
 5 - O aplicativo exibe na tela principal, toda a informação para que o usuário insira o código que foi enviado no número que foi informado.
+
 6 - O ator pode informar que não recebeu o código e está incapaz de continuar
+
 7 -  O ator abre o aplicativo na tela inicial e seleciona a opção do usuário “Avançar”;ou pode escolher voltar para a tela anterior através do botão de seta que indica retorno.
+
 8 - O aplicativo exibe na tela principal, toda a informação para que o usuário insira o seu e-mail  e selecione a opção do usuário “Avançar” ou a seta de retorno;
+
 9 - O aplicativo exibe na tela principal, toda a informação para que o usuário criar sua senha e selecionar a opção do usuário “Avançar” ou a seta de retorno;
  
 ### - Fluxos alternativos
+
 FA01 – “Inicia a tela de inserir o número do celular” de cadastro ** 1 - Durante o passo 1 do “Fluxo principal” o ator pode alternativamente se cadastrar caso não tenha cadastro, com a opção de usuário “número de celular” escolher entre “continuar com o Facebook”, “continuar com o Google” para se cadastrar.
+
 FA02 – “Inicia a tela de inserir o número do celular” de cadastro ** 1 - Durante o passo 1 do “Fluxo principal” o ator pode alternativamente se cadastrar caso não tenha cadastro, com a opção de usuário “número de celular”  ou efetuar o login no aplicativo uber.
+
 FA03  – “Inicia a tela de inserir o código de 4 dígitos. Como primeiro caso o ator tem cadastro com a uber irá iniciar a pagina inicial do uber , caso não irá iniciar a parte de cadastro de um novo usuário.
+
 FA04 – Inicia a tela de inserir um e-mail válido. Como primeiro caso, o ator passa para a próxima etapa de cadastro.
+
 FA05 – Inicia a tela de inserir criar senha como primeiro caso. O ator passa para a próxima etapa de cadastro na qual irá inserir seu nome e sobrenome.
+  
+### Prototipação
  
- 
-### - Prototipação
- 
-+ tela inicial Uber
+**tela inicial Uber**
  
 ![Imgur](https://i.imgur.com/G5p6IX4.png)
  
-+ tela de login e criar conta
+**tela de login e criar conta**
  
 ![Imgur](https://i.imgur.com/DqfIzFh.png)
  
-+ tela de recebimento de codigo
+**tela de recebimento de codigo**
  
 ![Imgur](https://i.imgur.com/OhV22t0.png)
  
-+ tela de inserir o e-mail
+**tela de inserir o e-mail**
  
 ![Imgur](https://i.imgur.com/ywcLhbp.png)
  
-+ tela de criação de senha
+**tela de criação de senha**
  
 ![Imgur](https://i.imgur.com/FdLhCWz.png)
  
-### **Diagrama de Caso de Uso**
+### Diagrama de Caso de Uso
  
 ![Imgur](https://i.imgur.com/s1ehwhS.png)
 
+
+
 # R06 – Finalizar cadastro usuário
-### Atores:
-Usuário Inicial que está finalizando o processo de criação do seu usuário informando os dados de nome e sobrenome 
-Usuário Inicial que está finalizando o processo de criação do seu usuário, tendo nessa tela os termos de uso e aviso de privacidades o qual o mesmo deve concordar para utilização do app
-Usuário Inicial que acaba de finalizar a criação do seu usuário
 
-### Descrição sucinta:
-O ator poderá visualizar as caixas de texto que pedem a confirmação de um nome dentro do app.
-O ator poderá visualizar as todos os termos de uso do app e o aviso de privacidade, concordar com os mesmos e confirmar ser maior de idade 
-O ator poderá visualizar uma seta indicando a próxima tela  e a entrada definitiva do aplicativo
-O ator precisa ter o aplicativo instalado em seu dispositivo, o ator deve passar pelas partes de “digitar um número", “confirmação de um número","endereço de email”,”senha”,”qual é o seu nome”.”aceite os termos”
-### Pré-condição:
-O ator precisa ter o aplicativo instalado em seu dispositivo, o ator deve passar pelas partes de “digitar um numero”, “confirmação de um numero”,”endereço de email”,”senha”.
-O ator precisa ter o aplicativo instalado em seu dispositivo, o ator deve passar pelas partes de “digitar um número", “confirmação de um número","endereço de email”,”senha”,”qual é o seu nome”.
-O ator precisa ter o aplicativo instalado em seu dispositivo, o ator deve passar pelas partes de “digitar um número", “confirmação de um número","endereço de email”,”senha”,”qual é o seu nome”.”aceite os termos”
+### Atores
 
-###  Fluxo principal:
-1.  O aplicativo exibe a mensagem ”Qual é o seu nome”, abaixo é mostrada uma caixinha de inserção de dados “informe o primeiro nome”
-2.   O aplicativo exibe a mensagem ”Qual é o seu nome”, abaixo é mostrada uma caixinha de inserção de dados “informe o segundo  nome”
++ Usuário Inicial que está finalizando o processo de criação do seu usuário informando os dados de nome e sobrenome. Usuário Inicial que está finalizando o processo de criação do seu usuário, tendo nessa tela os termos de uso e aviso de privacidades o qual o mesmo deve concordar para utilização do app. Usuário Inicial que acaba de finalizar a criação do seu usuário.
+
+### Descrição sucinta
+
++ O ator poderá visualizar as caixas de texto que pedem a confirmação de um nome dentro do app. O ator poderá visualizar as todos os termos de uso do app e o aviso de privacidade, concordar com os mesmos e confirmar ser maior de idade. O ator poderá visualizar uma seta indicando a próxima tela  e a entrada definitiva do aplicativo. O ator precisa ter o aplicativo instalado em seu dispositivo, o ator deve passar pelas partes de “digitar um número", “confirmação de um número","endereço de email”,”senha”,”qual é o seu nome”.”aceite os termos”.
+
+### Pré-condição
+
++ O ator precisa ter o aplicativo instalado em seu dispositivo, o ator deve passar pelas partes de “digitar um numero”, “confirmação de um numero”,”endereço de email”,”senha”. O ator precisa ter o aplicativo instalado em seu dispositivo, o ator deve passar pelas partes de “digitar um número", “confirmação de um número","endereço de email”,”senha”,”qual é o seu nome”. O ator precisa ter o aplicativo instalado em seu dispositivo, o ator deve passar pelas partes de “digitar um número", “confirmação de um número","endereço de email”,”senha”,”qual é o seu nome”.”aceite os termos”.
+
+###  Fluxo principal
+
+1. O aplicativo exibe a mensagem ”Qual é o seu nome”, abaixo é mostrada uma caixinha de inserção de dados “informe o primeiro nome”
+
+2. O aplicativo exibe a mensagem ”Qual é o seu nome”, abaixo é mostrada uma caixinha de inserção de dados “informe o segundo  nome”
+
 3. O usuário passa para a próxima página 
-4.  O aplicativo exibe a mensagem ”Aceito os termos e condições e leia o aviso de privacidade da Uber”.
-5.   O usuário lê os termos de uso. 
+
+4. O aplicativo exibe a mensagem ”Aceito os termos e condições e leia o aviso de privacidade da Uber”.
+
+5. O usuário lê os termos de uso. 
+
 6. O usuário lê os avisos de privacidade.
+
 7. O usuário marca a opção “concordo”.
+
 8. O usuário avança para a próxima tela.
+
 9. O aplicativo exibe a mensagem ”Uber te dá as boas vindas”.
+
 10. O usuário pode avançar clicando na seta
 
- ### Fluxo Alternativo
+### Fluxo Alternativo
  
 FA01 – O usuário clica no botão de voltar a tela e retorna para a tela de “senha”.
 FA02 – O usuário marca a opção “Concordo”
