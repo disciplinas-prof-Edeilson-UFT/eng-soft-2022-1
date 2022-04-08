@@ -700,10 +700,10 @@ Sem fluxo alternativo.
 ### -Prototipação
 
 + Tela Visualizar última viagem
-![imgur](https://imgur.com/a/pvqyGwC.png) 
+![image](https://imgur.com/a/pvqyGwC.png) 
 
 ### Diagrama de Caso de uso
-![imgur](https://imgur.com/a/kUWHZPA.png)
+![image](https://imgur.com/a/kUWHZPA.png)
 
 
 
