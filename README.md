@@ -327,23 +327,23 @@
  
 ### Fluxo principal
 
-1 - O aplicativo exibe na tela principal, toda a informação referente ao começar no aplicativo;
+1. O aplicativo exibe na tela principal, toda a informação referente ao começar no aplicativo;
 
-2 -  O ator abre o aplicativo na tela inicial e seleciona a opção do usuário “Começar”;
+2. O ator abre o aplicativo na tela inicial e seleciona a opção do usuário “Começar”;
 
-3 - O aplicativo exibe na tela principal, toda a informação para que o usuário insira seus dados de celular número DDD e região a qual o mesmo está;
+3. O aplicativo exibe na tela principal, toda a informação para que o usuário insira seus dados de celular número DDD e região a qual o mesmo está;
 
-4 -  O ator abre o aplicativo na tela inicial e seleciona a opção do usuário “Avançar”; ou voltar para a tela anterior através do botão de seta que indica retorno.
+4. O ator abre o aplicativo na tela inicial e seleciona a opção do usuário “Avançar”; ou voltar para a tela anterior através do botão de seta que indica retorno.
 
-5 - O aplicativo exibe na tela principal, toda a informação para que o usuário insira o código que foi enviado no número que foi informado.
+5. O aplicativo exibe na tela principal, toda a informação para que o usuário insira o código que foi enviado no número que foi informado.
 
-6 - O ator pode informar que não recebeu o código e está incapaz de continuar
+6. O ator pode informar que não recebeu o código e está incapaz de continuar
 
-7 -  O ator abre o aplicativo na tela inicial e seleciona a opção do usuário “Avançar”;ou pode escolher voltar para a tela anterior através do botão de seta que indica retorno.
+7. O ator abre o aplicativo na tela inicial e seleciona a opção do usuário “Avançar”;ou pode escolher voltar para a tela anterior através do botão de seta que indica retorno.
 
-8 - O aplicativo exibe na tela principal, toda a informação para que o usuário insira o seu e-mail  e selecione a opção do usuário “Avançar” ou a seta de retorno;
+8. O aplicativo exibe na tela principal, toda a informação para que o usuário insira o seu e-mail  e selecione a opção do usuário “Avançar” ou a seta de retorno;
 
-9 - O aplicativo exibe na tela principal, toda a informação para que o usuário criar sua senha e selecionar a opção do usuário “Avançar” ou a seta de retorno;
+9. O aplicativo exibe na tela principal, toda a informação para que o usuário criar sua senha e selecionar a opção do usuário “Avançar” ou a seta de retorno;
  
 ### - Fluxos alternativos
 
@@ -426,10 +426,12 @@ FA05 – Inicia a tela de inserir criar senha como primeiro caso. O ator passa p
 ### Fluxo Alternativo
  
 FA01 – O usuário clica no botão de voltar a tela e retorna para a tela de “senha”.
+
 FA02 – O usuário marca a opção “Concordo”
+
 2- O usuário avança para a próxima tela
+
 ###  Prototipação 
-Figma
 
 +Tela de inserção de nome e sobrenome do usuario
 
@@ -443,7 +445,7 @@ Figma
 
 ![Imgur](https://imgur.com/8msrvB4.png) 
 
-### - Diagrama de caso de uso
+### Diagrama de caso de uso
 
 ![Imgur](https://imgur.com/NEJQqCG.png) 
 
@@ -495,7 +497,7 @@ Figma
 
 ![Imgur](https://i.imgur.com/74WUGK0.png)
 
-### **Diagrama de caso de uso**
+### Diagrama de caso de uso
 
 ![Imgur](https://i.imgur.com/e8tyFcg.png)
 
@@ -568,7 +570,7 @@ Usuário já logado – Iniciará a tela inicial onde o usuário pode fazer uma 
 
 ![Imgur](https://i.imgur.com/EJzJkzB.png)
 
-### **- Diagrama de caso de uso -**
+### Diagrama de caso de uso
 
 ![Imgur](https://i.imgur.com/oXmJ2A1.png)
 
@@ -584,13 +586,13 @@ Usuário já logado – Iniciará a tela inicial onde o usuário pode fazer uma 
 
 ### Descrição sucinta
 
-O ator poderá visualizar um resumo da sua última viagem e todos os tópicos relacionados à ajuda do app.
++ O ator poderá visualizar um resumo da sua última viagem e todos os tópicos relacionados à ajuda do app.
 
-### **- Pré-condição:**
+### Pré-condição
 
-O ator precisa ter o aplicativo instalado e logado com perfil de passageiro em seu dispositivo.
++ O ator precisa ter o aplicativo instalado e logado com perfil de passageiro em seu dispositivo.
 
-### **- Fluxo principal:**
+### Fluxo principal
 
 FP01 - O ator abre o aplicativo na tela inicial e seleciona a opção do usuário “Insere seus Dados”;
 
@@ -604,7 +606,7 @@ FP05 – O ator irá ver que as informações de sua última viagem além da op�
 
 FP06 – Será exibida a tela com todos os tópicos relacionados a ajuda e os dados sobre a última viagem;
 
-### ` `**- Fluxos alternativos**
+### Fluxos alternativos
 
 FA01 – “Outras opções” de cadastro \*\* 1 - Durante o FP01 o ator pode alternativamente se cadastrar caso não tenha cadastro, com a opção de usuário “número de celular” escolher entre “continuar com o Facebook”, “continuar com o Google” para se cadastrar.
 
@@ -612,81 +614,82 @@ FA02 – Durante o FP06, o ator pode selecionar a visualização de detalhes da 
 
 FA03 – Durante o FP06, o ator pode selecionar algum dos tópicos exibidos.
 
-### **- Prototipação** 
+### Prototipação 
 
 ![Imgur](https://i.imgur.com/Kp9T4Ml.png)
 
-### **- Tela de Cadastro Uber**
+### Tela de Cadastro Uber
 
 ![Imgur](https://i.imgur.com/DqRJlsW.jpg)
 
-### **- Tela inicial** 
+### Tela inicial
 
 ![Imgur](https://i.imgur.com/5qFJaFd.jpg)
 
-### **- Diagrama de caso de uso**
+### Diagrama de caso de uso
 
 ![Imgur](https://i.imgur.com/dF9IEI6.png)
+
 
 
 # R10 – Visualizar comida
 #### Developer: Jhonata Batista Silva - JhonataBast
 #### Reviwer: Armano Barros Alves Junior - armanoalves
 
-**- Atores:**
+# Atores
 
-Usuário final cadastrado – aparecerá os dados do usuário que foram cadastrados. 
++ Usuário final cadastrado – aparecerá os dados do usuário que foram cadastrados. 
 
-**- Descrição sucinta:**
+### Descrição sucinta
 
-O ator poderá visualizar o ultimo pedido, com as informações de preço, data do pedido  e a avalição que ele deu aos pedidos recentes, também poderá visualizar todas as mensagens de suporte que ele já tenha mandando ao app.
++ O ator poderá visualizar o ultimo pedido, com as informações de preço, data do pedido  e a avalição que ele deu aos pedidos recentes, também poderá visualizar todas as mensagens de suporte que ele já tenha mandando ao app.
 
-**- Pré-condição:**
+### Pré-condição
 
-O ator precisa ter o aplicativo instalado em seu dispositivo, e ter conta ativa.
++ O ator precisa ter o aplicativo instalado em seu dispositivo, e ter conta ativa.
 
-**- Fluxo principal:**
+### Fluxo principal
 
-1 - O ator abre o aplicativo na tela inicial e seleciona a opção do usuário “Insere seus Dados”;
+1. O ator abre o aplicativo na tela inicial e seleciona a opção do usuário “Insere seus Dados”;
 
-2 - O aplicativo exibe na tela principal, onde é possível solicitar a corrida;
+2. O aplicativo exibe na tela principal, onde é possível solicitar a corrida;
 
-3 - O ator vai até o ícone com sua foto de perfil;
+3. O ator vai até o ícone com sua foto de perfil;
 
-4 - O ator seleciona a opção do usuário “Ajuda”, em seguida abrirá a tela de “Ajuda”;
+4. O ator seleciona a opção do usuário “Ajuda”, em seguida abrirá a tela de “Ajuda”;
 
-5 – O ator irá ver que as informações de sua última viagem além da opção de visualizar também seu último pedido;
+5. O ator irá ver que as informações de sua última viagem além da opção de visualizar também seu último pedido;
 
-6 – Lá o ator irá poderá solicitar ajuda referente ao sua última viagem ou pedido;
+6. Lá o ator irá poderá solicitar ajuda referente ao sua última viagem ou pedido;
 
-7- O ator abrindo a tela de pedido verá que vão esta as seguintes informações do pedido: empresa, data, sua avaliação e preço;
+7. O ator abrindo a tela de pedido verá que vão esta as seguintes informações do pedido: empresa, data, sua avaliação e preço;
 
-8- O ator também poderá ver que dá para ver mais pedido de outras empresas que ele tenha solicitado os serviços;
+8. O ator também poderá ver que dá para ver mais pedido de outras empresas que ele tenha solicitado os serviços;
 
-9- Poderá ver as mensagens já enviada no “Mensagem do suporte”; 
+9. Poderá ver as mensagens já enviada no “Mensagem do suporte”; 
 
-` `**- Fluxos alternativos**
+### Fluxos alternativos
 
 FA01 – “Outras opções” de cadastro \*\* 1 - Durante o passo 1 do “Fluxo principal” o ator pode alternativamente se cadastrar caso não tenha cadastro, com a opção de usuário “número de celular” escolher entre “continuar com o Facebook”, “continuar com o Google” para se cadastrar.
 
-**- Prototipação** 
+### Prototipação
 
 ![text](https://i.imgur.com/ENZVMO6.png)
 
-**- Tela de Cadastro Uber**
+**Tela de Cadastro Uber**
 
 ![text](https://i.imgur.com/DqRJlsW.jpg)
 
 
-**- Tela inicial** 
+**Tela inicial** 
 
 ![image](https://i.imgur.com/5qFJaFd.jpg)
 
-**- Tela ajuda** 
+**Tela ajuda** 
 
 ![image](https://i.imgur.com/kDZZp9v.jpg)
 
-**- Diagrama de caso de uso**
+**Diagrama de caso de uso**
 
 ![image2](https://i.imgur.com/R3BNjfX.png)
 
@@ -695,39 +698,39 @@ FA01 – “Outras opções” de cadastro \*\* 1 - Durante o passo 1 do “Flux
 #### Developer: Tatiane Yumi Coli Shibata - TaatiShibata
 #### Reviwer: Jhonata Batista Silva - JhonataBast
 
- **- Atores:**
+ ### Atores
 
-`	`Usuário final cadastrado – aparecerá os dados do usuário que foi cadastrado na plataforma.
++ Usuário final cadastrado – aparecerá os dados do usuário que foi cadastrado na plataforma.
 
-**- Descrição sucinta:**
+### Descrição sucinta
 
-O usuário irá visualizar o último pedido realizado, onde após entrar no pedido, ele poderá solicitar ajuda caso tenha ocorrido erro com o pedido realizado. Ele visualizará algumas ajudas na tela, mas caso mesmo assim não seja possível solucionar, pode ser pedido ajuda ao suporte do aplicativo.
++ O usuário irá visualizar o último pedido realizado, onde após entrar no pedido, ele poderá solicitar ajuda caso tenha ocorrido erro com o pedido realizado. Ele visualizará algumas ajudas na tela, mas caso mesmo assim não seja possível solucionar, pode ser pedido ajuda ao suporte do aplicativo.
 
-**- Pré-condição:**
+### Pré-condição
 
-É necessário que o usuário possua o aplicativo instalado no dispositivo móvel e ter uma conta válida. 
++ É necessário que o usuário possua o aplicativo instalado no dispositivo móvel e ter uma conta válida. 
 
-**- Fluxo Principal:** 
+### Fluxo Principal 
 
-- O usuário abre o aplicativo, e na tela inicial entra com a conta caso já possua ou cria uma nova;
-- E exibido uma tela inicial onde e solicitado a corrida ou entrega;
-- Para solicitar ajuda vai no ícone com a foto do perfil;
-- Seleciona ajuda, e após seleciona se a ajuda e com a corrida realizada ou um pedido realizado;
-- Nessa tela o usuário poderá solicitar a ajuda referente a sua última viagem ou pedido;
-- Na tela de ajuda o usuário irá visualizar as informações do pedido e logo abaixo solicitar uma ajuda;
-- Poderá tentar resolver pelo guia, ou conversar com o suporte, onde será colocado as informações do pedido e do ocorrido.
+1. O usuário abre o aplicativo, e na tela inicial entra com a conta caso já possua ou cria uma nova;
+2. E exibido uma tela inicial onde e solicitado a corrida ou entrega;
+3. Para solicitar ajuda vai no ícone com a foto do perfil;
+4. Seleciona ajuda, e após seleciona se a ajuda e com a corrida realizada ou um pedido realizado;
+5. Nessa tela o usuário poderá solicitar a ajuda referente a sua última viagem ou pedido;
+6. Na tela de ajuda o usuário irá visualizar as informações do pedido e logo abaixo solicitar uma ajuda;
+7. Poderá tentar resolver pelo guia, ou conversar com o suporte, onde será colocado as informações do pedido e do ocorrido.
 
-**- Fluxos alternativos:** 
+### Fluxos alternativos
 
 FA01 – “Outras opções” de cadastro 
 
-` `1 - Durante o passo 1 do “Fluxo principal” o ator pode alternativamente se cadastrar caso não tenha cadastro, com a opção de usuário “número de celular” escolher entre “continuar com o Facebook”, “continuar com o Google” para se cadastrar.
+1. Durante o passo 1 do “Fluxo principal” o ator pode alternativamente se cadastrar caso não tenha cadastro, com a opção de usuário “número de celular” escolher entre “continuar com o Facebook”, “continuar com o Google” para se cadastrar.
 
-**- Prototipação:**
+### Prototipação
 
 ![image](https://i.imgur.com/FwQSaId.png)
 
-**- Diagrama de caso de uso:**
+### Diagrama de caso de uso
 
 ![image](https://i.imgur.com/qwiN7fs.png)
 
@@ -741,15 +744,15 @@ FA01 – “Outras opções” de cadastro
 
 Usuário final cadastrado
 
-### -Descrição sucinta
+### Descrição sucinta
 
-O ator poderá visualizar as últimas viagens, clicar na última viagem, visualizar o último local de origem e destino com a localização escrita e também no mapa, visualizar o último motorista, visualizar valor da corrida, visualizar o recibo na aba “recibo”, e obter uma ajuda na aba de ajuda.
++ O ator poderá visualizar as últimas viagens, clicar na última viagem, visualizar o último local de origem e destino com a localização escrita e também no mapa, visualizar o último motorista, visualizar valor da corrida, visualizar o recibo na aba “recibo”, e obter uma ajuda na aba de ajuda.
 
-### -Pré-condição
+### Pré-condição
 
-O ator precisa ter o aplicativo instalado, ser cadastrado e ter feito uma viagem.
++ O ator precisa ter o aplicativo instalado, ser cadastrado e ter feito uma viagem.
 
-### -Fluxo principal
+### Fluxo principal
 
 1. O ator abre o aplicativo na sessão do perfil e clica em “viagens”;
 
@@ -778,7 +781,7 @@ Solicitar ajuda com viagens.
 
 ### -Fluxo alternativo
 
-Sem fluxo alternativo.
++ Sem fluxo alternativo.
 
 ### -Prototipação
 
@@ -852,13 +855,13 @@ Como usuário final eu quero poder ter acesso a parte financeira do aplicativo, 
 
 ### Prototipação de telas
 
-+ Tela inicial da carteira
+**Tela inicial da carteira**
 
 ![Carteira](https://i.imgur.com/Y71FGBU.jpg "Carteria")
 
 ![Carteira pt2](https://i.imgur.com/ERMXqkE.jpg "Carteira")
 
-+ Editando e excluindo forma de pagamento.
+**Editando e excluindo forma de pagamento.**
 
 ![escolher](https://i.imgur.com/1j9u4Eb.jpg "clicar na opção")
 
@@ -866,11 +869,11 @@ Como usuário final eu quero poder ter acesso a parte financeira do aplicativo, 
 
 ![alterando](https://i.imgur.com/ZjyQHH8.jpg "fazendo as alterações")
 
-+ Excluir
+**Excluir**
 
 ![excluindo](https://i.imgur.com/fgHAENB.jpg "clicar em excluir")
 
-+ Adicionar nova forma de pagamento.
+**Adicionar nova forma de pagamento.**
 
 ![Adicionar nova](https://i.imgur.com/BN9kb2o.jpg "Adicionar nova")
 
@@ -878,7 +881,7 @@ Como usuário final eu quero poder ter acesso a parte financeira do aplicativo, 
 
 ![inserindo dados](https://i.imgur.com/Olpba3Y.jpg "inserir os dados")
 
-+ Perfis de viagem
+**Perfis de viagem**
 
 ![perfil](https://i.imgur.com/olK7zFu.jpg "clicar em perfil")
 
@@ -938,27 +941,27 @@ Como usuário final eu quero poder ter acesso a parte financeira do aplicativo, 
 
 ### Prototipação
 
-+ Tela inicial
+**Tela inicial**
 
 ![Imgur](https://i.imgur.com/hxq24Do.png)
 
-+ Tela de alteração do nome
+**Tela de alteração do nome**
 
 ![Imgur](https://i.imgur.com/cXzbjEf.png)
 
-+ Tela de alteração do sobrenome
+**Tela de alteração do sobrenome**
 
 ![Imgur](https://i.imgur.com/WQp6VhZ.png)
 
-+ Tela de alteração do número
+**Tela de alteração do número**
 
 ![Imgur](https://i.imgur.com/Zttnh9W.png)
 
-+ Tela de alteração do e-mail
+**Tela de alteração do e-mail**
 
 ![Imgur](https://i.imgur.com/YrRBtpS.png)
 
-+ Tela de alteração da senha
+**Tela de alteração da senha**
 
 ![Imgur](https://i.imgur.com/KCUctU6.png)
 
@@ -972,27 +975,33 @@ Como usuário final eu quero poder ter acesso a parte financeira do aplicativo, 
 #### Reviwer: Bruno Ferreira da Silva - brFarago
 #### Developer: Luccas Castro de Souza - luccasocastro 
 
-### **- Atores:**
+### Atores
 
 + Usuário final - Altera as informações fornecidas previamente e configura o ambiente à sua maneira.
 
-### **- Descrição sucinta:**
+### Descrição sucinta
 
 + Este caso de uso garante ao usuário final autonomia para realizar alterações e/ou inserir dados complementares referentes ao seu cadastro, segurança e preferências. O usuário pode, ainda, obter informações legais e orientações para um melhor uso do aplicativo. 
 
 
-### **- Pré-condição:**
+### Pré-condição
 
 + O usuário final deve ter o aplicativo pré-instalado em seu dispositivo móvel e precisa ter feito login no mesmo com uma conta.
 
+### Fluxo Principal
 
-### **- Fluxo Principal:**
 1. O usuário final  abre a página inicial do aplicativo da Uber estando logado. 
-1. O sistema mostra a tela inicial.
-1. O usuário final clica no seu avatar.
-1. O sistema mostra o caso de uso “R03 -  Visualizar perfil do usuário”.
-1. O usuário final clica no botão "Configurações".
-1. O aplicativo apresenta as seguintes opções:
+
+2. O sistema mostra a tela inicial.
+
+3. O usuário final clica no seu avatar.
+
+4. O sistema mostra o caso de uso “R03 -  Visualizar perfil do usuário”.
+
+5. O usuário final clica no botão "Configurações".
+
+6. O aplicativo apresenta as seguintes opções:
+
 	* Detalhes da conta;
 	* Adicionar locais favoritos;
 	* Gerenciar contatos de confiança;
@@ -1001,13 +1010,16 @@ Como usuário final eu quero poder ter acesso a parte financeira do aplicativo, 
     	* Gerenciar privacidade;
     	* Configurar verificação em duas etapas;
     	* Encerrar sessão.
-1. Caso de uso encerrado.
+7. Caso de uso encerrado.
 
 
-### **- Fluxo alternativo (Detalhes da conta):**
+### Fluxo alternativo (Detalhes da conta)
 1. No passo 6, o usuário final clica no botão com as informações do perfil.
-1 O sistema apresenta a tela do requisito R14 – Editar informações do usuário.
-1. O usuário final escolhe um dos campos que deseja editar:
+
+2. O sistema apresenta a tela do requisito R14 – Editar informações do usuário.
+
+3. O usuário final escolhe um dos campos que deseja editar:
+
 	* Foto de perfil;
 	* Primeiro nome;
 	* Sobrenome;
@@ -1015,140 +1027,177 @@ Como usuário final eu quero poder ter acesso a parte financeira do aplicativo, 
 	* E-mail;
 	* Senha;
 	* Relacionar outra conta ao perfil (Facebook e Google).
-1. O sistema salva as alterações automaticamente, um campo por vez.
-1. Caso de uso encerrado.
 
+4. O sistema salva as alterações automaticamente, um campo por vez.
 
-### **- Fluxo alternativo (Adicionar locais favoritos):**
+5. Caso de uso encerrado.
+
+### Fluxo alternativo (Adicionar locais favoritos)
+
 1. No passo 6, o usuário seleciona entre as opções "Adicionar casa" e "Adicionar trabalho" ou clicar em “Mais locais salvos" e seleciona “Adicionar local salvo”.
-1. O sistema exibe um campo de pesquisa já preenchido com uma sugestão de endereço baseado nas permissões do GPS.
-1. O usuário final pesquisa um endereço.
-1. O sistema exibe um resultado
-1. Caso o campo de busca seja limpo, ou após uma pesquisa, um botão para selecionar um local manualmente utilizando o Google Maps™ é exibido.
-1. Caso utilize o passo 5 um mapa é mostrado.
-1. O usuário escolhe uma localização.
-1. Caso de uso encerrado.
 
+2. O sistema exibe um campo de pesquisa já preenchido com uma sugestão de endereço baseado nas permissões do GPS.
 
-### **- Fluxo alternativo (Gerenciar Contatos de Segurança):**
+3. O usuário final pesquisa um endereço.
+
+4. O sistema exibe um resultado
+
+5. Caso o campo de busca seja limpo, ou após uma pesquisa, um botão para selecionar um local manualmente utilizando o Google Maps™ é exibido.
+
+6. Caso utilize o passo 5 um mapa é mostrado.
+
+7. O usuário escolhe uma localização.
+
+8. Caso de uso encerrado.
+
+### Fluxo alternativo (Gerenciar Contatos de Segurança)
+
 1. No passo 6, o usuário clica no botão “Gerenciar contatos de confiança”.
-1. O sistema exibe uma lista de contatos de segurança.
-1. O usuário seleciona um novo contato ou um existente.
-1. O sistema exibe uma tela informativa desse contato e as seguintes opções:
+
+2. O sistema exibe uma lista de contatos de segurança.
+
+3. O usuário seleciona um novo contato ou um existente.
+
+4. O sistema exibe uma tela informativa desse contato e as seguintes opções:
+
 	*Apagar o contato de confiança;
-	* Customizar a frequência de lembretes para compartilhar informações sobre o 		destino, o carro e o motorista com o contato de confiança;
+	* Customizar a frequência de lembretes para compartilhar informações sobre o destino, o carro e o motorista com o contato de confiança;
 	* Permitir a ligação de funcionários da Uber para o contato de confiança;
 	* Obter informativos sobre essa função de emergência;
-1. Caso de uso encerrado.
 
+5. Caso de uso encerrado.
 
-### **- Fluxo alternativo (Confira sua viagem):**
+### Fluxo alternativo (Confira sua viagem)
+
 1. No passo 6, o usuário clica no botão “Confira sua viagem”.
-1. O sistema exibe um botão para ativar ou desativar o recurso.
-1. O usuário final ativa o recurso.
-1. O sistema exibe uma opção para programar horários de funcionamento do recurso.
-1. Caso de uso encerrado.
 
+2. O sistema exibe um botão para ativar ou desativar o recurso.
 
-### **- Fluxo alternativo (Gerenciar notificações U-ajuda):**
+3. O usuário final ativa o recurso.
+
+4. O sistema exibe uma opção para programar horários de funcionamento do recurso.
+
+5. Caso de uso encerrado.
+
+### Fluxo alternativo (Gerenciar notificações U-ajuda)
+
 1. No passo 6, o usuário clica no botão “U-Ajuda”.
+
 2. O sistema exibe uma tela com um botão para ativação do recurso.
+
 3. Usuário ativa a funcionalidade.
+
 4. Caso de uso encerrado.
 
+### Fluxo alternativo (Gerenciar Privacidade)
 
-### **- Fluxo alternativo (Gerenciar Privacidade):**
 1. No passo 6, o usuário final clica no botão “Privacidade”.
-1. O usuário final pode escolher entre três opções para alterar: 
+
+2. O usuário final pode escolher entre três opções para alterar: 
+
 	* Localização;
 	* Notificação
 	* Identidade de gênero.
-1. O usuário modifica uma ou mais opções.
-1. Caso de uso encerrado.
 
+3. O usuário modifica uma ou mais opções.
+4. Caso de uso encerrado.
 
-### **- Fluxo alternativo (Verificação em duas etapas):**
+### Fluxo alternativo (Verificação em duas etapas)
+
 1. No passo 6, o usuário final clica no botão “Segurança”.
-1. O sistema exibe uma tela com um botão para ativação/desativação do recurso “Verificação em duas etapas”.
-1. Fim do caso de uso.
 
+2. O sistema exibe uma tela com um botão para ativação/desativação do recurso “Verificação em duas etapas”.
 
-### **- Fluxo alternativo (Encerrar sessão):**
+3. Fim do caso de uso.
+
+### Fluxo alternativo (Encerrar sessão)
+
 1. No passo 6, o usuário final clica no botão “Encerrar sessão;
-1. O sistema exibe um pop-up pedindo a confirmação.
-1. Usuário confirma a ação;
-1. O logout é efetuado com sucesso;
-1. retornamos ao caso de uso “R06 – Fazer login”;
-1. Caso de uso encerrado.
 
+2. O sistema exibe um pop-up pedindo a confirmação.
 
-### **- Fluxo de exceção:**
+3. Usuário confirma a ação;
+
+4. O logout é efetuado com sucesso;
+
+5. retornamos ao caso de uso “R06 – Fazer login”;
+
+6. Caso de uso encerrado.
+
+### Fluxo de exceção
 
 + Não se aplica.
 
-
-### **- Pós-condições:**
+### Pós-condições
 
 + O usuário terá alterado as configurações e as preferências de sua conta no sistema.
 
-
-### **- User Stories:**
+### User Stories
 
 + Como um usuário final cadastrado eu quero poder alterar minhas informações e configurações para que seja possível manter o aplicativo sempre atualizado com as minhas preferências.
 
 
-### **- Prototipação das telas:**
+### Prototipação das telas
 
 **Configurações da conta:**
+
 ![Configurações da conta](https://imgur.com/BeZhdJa.jpeg)
 
 **Mais locais salvos:**
+
 ![Mais locais salvos](https://imgur.com/PY2kk82.jpeg)
 
 **Adicionar locais favoritos:**
+
 ![Adcionar favorito](https://imgur.com/oQ9W40i.jpeg)
 
 **Selecionar local no mapa:**
+
 ![Selecionar local no mapa](https://imgur.com/kDYzWio.jpeg)
 
 **Contatos de confiança:**
+
 ![Contatos de confiança](https://imgur.com/3nl2TuL.jpeg)
 
 **Escolha um contato:**
+
 ![Escolha um contato](https://imgur.com/ai2OCol.jpeg)
 
 **Detalhes do contato:**
+
 ![Detalhes do contato](https://imgur.com/jrlmpsf.jpeg)
 
 **Confirme suas viagens:**
+
 ![Confirme suas viagens](https://imgur.com/oN0Igh4.jpeg)
 
 **Confirme suas viagens:**
+
 ![Confirme suas viagens](https://imgur.com/QFk5ruP.jpeg)
 
 **U-Ajuda:**
+
 ![U-Ajuda](https://imgur.com/DCUr3WZ.jpeg)
 
 **Privacidade:**
+
 ![Privacidade](https://imgur.com/H2gSiFQ.jpeg)
 
-+ **Verificação em duas etapas:**
+**Verificação em duas etapas:**
 
 ![Verificação em duas etapas](https://imgur.com/bXg0UAy.jpeg)
 
-+ **Verificação em duas etapas:**
+**Verificação em duas etapas:**
 
 ![Verificação em duas etapas](https://imgur.com/LKqhDez.jpeg)
 
-+ **Terminar sessão:**
+**Terminar sessão:**
 
 ![Terminar sessão](https://imgur.com/CghNMVN.jpeg)
 
-
 ### **Diagrama de Caso de Uso**
+
 ![Diagrama de caso de uso](https://imgur.com/XFUy4r7.jpeg)
-
-
 
 # R16 - Histórico de viagens
 #### Reviwer: Luccas Castro de Souza - luccasocastro 
