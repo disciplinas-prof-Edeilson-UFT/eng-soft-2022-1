@@ -1300,3 +1300,80 @@ Como usuário final eu quero poder ter acesso a parte financeira do aplicativo, 
 ### Diagrama
 
 ![imgur](https://imgur.com/PPIyYNo.png)
+
+# R26 – Visualizar dados de pedidos anteriores
+
+**Develop: Jhonata Batista Silva**
+
+**Review: Enzo Lucas**
+
+**- Atores:**
+
+Usuário final cadastrado – aparecerá os dados do usuário que foram cadastrados. 
+
+**- Descrição sucinta:**
+
+O ator poderá visualizar os últimos pedidos, com as informações de preços, data dos pedidos e a avalições que ele já tenha dado para esses últimos pedidos recentes, já na próxima tela poderá ver uma serie de opções de ajuda na qual poderá escolher para o último pedido que tenha feito. 
+
+Ex.  Itens errados ou faltando
+
+**- Pré-condição:**
+
+O ator precisa ter o aplicativo instalado em seu dispositivo, ter cadastro ativo e ter feito algum pedido de comida.
+
+**- Fluxo principal:**
+
+1 - O ator abre o aplicativo na tela inicial e seleciona a opção do usuário “Insere seus Dados”;
+
+2 - O aplicativo exibe na tela principal, onde é possível solicitar a corrida;
+
+3 - O ator vai até o ícone com sua foto de perfil;
+
+4 - O ator seleciona a opção do usuário “Ajuda”, em seguida abrirá a tela de “Ajuda”;
+
+5 - O ator irá ver que as informações de sua última viagem além da opção de visualizar também seu último pedido;
+
+6 - Lá o ator seleciona a opção de pedido;
+
+7 - O ator abrindo a tela de pedido verá que vão esta as seguintes informações do pedido: empresa, data, sua avaliação e preço;
+
+8 - Poderá ver as mensagens já enviada no “Mensagem do suporte”; 
+
+9 - O ator também poderá ver que ao arrastando para o lado na tela dá para ver mais pedido de outras empresas que ele tenha solicitado os serviços;
+
+10 - Ao clicar na imagem do seu último pedido irá abrir a tela com as opções de alterar pedido, ver recibo e logo abaixo poderá selecionar a ajuda para o pedido anterior no botão: “Pedido anterior”;
+
+11 - Ao selecionar o botão “Alterar pedido” o ator poderá escolher qual o pedido deseja solicitar ajuda;
+
+12 - O ator poderá selecionar n ajudas para seu pedido anterior informando a central se algo deu errado, se veio faltando, o pedido não chegou etc.;
+
+**- Opções do Usuários:**
+
+
+|![](Aspose.Words.c7f23341-6aef-4955-b8e2-860bd0537e44.001.png)**Pedido anterior 1**|![](Aspose.Words.c7f23341-6aef-4955-b8e2-860bd0537e44.002.png)**Selecionar pedido**|**Pedido anterior** |
+| :-: | :-: | :-: |
+|Empresa|Alterar Pedido|Opção 1|
+|Data|Ver recibo|Opção 2|
+|Valor|Pedido anterior |...|
+|Imagem pedido ||Opção 10|
+
+
+**- Prototipação** 
+
+![image](https://i.imgur.com/WtE5QFA.png)
+
+**- Tela seleção de pedido**
+
+![image](https://i.imgur.com/u4ONvS8.png)
+
+**- Tela Visualizar comida** 
+
+![image](https://i.imgur.com/xY4eKPR.png)
+
+**- Tela inicial** 
+
+![image](https://i.imgur.com/5qFJaFd.jpg)
+
+**- Diagrama de caso de uso**
+
+![image](https://i.imgur.com/aNfCNab.png)
