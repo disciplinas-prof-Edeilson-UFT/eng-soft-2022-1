@@ -1303,9 +1303,9 @@ Como usuário final eu quero poder ter acesso a parte financeira do aplicativo, 
 
 # R26 – Visualizar dados de pedidos anteriores
 
-**Develop: Jhonata Batista Silva**
+**Develop: Jhonata Batista Silva - JhonataBast**
 
-**Review: Enzo Lucas**
+**Review: Enzo Lucas - enzoolucas**
 
 **- Atores:**
 
@@ -1360,7 +1360,7 @@ O ator precisa ter o aplicativo instalado em seu dispositivo, ter cadastro ativo
 
 **- Prototipação** 
 
-![image](https://i.imgur.com/WtE5QFA.png)
+![image](https://i.imgur.com/OhDhgfc.png)
 
 **- Tela seleção de pedido**
 
