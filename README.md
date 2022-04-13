@@ -1300,3 +1300,31 @@ Como usuário final eu quero poder ter acesso a parte financeira do aplicativo, 
 ### Diagrama
 
 ![imgur](https://imgur.com/PPIyYNo.png)
+
+
+
+
+# G2-R23 - Visualizar política de privacidade
+
+### - Atores:
++ Usuário irá receber em seu dispositivo móvel todas as informações sobre políticas de privacidade.
+
+### - Descrição sucinta:
++ O ator irá visualizar a parte escrita de todas as normas e políticas de privacidade utilizadas pela Uber de acordo com sua jurisdição.
+
+### - Pré-condição:
++ O ator precisa ter o aplicativo instalado em seu dispositivo.
++ O ator precisa ter uma conta na Uber.
+
+### - Fluxo principal:
+
+### 1 - O aplicativo exibe na tela principal, toda a informação para que o usuário veja sobre as políticas e dados de privacidade da Uber.
+### 2 - O ator pode escolher voltar para a tela anterior através do botão de seta que indica retorno.
+
+ ### - Fluxos alternativos—------------------------------------------------------------------------------------------
+
+### FA01 – Inicia a tela com os dados de privacidade da Uber.
+
+### - Prototipação 
+
+![Imgur](https://imgur.com/cb4sFhx.png)
