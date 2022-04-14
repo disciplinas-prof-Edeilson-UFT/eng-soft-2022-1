@@ -1441,3 +1441,71 @@ Como usuário final eu quero poder ter acesso a parte financeira do aplicativo, 
 ### - Prototipação 
 
 ![imagem](https://i.imgur.com/PnFLBan.png)
+
+# R27 – Visualizar itens incorretos ou ausentes
+
+**Develop: Tatiane Yumi Coli Shibata - TaatiShibata**
+
+**Review: Jhonata Batista - JhonataBast**
+
+**- Atores:**
+
+Usuário final cadastrado – aparecerá os dados do usuário que foi cadastrado na plataforma.
+
+\- **Descrição Sucinta:**
+
+O usuário entra na tela de ajuda, e seleciona uma das opções, por exemplo na aba itens incorretos ou ausentes, o usuário pode seguir os passos do guia, ou pedir ajuda ao suporte da Uber, clicando no botão e enviar resumidamente o que estava errado ou incorreto, anexar uma foto, e enviar a solicitação de ajuda.
+
+-**Pré-Condição:**
+
+É necessário que o usuário esteja logado na conta cadastrada, e feito pelo menos um pedido.
+
+**-Fluxo Principal:**
+
+1 - O usuário abre o aplicativo na tela inicial e seleciona a opção do usuário “Insere seus Dados”;
+
+2 - O aplicativo exibe na tela principal, onde é possível solicitar a corrida;
+
+3 - O usuário vai até o ícone com sua foto de perfil;
+
+4 - O usuário seleciona a opção do usuário “Ajuda”, em seguida abrirá a tela de “Ajuda”;
+
+5 - O usuário irá ver que as informações de sua última viagem além da opção de visualizar também seu último pedido;
+
+6 – O usuário seleciona a opção de pedido;
+
+7 - O usuário abrindo a tela de pedido verá as seguintes informações do pedido: empresa, data, sua avaliação e preço;
+
+8 - O usuário também poderá ver que ao arrastando para o lado na tela dá para ver mais pedido de outras empresas que ele tenha solicitado os serviços;
+
+9 - Ao clicar na imagem do seu último pedido irá abrir a tela com as opções de alterar pedido, ver recibo e logo abaixo poderá selecionar a ajuda para o pedido anterior no botão: “Pedido anterior”;
+
+10 - Ao selecionar o botão “Alterar pedido” o usuário poderá escolher qual o pedido deseja solicitar ajuda;
+
+11 - O usuário poderá selecionar n ajudas para seu pedido anterior informando a central se algo deu errado, se veio faltando, o pedido não chegou etc.;
+
+12 – Caso o usuário não consiga solucionar a ajuda pelo guia apresentado, ele pode solicitar ajuda via suporte da Uber, colocar as informações necessárias e aguardar resposta.
+
+**-Fluxo alternativo:**
+
+FA01 – “Outras opções” de cadastro 
+
+` `1 - Durante o passo 1 do “Fluxo principal” o ator pode alternativamente se cadastrar caso não tenha cadastro, com a opção de usuário “número de celular” escolher entre “continuar com o Facebook”, “continuar com o Google” para se cadastrar.
+
+\- **Prototipação:**
+
+![image](https://i.imgur.com/t8fqb6b.png)
+
+**- Tela do suporte:**
+
+![image](https://i.imgur.com/mepuDHf.png)
+
+**- Tela inicial:**
+
+![image](https://i.imgur.com/5qFJaFd.jpg)
+
+**- Diagrama de caso de uso:**
+
+![image](https://i.imgur.com/hWxgdol.png)
+
+
