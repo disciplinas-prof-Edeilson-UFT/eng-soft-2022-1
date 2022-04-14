@@ -1301,8 +1301,52 @@ Como usuário final eu quero poder ter acesso a parte financeira do aplicativo, 
 
 ![imgur](https://imgur.com/PPIyYNo.png)
 
+# G1-R17 - Visualizar explicação sobre a nota do usuário
 
+### - Atores:
 
++ Usuário - irá visualizar em seu smartphone a explicação sobre como sua nota é gerada.
+
+### - Descrição sucinta:
+
++ o ator irá visualizar uma página que explica como a sua nota de avaliação no aplicativo é gerada.
+
+### - Pré-condição:
+
++ O ator precisa ter o aplicativo instalado em seu dispositivo.
++ O ator precisa ter uma conta na Uber.
+
+### - Fluxo principal:
+
+### 1 - O ator ao estar na tela inicial do aplicativo deve selecionar o icone no canto superior direito e acessar a tela de perfil do usuário.
+
+### 2 - O ator deve selecionar a região da tela abaixo do seu nome de usuário, onde está sua nota ao lado de um pequeno ícone de estrela.
+
+### Fluxo Alternativos:
+
++ Não há fluxo alternativo para esse requisito
+
+### User Story	
+
++ Eu como usuário gostaria de visualizar uma explicação de como minha nota é calculada e gerada.
+
+### Prototipação
+
+**Tela de Nota - Parte 1**
+
+![Imgur](https://i.imgur.com/57bCz2v.png)
+
+**Tela de Nota - Parte 2**
+
+![Imgur](https://i.imgur.com/p9tQXyA.png)
+
+**Tela de Nota - Parte 3**
+
+![Imgur](https://i.imgur.com/xLNoyJr.png)
+
+### Diagrama
+
+![Imgur](https://i.imgur.com/wYJOe4R.png)
 
 # G2-R23 - Visualizar política de privacidade
 
