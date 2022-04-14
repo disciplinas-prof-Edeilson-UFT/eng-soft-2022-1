@@ -1372,3 +1372,63 @@ Como usuário final eu quero poder ter acesso a parte financeira do aplicativo, 
 ### - Prototipação 
 
 ![Imgur](https://imgur.com/cb4sFhx.png)
+
+# G4-R32-Vizualizar Informações Jurídicas
+
+#### Developer: Luccas Castro de Souza - luccasocastro
+
+#### Reviewer: Bruni Silva - brunoF-Silva
+
+### Atores
+
++ Cliente - pode ter acesso às informações legais sobre o setor jurídico do aplicativo.
+
+### Descrição sucinta
+
++ Nesta opção, é possível ter em mãos todas as informações jurídicas do aplicativo.
+
+### Pré-condição
+
++ O ator deve ter o software instalado no seu dispositivo e deverá estar logado em sua conta.
+
+### Fluxo principal
+
+1. O ator na tela inicial do aplicativo deverá selecionar a opção "Perfil";
+
+2. O aplicativo deverá abrir outra tela, e o ator deverá selecionar a opção "Jurídico" na parte inferior da tela;
+
+3. Por fim, o aplicativo deverá apresentar uma lista com as informações legais sobre o jurídico do aplicativo.
+
+### Campo de formulário
+
++ Este requisito não possui campo de formulário.
+
+### Campos do usuário
+
+|**Opção**|**Descrição**|**Atalho**|
+|:--:|:--:|:--:|
+|Direitos autorais|Exibe as políticas de direitos autorais do aplicativo|**-**|
+|Termos e condições|Exibe os termos gerais de uso do aplicativo|**-**|
+|Política de privacidade|Exibe as políticas de privacidade do aplicativo|**-**|
+|Provedores de dados|Exibe as atribuições do provedor de dados|**-**|
+|Licenças do software|Exibe as licenças do software|**-**|
+|Dados de localização|Exibe as formas como o aplicativo usa as informações do usuário|**-**|
+|Normas municipais|Exibe as normas decretadas pelo município para o uso do aplicativo|**-**| 
+
+### Fluxos alternativos
+
++ Este requisito não possui fluxos alternativos.
+
+### User story G04-R32-Visualizar informações jurídicas
+
++ Como usuário final do aplicativo, eu quero ter acesso completo às informações jurídicas, de modo que eu possa acessá-las com mais praticidade.
+
+### Prototipação
+
++ Tela inicial
+
+![imgur](https://imgur.com/dgiTp40.png)
+
+### Diagrama de caso de uso
+
+![imgur](https://imgur.com/fETi99i.png)
