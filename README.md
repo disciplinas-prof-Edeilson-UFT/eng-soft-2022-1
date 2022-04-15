@@ -1512,6 +1512,192 @@ FA01 – “Outras opções” de cadastro
 ![image](https://i.imgur.com/hWxgdol.png)
 
 
+# G4-R31-Visualizar normas municipais
+
+#### Developer: Bruno Ferreira da Silva - brunoF-Silva
+#### Reviewer: Luccas Castro de Souza - luccasocastro
+
+### Atores:
+
++ Usuário final - informa-se sobre a legislação vigente aos motoristas da Polônia.
+
+### Descrição sucinta:
+
++ Este caso de uso garante ao usuário final acesso à jurisdição de operabilidade da Uber em território polonês, expondo a regulação e as taxas do transporte de passageiros via taxi.
+
+
+### Pré-condição:
+
++ O usuário final deve ter o aplicativo pré-instalado em seu dispositivo móvel e precisa ter feito login no mesmo com uma conta.
+
+
+### Fluxo Principal:
+1. O usuário final  abre a página inicial do aplicativo da Uber estando logado. 
+1. O sistema mostra a tela inicial.
+1. O usuário final clica no seu avatar.
+1. O sistema mostra o caso de uso “G1-R03- Visualizar perfil do usuário”.
+1. O usuário final clica no botão "Jurídico".
+1. O aplicativo apresenta as seguintes opções:
+	* Direitos autorais;
+	* Termos e condições;
+	* Política de privacidade;
+	* Provedores de dados;
+	* Licença de software;
+	* Dados de localização;
+	* Normas municipais.
+1. O usuário final seleciona “Normas municipais”.
+1. O sistema mostra a legislação vigente para o aplicativo Uber na Polônia.
+1. Caso de uso encerrado.
+
+
+### Fluxos alternativos:
+
+
+### FA01 - Realizar cadastro:
+1. No passo 8, o usuário final clica no botão “Cadastre-se”.
+1. Sistema apresenta uma tela para cadastrar o usuário.
+1. Caso de uso encerrado.
+
+### FA02 - Acessar menu de informativos:
+1. No passo 8, o usuário final seleciona ícone de menu no canto superior direito da tela.
+1. O sistema exibe um menu em barras sobre informativos.
+1. O usuário seleciona a opção desejada.
+1. O sistema redireciona o usuário para o caso de uso selecionado.
+1. Caso de uso encerrado.
+
+
+### FA03 - Selecionar idioma do conteúdo:
+1. No passo 8, o usuário final clica no idioma atualmente selecionado.
+1. O sistema exibe duas opções de idiomas: inglês e polonês.
+1. O usuário final seleciona o idioma desejado.
+1. O sistema aplica as mudanças somente ao conteúdo exposto na tela.
+1. Caso de uso encerrado.
+
+
+### FA04 - Acessar central jurídica:
+1. No passo 8, o usuário final clica no botão “Voltar à Central Jurídica''.
+1. O sistema redireciona o usuário final para a central jurídica.
+1. Caso de uso encerrado.
+
+
+### FA05 - Acessar sugestões:
+1. No passo 8, o usuário final clica no botão “Uber”.
+1. O sistema redireciona o usuário final para uma lista de informações e recomendações da Uber para os consumidores de seus serviços.
+1. Caso de uso encerrado.
+
+
+### FA06 - Acessar central de ajuda:
+1. No passo 8, o usuário final clica no botão “Acesse a central de ajuda”.
+1. O sistema redireciona o usuário para a tela do caso de uso desejado.
+
+
+### FA07 - Acessar informativos da empresa:
+1. No passo 8, o usuário final clica em um dos seguintes botões:
+   * Quem somos;
+   * O que oferecemos;
+   * Newsroom;
+   * Investidores; 
+   * Blog; 
+   * Carreiras;
+   * AI;
+   * Gift cards.
+2. O sistema redireciona o usuário final para a tela desejada.
+3. Caso de uso encerrado.
+
+### FA08 - Acessar informativos dos produtos:
+1. No passo 8, o usuário final clica em um dos seguintes botões:
+   * Viaje;
+   * Dirigir;
+   * Fazer entregas;
+   * Faça pedidos;
+   * Uber para empresas;
+   * Uber Freight.
+2. O sistema redireciona o usuário final para a tela desejada.
+3. Caso de uso encerrado.
+
+
+### FA09 - Acessar informativos de cidadania global:
+1. No passo 8, o usuário final clica em um dos seguintes botões:
+   * Segurança;
+   * Diversidade e inclusão.
+1. O sistema redireciona o usuário final para a tela desejada.
+1. Caso de uso encerrado.
+
+
+### FA10 - Acessar informativos de viagem:
+1. No passo 8, o usuário final clica em um dos seguintes botões:
+   * Aeroportos
+   * Cidades
+1. O sistema redireciona o usuário final para a opção desejada.
+2. Caso de uso encerrado.
+
+### FA11 - Acessar redes sociais:
+1. No passo 8, o sistema exibe ao final da tela uma fila de símbolos dos seguintes serviços on-line:
+   * Facebook;
+   * Twitter;
+   * Youtube;
+   * LinkedIn;
+   * Instagram.
+1. O usuário final clica na opção desejada.
+1. O sistema redireciona o usuário final para o perfil oficial da Uber no serviço selecionado.
+1. Caso de uso encerrado.
+
+### FA12 - Selecionar idioma da tela:
+1. No passo 8, ao final da tela o  usuário clica no ícone “mundo” com o idioma atualmente selecionado.
+1. O sistema exibe várias opções de idiomas.
+1 O usuário seleciona um idioma.
+1. O sistema aplica as mudanças somente ao texto do sistema para essa tela.
+1. Caso de uso encerrado.
+
+
+### FA13 - Alterar localização:
+1. No passo 8, o usuário final clica no botão com o nome da cidade atual.
+1. O sistema exibe uma barra de pesquisa de endereços.
+1. O usuário final pesquisa um endereço.
+1. O sistema guarda o endereço.
+1. Caso de uso encerrado.
+
+### FA14 - Visualizar política de privacidade:
+1. No passo 8, o usuário final clica no botão “Privacidade”.
+1. O sistema exibe a política de privacidade da Uber.
+
+### FA15 - Visualizar política de acessibilidade:
+1. No passo 8, o usuário final clica no botão “Acessibilidade”.
+1. O sistema exibe a política de acessibilidade da Uber.
+
+### FA16 - Visualizar termos:
+1. No passo 8, o usuário final clica no botão “Termos”.
+1. O sistema exibe os termos de uso da Uber.
+
+### Fluxo de exceção:
+
++ Não se aplica.
+
+
+### Pós-condições:
+
++ O usuário final terá conhecimento sobre as políticas municipais da Uber vigentes na Polônia.
+
+
+### User Story G4-R31-Visualizar normas municipais:
+
++ Como um usuário final cadastrado eu quero poder conhecer as informações de operabilidade e preços da Uber para que seja possível me manter informado sobre as políticas da empresa.
+
+
+### **Prototipação das telas:**
+
+**Visualizar normas municipais:**
+![Visualizar normas municipais](https://imgur.com/B54nj5F.jpeg)
+
+![Visualizar normas municipais](https://imgur.com/Oy0B8c6.jpeg)
+
+![Visualizar normas municipais](https://imgur.com/a2hAKmz.jpeg)
+
+![Visualizar normas municipais](https://imgur.com/cIBNFQG.jpeg)
+
+
+### **Diagrama de Caso de Uso**
+![Diagrama de caso de uso](https://imgur.com/jBLosdQ.jpeg)
 
 # G4-R29-Visualizar licenças do software
 #### Developer: Armano Barros Alves Junior
