@@ -1511,5 +1511,57 @@ FA01 – “Outras opções” de cadastro
 
 
 
+# G4-R29-Visualizar licenças do software
+#### Developer: Armano Barros Alves Junior
+#### Reviewer: Izabela Caldeira Sena Ferreira - I-sena
+### Atores 
+
++ Usuário final - Haverá um tela com uma extensão absurdamente grande diga-se de passagem que conterá todas as informações jurídicas.
+
+### Descrição sucinta 
+
++ Local onde apresentará toda e qualquer informação necessária para o usuário com relação as licenças do software do aplicativo proposto.
+### Pré-condição 
+
++ Inicialmente, o usuário deve ter em seu dispositivo móvel o aplicativo instalado e após realizar o mesmo criar sua conta para que ele possa acessar as informações que de licenças do aplicativo.
+
+### Fluxo Principal 
+
+1. O usuário final logo ao acessar a tela inicial do aplicativo deve clicar no canto superior direito onde pode está sua foto ou uma imagem padrão do aplicativo.
+
+2. Logo após clicar nesse botão será aberto uma nova aba com varias opções.
+
+3. Existe uma opção chamada Jurídico que deve ser clicada para acessar a próxima parte.
+
+4. E dentro dela a varias outras opções e a que dever ser selecionada é a de Licenças de software, e então assim acessando todas as informações.
+
+### Campo do Formulário 
+
++ Não tem campo de formulário para esse requisito.
+
+### Opções dos usuários
+
++ Não tem campo de opções dos usuários para esse requisito.
+
+### Fluxo Alternativos
+
++ Não tem fluxos alternativos para esse requisito.
+
+### User Story 
+
++ Eu sendo o usuário final desta aplicação gostaria de ter total liberdade de saber e ser informado de tais questão jurídicas que envolvem um aplicativo que carrega algumas de minhas informações.
+
+### Prototipação
+
++ Tela inicial
+
+![Imgur](https://i.imgur.com/R9ml0ZA.jpg)
+
+
+### Diagrama
+
+![Imgur](https://i.imgur.com/uvchNk4.png)
+
+
 
 
