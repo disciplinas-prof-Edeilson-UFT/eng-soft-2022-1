@@ -1512,6 +1512,112 @@ FA01 – “Outras opções” de cadastro
 ![image](https://i.imgur.com/hWxgdol.png)
 
 
+# G4-R29-Visualizar licenças do software
+#### Developer: Armano Barros Alves Junior
+#### Reviewer: Izabela Caldeira Sena Ferreira - I-sena
+### Atores 
+
++ Usuário final - Haverá um tela com uma extensão absurdamente grande diga-se de passagem que conterá todas as informações jurídicas.
+
+### Descrição sucinta 
+
++ Local onde apresentará toda e qualquer informação necessária para o usuário com relação as licenças do software do aplicativo proposto.
+### Pré-condição 
+
++ Inicialmente, o usuário deve ter em seu dispositivo móvel o aplicativo instalado e após realizar o mesmo criar sua conta para que ele possa acessar as informações que de licenças do aplicativo.
+
+### Fluxo Principal 
+
+1. O usuário final logo ao acessar a tela inicial do aplicativo deve clicar no canto superior direito onde pode está sua foto ou uma imagem padrão do aplicativo.
+
+2. Logo após clicar nesse botão será aberto uma nova aba com varias opções.
+
+3. Existe uma opção chamada Jurídico que deve ser clicada para acessar a próxima parte.
+
+4. E dentro dela a varias outras opções e a que dever ser selecionada é a de Licenças de software, e então assim acessando todas as informações.
+
+### Campo do Formulário 
+
++ Não tem campo de formulário para esse requisito.
+
+### Opções dos usuários
+
++ Não tem campo de opções dos usuários para esse requisito.
+
+### Fluxo Alternativos
+
++ Não tem fluxos alternativos para esse requisito.
+
+### User Story 
+
++ Eu sendo o usuário final desta aplicação gostaria de ter total liberdade de saber e ser informado de tais questão jurídicas que envolvem um aplicativo que carrega algumas de minhas informações.
+
+### Prototipação
+
++ Tela inicial
+
+![Imgur](https://i.imgur.com/R9ml0ZA.jpg)
+
+
+### Diagrama
+
+![Imgur](https://i.imgur.com/uvchNk4.png)
+
+
+
+# G04-R30-Visualizar dados de localização
+#### Developer: Izabela Caldeira Sena Ferreira - I-sena
+#### Reviwer: Armano Barros Alves Junior - armanoalves
+
+### Atores
+
+Usuário Final – Ter conhecimento de como são usados seus dados de localização.
+
+### Descrição sucinta
+
+Possibilitar que o usuário saiba como o aplicativo usa as informações a respeito de sua localização.
+
+### Pré-condição
+
+O ator deve ter o aplicativo pré-instalado em seu dispositivo móvel, estar logado no mesmo com login e senha e deve estar conectado á internet.
+
+### Fluxo Principal
+
+1. O ator ao abrir a tela inicial do aplicativo seleciona o ícone “Perfil”;
+
+2. O aplicativo apresentará as informações e o ator deve selecionar "Jurídico";
+
+3. O aplicativo mostrara funcionalidades a respeito de informações legais;
+
+4. O ator deve escolher a opções "Dados de localização";
+
+5. Então ele será redirecionado a uma página web onde ele poderá ler um artigo sobre como a Uber usa as informações de localização do usuário de android;
+
+### Fluxos alternativos
+
+**FA01 – Mais opções**
+
++ Depois que o usuário é redirecionado para a página web da Uber, ele poderá ter acesso a várias outras informações legais a respeito do aplicativo, basta clicar na opção "Mais".
+
+### User Story G04-R30-Visualizar dados de localização
+
+Como usuário final eu quero saber como o aplicativo usa as minhas informações de localização, para que eu possa ter conhecimento uma vez que localização é um dado pessoal e privado, e deve ser usado corretamente.
+### Prototipação de telas
+
+**Página com as informações**
+
+![Imgur](https://i.imgur.com/W2BsThR.png "página Web")
+
+![Imgur](https://i.imgur.com/N1Yr6Eh.png)
+
+![Imgur](https://i.imgur.com/UwgMwX0.png)
+
+### Diagrama de Caso de Uso
+
+![Imgur](https://i.imgur.com/z3G88oJ.png "Diagrama caso de uso")
+
+
+
 # G4-R31-Visualizar normas municipais
 
 #### Developer: Bruno Ferreira da Silva - brunoF-Silva
@@ -1698,107 +1804,3 @@ FA01 – “Outras opções” de cadastro
 
 ### **Diagrama de Caso de Uso**
 ![Diagrama de caso de uso](https://imgur.com/jBLosdQ.jpeg)
-
-# G4-R29-Visualizar licenças do software
-#### Developer: Armano Barros Alves Junior
-#### Reviewer: Izabela Caldeira Sena Ferreira - I-sena
-### Atores 
-
-+ Usuário final - Haverá um tela com uma extensão absurdamente grande diga-se de passagem que conterá todas as informações jurídicas.
-
-### Descrição sucinta 
-
-+ Local onde apresentará toda e qualquer informação necessária para o usuário com relação as licenças do software do aplicativo proposto.
-### Pré-condição 
-
-+ Inicialmente, o usuário deve ter em seu dispositivo móvel o aplicativo instalado e após realizar o mesmo criar sua conta para que ele possa acessar as informações que de licenças do aplicativo.
-
-### Fluxo Principal 
-
-1. O usuário final logo ao acessar a tela inicial do aplicativo deve clicar no canto superior direito onde pode está sua foto ou uma imagem padrão do aplicativo.
-
-2. Logo após clicar nesse botão será aberto uma nova aba com varias opções.
-
-3. Existe uma opção chamada Jurídico que deve ser clicada para acessar a próxima parte.
-
-4. E dentro dela a varias outras opções e a que dever ser selecionada é a de Licenças de software, e então assim acessando todas as informações.
-
-### Campo do Formulário 
-
-+ Não tem campo de formulário para esse requisito.
-
-### Opções dos usuários
-
-+ Não tem campo de opções dos usuários para esse requisito.
-
-### Fluxo Alternativos
-
-+ Não tem fluxos alternativos para esse requisito.
-
-### User Story 
-
-+ Eu sendo o usuário final desta aplicação gostaria de ter total liberdade de saber e ser informado de tais questão jurídicas que envolvem um aplicativo que carrega algumas de minhas informações.
-
-### Prototipação
-
-+ Tela inicial
-
-![Imgur](https://i.imgur.com/R9ml0ZA.jpg)
-
-
-### Diagrama
-
-![Imgur](https://i.imgur.com/uvchNk4.png)
-
-
-
-# G04-R30-Visualizar dados de localização
-#### Developer: Izabela Caldeira Sena Ferreira - I-sena
-#### Reviwer: Armano Barros Alves Junior - armanoalves
-
-### Atores
-
-Usuário Final – Ter conhecimento de como são usados seus dados de localização.
-
-### Descrição sucinta
-
-Possibilitar que o usuário saiba como o aplicativo usa as informações a respeito de sua localização.
-
-### Pré-condição
-
-O ator deve ter o aplicativo pré-instalado em seu dispositivo móvel, estar logado no mesmo com login e senha e deve estar conectado á internet.
-
-### Fluxo Principal
-
-1. O ator ao abrir a tela inicial do aplicativo seleciona o ícone “Perfil”;
-
-2. O aplicativo apresentará as informações e o ator deve selecionar "Jurídico";
-
-3. O aplicativo mostrara funcionalidades a respeito de informações legais;
-
-4. O ator deve escolher a opções "Dados de localização";
-
-5. Então ele será redirecionado a uma página web onde ele poderá ler um artigo sobre como a Uber usa as informações de localização do usuário de android;
-
-### Fluxos alternativos
-
-**FA01 – Mais opções**
-
-+ Depois que o usuário é redirecionado para a página web da Uber, ele poderá ter acesso a várias outras informações legais a respeito do aplicativo, basta clicar na opção "Mais".
-
-### User Story G04-R30-Visualizar dados de localização
-
-Como usuário final eu quero saber como o aplicativo usa as minhas informações de localização, para que eu possa ter conhecimento uma vez que localização é um dado pessoal e privado, e deve ser usado corretamente.
-### Prototipação de telas
-
-**Página com as informações**
-
-![Imgur](https://i.imgur.com/W2BsThR.png "página Web")
-
-![Imgur](https://i.imgur.com/N1Yr6Eh.png)
-
-![Imgur](https://i.imgur.com/UwgMwX0.png)
-
-### Diagrama de Caso de Uso
-
-![Imgur](https://i.imgur.com/z3G88oJ.png "Diagrama caso de uso")
