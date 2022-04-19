@@ -1507,6 +1507,63 @@ Caso o usuário clique em algum outro botão, ele será direcionado para a tela 
 ![imagem](https://i.imgur.com/PnFLBan.png)
 
 
+# R24 - Visualizar os Provedores de dados 
+
+### **- Atores -**
+
+Usuário já logado no aplicativo clica na aba de perfil e vai até a opção “Jurídico”, após isso, aparecerá a opção de “Provedores de dados”. O usuário o selecionará e terá acesso ao texto.
+
+### *-Descrição sucinta:**
+
+O ator ao entrar em ‘’Provedores de dados’’, encontrará o texto explicativo sobre o aplicativo. O usuário terá acesso a escolha de idioma no início da página e outras abas de pesquisa ao fim do texto.
+
+### **- Pré-condição:**
+
+O ator precisa ter o aplicativo instalado e a conta logada.
+
+### **- Fluxo Principal:**
+
+1. O ator abre o aplicativo na tela de login e acessa a conta.
+
+2. O aplicativo exibe a tela de início.
+
+3. O usuário deve selecionar a opção de “Perfil”.
+
+4. O Aplicativo abre a tela de opções a ser selecionada.
+
+5. O usuário seleciona a opção “Provedores de dados”.
+
+6. O Aplicativo mostra o texto principal e a opção para selecionar o idioma.
+
+7. O aplicativo ao fim do texto mostra a opção de retorno e opções extras de informações do aplicativo.
+
+8. O Aplicativo leva o usuário para a opção selecionada.
+
+### **- Fluxos Alternativos**
+Caso o usuário clique em algum outro botão, ele será direcionado para a tela relacionada ao botão. Exemplo: “RETORNO” levará a outras opções além de “Provedores de dados”.
+
+
+
+
+
+
+
+
+
+ **- Tela de Visualização de Provedores de dados -**
+	
+![Imgur](https://imgur.com/CHRf1fs.png)
+
+![Imgur](https://imgur.com/HDR0dxa.png)
+
+![Imgur](https://imgur.com/DmZ1JUs.png)
+	
+![Imgur](https://imgur.com/UsX6fiE.png)
+	
+**- Diagrama de caso de uso**
+
+![Imgur](https://imgur.com/EX4HgEI.png)
+
 
 # R27 – Visualizar itens incorretos ou ausentes
 
