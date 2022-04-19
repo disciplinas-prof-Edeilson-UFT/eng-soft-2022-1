@@ -1301,7 +1301,7 @@ Como usuário final eu quero poder ter acesso a parte financeira do aplicativo, 
 
 ![imgur](https://imgur.com/PPIyYNo.png)
 
-# R26 – Visualizar dados de pedidos anteriores
+# G03-R26 – Visualizar dados de pedidos anteriores
 
 **Develop: Jhonata Batista Silva - JhonataBast**
 
