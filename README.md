@@ -1417,6 +1417,50 @@ Como usuário final eu quero poder ter acesso a parte financeira do aplicativo, 
 ![perfildousuario2](https://user-images.githubusercontent.com/101363425/163255047-7128e22b-78e1-4dce-b39f-53c98a9e29b8.png)
 
 
+#  R21– Visualizar Direitos Autorais 
+
+### **- Atores -**
+O ator já logado no aplicativo entra nas configurações e vai até a opção de jurídico, após isso ele irá visualizar o botão direitos autorais, onde fica todos os direitos dos autores.
+
+### ** - Discrição sucinta- **
+Ao  entrar na pagina de direitos autorais o ator tem a opção de selecionar a jurisdição de onde ele necessita ver os direitos, em seguido mostra-se a linguagem na qual o texto está escrito a data da última mudança, e em seguida mostra toda a politica de direitos autorais da Uber e a notificação de violação de Direitos Autorais, seguido de um texto explicando toda a politica e leis envolvidas no contexto de direitos autorais, já na parte final da pagina mostra a localização da Uber no pais no qual está sendo visualizado os direitos autorais e vários outros botões com informações, sobre algo especifico, como Empresa, Produtos, Cidadania global e viaje.
+
+### **- Pré-condição -**
+O ator precisa ter o aplicativo instalado e a sua conta logada.
+
+### **- Fluxo Principal -**
+1. O ator ao abrir o aplicativo terá que clicar no botão de configurações no canto superior direito.
+2. Após ele ter entrado em configurações ele terá que clicar no botão de jurídico.
+3. E logo após ao clicar no botão de Jurídico ele tera que clicar no botão de Direitos Autorais.
+4. Ao entrar nos direitos autorais ele terá a opção de escolher o pais de onde ele quer visualizar os direitos autorais.
+5. E quando escolher o país, mostrará a linguagem e qual o texto estará redigido.
+6. No texto contém toda a descrição dos direitos autorais e as leis no qual o fundamentam e é apresentado em um texto dividido por topicos, para a pessoa poder localizar apenas a questão a qual ela necessita saber.
+7. Após todo o texto tem um botão para voltar à Central Jurídica.
+8. e abaixo temos, informações sobre a localização da empresa dependendo do país no qual foi escolhido.
+9. e outras informações como Empresa, na qual tem os subtitulos Quem somos, O que oferecemos, Newsroom, Investidores, Blog, Carreiras, AI, Gift cards
+10. Temos também Produtos, na qual tem os subtitulos, Viaje, Dirigir, Fazer entregas, Faça pedidos, Uber para Empresas, Uber Freight.
+11. Temos também Cidadania global, na qual tem os subtitulos, Segurança, Diversidade e inclusão.
+12. Temos também Viaje, na qual tem os subtitulos, Aeroportos, Cidades.
+
+### **- Fluxo Alternativos -**
+Caso o usuário clique em qualquer um dos botões sem querer ou tenha entrado na opção errada ele pode voltar e selecionar outro botão novamente, ou caso tenha desistido do uso do aplicativo ele pode clicar 2 vezes no botão de voltar ou no botão home e o aplicativo irá fechar.
+
+### **- Tela Visualizar Direitos Autorais -**
+
+![Imgur](https://imgur.com/nBfAc2t.png)
+
+![Imgur](https://imgur.com/nBfAc2t.png)
+
+![Imgur](https://imgur.com/SbDLWU2.png)
+
+![Imgur](https://imgur.com/AKtZsNC.png)
+
+### **- Diagrama de caso de uso -**
+
+![Imgur](https://imgur.com/EX4HgEI.png)
+
+
+
 # R22 - Visualizar os Termos e Condições 
 
 ### **- Atores -**
