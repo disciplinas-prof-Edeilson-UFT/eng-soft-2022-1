@@ -1547,8 +1547,8 @@ Caso o usuário clique em algum outro botão, ele será direcionado para a tela 
 
 ![Imgur](https://imgur.com/cb4sFhx.png)
 
-
 ![imagem](https://i.imgur.com/PnFLBan.png)
+
 
 
 # R24 - Visualizar os Provedores de dados 
@@ -1949,7 +1949,7 @@ Como usuário final eu quero saber como o aplicativo usa as minhas informações
 + O usuário final terá conhecimento sobre as políticas municipais da Uber vigentes na Polônia.
 
 
-### User Story G4-R31-Visualizar normas municipais:
+### User Story G04-R31-Visualizar normas municipais:
 
 + Como um usuário final cadastrado eu quero poder conhecer as informações de operabilidade e preços da Uber para que seja possível me manter informado sobre as políticas da empresa.
 
@@ -1968,3 +1968,65 @@ Como usuário final eu quero saber como o aplicativo usa as minhas informações
 
 ### **Diagrama de Caso de Uso**
 ![Diagrama de caso de uso](https://imgur.com/jBLosdQ.jpeg)
+
+
+
+# G4-R32-Vizualizar informações jurídicas
+
+#### Developer: Luccas Castro de Souza - luccasocastro
+
+#### Reviewer: Bruno Silva - brunoF-Silva
+
+### Atores
+
++ Cliente - pode ter acesso às informações legais sobre o setor jurídico do aplicativo.
+
+### Descrição sucinta
+
++ Nesta opção, é possível ter em mãos todas as informações jurídicas do aplicativo.
+
+### Pré-condição
+
++ O ator deve ter o software instalado no seu dispositivo e deverá estar logado em sua conta.
+
+### Fluxo principal
+
+1. O ator na tela inicial do aplicativo deverá selecionar a opção "Perfil";
+
+2. O aplicativo deverá abrir outra tela, e o ator deverá selecionar a opção "Jurídico" na parte inferior da tela;
+
+3. Por fim, o aplicativo deverá apresentar uma lista com as informações legais sobre o jurídico do aplicativo.
+
+### Campo de formulário
+
++ Este requisito não possui campo de formulário.
+
+### Campos do usuário
+
+|**Opção**|**Descrição**|**Atalho**|
+|:--:|:--:|:--:|
+|Direitos autorais|Exibe as políticas de direitos autorais do aplicativo|**-**|
+|Termos e condições|Exibe os termos gerais de uso do aplicativo|**-**|
+|Política de privacidade|Exibe as políticas de privacidade do aplicativo|**-**|
+|Provedores de dados|Exibe as atribuições do provedor de dados|**-**|
+|Licenças do software|Exibe as licenças do software|**-**|
+|Dados de localização|Exibe as formas como o aplicativo usa as informações do usuário|**-**|
+|Normas municipais|Exibe as normas decretadas pelo município para o uso do aplicativo|**-**| 
+
+### Fluxos alternativos
+
++ Este requisito não possui fluxos alternativos.
+
+### User story G04-R32-Visualizar informações jurídicas
+
++ Como usuário final do aplicativo, eu quero ter acesso completo às informações jurídicas, de modo que eu possa acessá-las com mais praticidade.
+
+### Prototipação
+
++ Tela inicial
+
+![imgur](https://imgur.com/dgiTp40.png)
+
+### Diagrama de caso de uso
+
+![imgur](https://imgur.com/fETi99i.png)
