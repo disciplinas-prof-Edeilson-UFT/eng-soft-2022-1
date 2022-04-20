@@ -1330,7 +1330,7 @@ Como usuário final eu quero poder ter acesso a parte financeira do aplicativo, 
 ![Imgur](https://imgur.com/cb4sFhx.png)
 
 
-# G3-R26 – Visualizar problemas com uma viagem específica
+# G3-R25 – Visualizar problemas com uma viagem específica
 
 ### Develop: Enzo Lucas Ramos Lemes - enzoolucas
 
