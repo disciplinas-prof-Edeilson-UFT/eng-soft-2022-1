@@ -1318,6 +1318,64 @@ Como usuário final eu quero poder ter acesso a parte financeira do aplicativo, 
 
 ![Imgur](https://i.imgur.com/wYJOe4R.png)
 
+
+
+# G01-R19 - Adquirir Uber Pass
+#### Reviwer: Yuri de Souza Nascimento - n0xcimento 
+#### Developer: Marcos Dyeimison Moreira da Silva - M-Dyeimison
+
+### Atores:
++ Usuário final - visualizar os beneficios e realizar a compra do Uber pass.
+
+### Descrição sucinta:
++ Permitir a visualização das vantagens obtidas por um assinante do Uber Pass, e realizar a assinatura do serviço.
+
+### Pré-condição:
++ O usuário deve ter o aplicativo Uber instalado no dispositivo, estar logado em sua conta, acessar o ícone do perfil, e clicar na o opcão "Uber Pass".
+
+### Fluxo principal:
+1. O usuário deve abrir o aplicativo;
+2. Acessar o ícone do perfil no canto direito superior da tela;
+3. Acessar a opção "Uber Pass";
+4. Visualizar o benefícios de um assinante do serviço;
+5. Clicar no botão na parte inferior para adquirir o serviço;
+6. Selecionar o método de pagamento;
+7. Clicar no botão para adquirir o serviço.
+
+### Opções dos Usuários:
+|**Campo**|**Descrição**|**Atalho**|
+| - | - | - |
+|Selecionar forma de pagamento|Selecionar ou adicionar forma de pagamento|Botão|
+|Adquirir Uber Pass|Realizar a assinatura do Uber Pass|Botão|
+
+### Fluxos Alternativos
+Não há fluxo alternativo.
+
+### User Story:
++ Eu sou um usuário do aplicativo e desejo visualizar os benefícios do Uber Pass ou realizar a assinatura do serviço, para isso de acessar o aplicativo Uber, estando logado na minha conta, acessar o ícone do perfil na área superior direita da tela, uma vez nas opções de usuário, acessar opção Uber Pass, visualizar os benefícios, e clicar na opção adquirir Uber Pass, selecionar ou adicionar uma forma de pagamento e clicar na opção adquirir Uber Pass.
+
+### Prototipação:
+![imagem](https://i.imgur.com/QyzXS1q.jpg)
+
+**Opções do usuário**
+
+![imagem](https://i.imgur.com/JOm56kT.jpg)
+
+**Tela do Uber Pass**
+
+![imagem](https://i.imgur.com/H6JR0qu.jpg)
+
+**Adiquirir Uber Pass**
+
+![imagem](https://i.imgur.com/WrcESEp.jpg)
+
+**Formas de pagamento**
+
+### Diagrama de caso de uso:
+![imagem](https://i.imgur.com/3Notuyh.jpg)
+
+
+
 # RQ20 - Alterar configurações de segurança
 
 ### **- Atores:**
