@@ -1666,6 +1666,63 @@ Caso o usuário clique em algum outro botão, ele será direcionado para a tela 
 
 ![Imgur](https://imgur.com/EX4HgEI.png)
 
+# G3-R25 – Visualizar problemas com uma viagem específica
+
+### Develop: Enzo Lucas Ramos Lemes - enzoolucas
+
+### Review: Jhonata Batista Silva - JhonataBast
+
+### - Atores:
+
++ Usuário final cadastrado – aparecerá os dados do usuário que foram cadastrados. 
+
+### - Descrição sucinta:
+
++ O ator poderá escolher uma viagem específica para registrar algum tipo de problema com a mesma, e a partir daí será apresentada a lista com todas suas últimas.
+
+### - Pré-condição:
+
++ O ator precisa ter o aplicativo instalado em seu dispositivo, logado em sua conta e ter algum tipo de viagem realizada ou cancelada.
+
+### - Fluxo principal:
+
+FP01 - O ator abre o aplicativo na tela inicial e seleciona a opção do usuário “Insere seus Dados”;
+
+FP02 - O aplicativo exibe na tela principal, onde é possível solicitar a corrida;
+
+FP03 - O ator vai até o ícone com sua foto de perfil;
+
+FP04 - O ator seleciona a opção do usuário “Ajuda”, em seguida abrirá a tela de “Ajuda”;
+
+FP05 - O ator irá ver que as informações de sua última viagem além da opção de visualizar também seu último pedido;
+
+FP06 – O ator seleciona a opção “Problemas com uma viagem específica e reembolsos;
+
+FP07 - O ator abrindo a tela verá as informações sobre todos os seus pedidos com problema;
+
+### - Fluxos alternativos
+
+FA01 – Partindo do FP07, o ator pode selecionar uma viagem específica, onde o sistema apresentará todos os dados da viagem visualizada.
+
+### - User Stories
+
+O usuário precisa relatar algum tipo de problema com a última viagem, ele esqueceu algumas chaves no banco traseiro do uber e precisa entrar em contato com a uber e com o motorista.
+
+### - Prototipação
+
++ Tela de listagem de problemas
+
+![imgur](https://i.imgur.com/10ZEMWP.png)
+
++ Tela inicial
+
+![imgur](https://i.imgur.com/5qFJaFd.jpg)
+
++ Diagrama de caso de uso
+
+![imgur](https://i.imgur.com/gfiGTqZ.png)
+
+
 # G03-R26 – Visualizar dados de pedidos anteriores
 
 **Develop: Jhonata Batista Silva - JhonataBast**
@@ -2164,4 +2221,5 @@ Como usuário final eu quero saber como o aplicativo usa as minhas informações
 ### Diagrama de caso de uso
 
 ![imgur](https://imgur.com/fETi99i.png)
+
 
