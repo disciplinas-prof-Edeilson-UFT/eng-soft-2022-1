@@ -1779,6 +1779,9 @@ O ator precisa ter o aplicativo instalado em seu dispositivo, ter cadastro ativo
 |Valor|Pedido anterior |...|
 |Imagem pedido ||Opção 10|
 
+**- User Storie:**
+
+Analisando o último pedido realizado, pude ver que o cliete saiu satisfeito com o pedido, devido ter dado as 5 estrelas para o estabelecimento e pelo preço que foi pago, ou seja, ele estava bem satisfeito. 
 
 **- Prototipação** 
 
