@@ -1318,7 +1318,73 @@ Como usuário final eu quero poder ter acesso a parte financeira do aplicativo, 
 
 ![Imgur](https://i.imgur.com/wYJOe4R.png)
 
+# G1-R18-Cadastro como motorista do Uber
+#### Developer: Yuri de Sousa Nascimento 
+#### Reviewer:
 
+### Atores
+   
+   + Usuário do Uber - O usuário faz a inscrição para ser motorista do aplicativo
+
+### Descrição sucinta
+   
+   + O usuário faz a inscrição no aplicativo para realizar viagens ou entregas no Uber.
+
+### Pre-condição
+   
+   + Antes de tudo, o ator deve possuir o aplicativo e ter uma conta nele.
+
+### Fluxo Principal
+
+   1. O usuário do Uber, ao está na tela principal do aplicativo, clica no botão para vizualizar informações de sua conta.
+   
+   2. Nessa nova tela, ele irá em "Dirija ou faça entregas com o app da Uber".
+
+   3. Em seguida, o usuário escolhe em qual cidade pretende dirigir.
+
+   4. Em uma próxima tela, o usuário escolherá de qual forma deseja trabalhar com o Uber.
+
+   5. Adiante, o usuário deve informar se possui ou não veículo para trabalhar.
+
+   6. Após esses passos, o usuário interessado em trabalhar para o Uber deve comprovar possuir carteira de motorista e, caso tenha veículo próprio, apresentar a documentação do mesmo.
+
+
+### Campo do Formulário
+
+|**Campo**|**Obrigatório?**|**Editável?**|**Formato**|
+| :-: | :-: | :-: | :-: |
+| Escolha uma cidade | Sim | Sim | Texto |
+
+
+### Opções dos Usuários
+
+|**Campo**|**Descrição**|**Atalho**|
+| :-: | :-: | :-: |
+| Escolha como você gostaria de trabalhar com o Uber | Veículo e a forma que o usuário deseja trabalhar | - |
+| Conte-nos sobre seu veículo | Informar se o usuário tem ou não veículo próprio | - |
+
+
+### Fluxo alternativos
+
+   + Não há fluxo alternativo para esse requisito.
+
+### User Story
+
+   Eu, como usuário do aplicativo Uber, gostaria de poder fazer um cadastro para trabalhar como motorista para o aplicativo, podendo escolher o tipo de veículo e a forma de trabalho.
+
+### Prototipação
+   
+   ![Imgur](https://i.imgur.com/CwC5poe.png)
+   
+   ![Imgur](https://i.imgur.com/pGH9gdP.png)
+   
+   ![Imgur](https://i.imgur.com/XP0AkyA.png)
+   
+   ![Imgur](https://i.imgur.com/oxYUgBo.png)
+   
+### Diagrama
+
+   ![Imgur](https://i.imgur.com/imgoHUe.jpg)
 
 # G01-R19 - Adquirir Uber Pass
 #### Reviwer: Yuri de Souza Nascimento - n0xcimento 
@@ -1373,8 +1439,6 @@ Não há fluxo alternativo.
 
 ### Diagrama de caso de uso:
 ![imagem](https://i.imgur.com/3Notuyh.jpg)
-
-
 
 # RQ20 - Alterar configurações de segurança
 
@@ -2158,5 +2222,3 @@ Como usuário final eu quero saber como o aplicativo usa as minhas informações
 ### Diagrama de caso de uso
 
 ![imgur](https://imgur.com/fETi99i.png)
-
-
