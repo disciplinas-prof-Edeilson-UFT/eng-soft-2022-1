@@ -1035,7 +1035,7 @@ Como usuário final eu quero poder ter acesso a parte financeira do aplicativo, 
 
 4. O sistema exibe uma tela informativa desse contato e as seguintes opções:
 
-	*Apagar o contato de confiança;
+	* Apagar o contato de confiança;
 	* Customizar a frequência de lembretes para compartilhar informações sobre o destino, o carro e o motorista com o contato de confiança;
 	* Permitir a ligação de funcionários da Uber para o contato de confiança;
 	* Obter informativos sobre essa função de emergência;
@@ -1273,6 +1273,9 @@ Como usuário final eu quero poder ter acesso a parte financeira do aplicativo, 
 
 # G1-R17 - Visualizar explicação sobre a nota do usuário
 
+#### Developer: Guilherme da Silva Rosario - GuiRosario
+#### Reviewer: Marcos Dyeimison Moreira da Silva - M-Dyeimison
+
 ### - Atores:
 
 + Usuário - irá visualizar em seu smartphone a explicação sobre como sua nota é gerada.
@@ -1318,9 +1321,10 @@ Como usuário final eu quero poder ter acesso a parte financeira do aplicativo, 
 
 ![Imgur](https://i.imgur.com/wYJOe4R.png)
 
-# G1-R18-Cadastro como motorista do Uber
-#### Developer: Yuri de Sousa Nascimento 
-#### Reviewer:
+# G1-R18 - Cadastro como motorista do Uber
+
+#### Developer: Yuri de Sousa Nascimento - n0xcimento
+#### Reviewer: Guilherme da Silva Rosario - GuiRosario
 
 ### Atores
    
@@ -1386,20 +1390,25 @@ Como usuário final eu quero poder ter acesso a parte financeira do aplicativo, 
 
    ![Imgur](https://i.imgur.com/imgoHUe.jpg)
 
-# G01-R19 - Adquirir Uber Pass
-#### Reviwer: Yuri de Souza Nascimento - n0xcimento 
-#### Developer: Marcos Dyeimison Moreira da Silva - M-Dyeimison
+# G1-R19 - Adquirir Uber Pass 
 
-### Atores:
+#### Developer: Marcos Dyeimison Moreira da Silva - M-Dyeimison
+#### Reviwer: Yuri de Souza Nascimento - n0xcimento
+
+### Atores
+
 + Usuário final - visualizar os beneficios e realizar a compra do Uber pass.
 
-### Descrição sucinta:
+### Descrição sucinta
+
 + Permitir a visualização das vantagens obtidas por um assinante do Uber Pass, e realizar a assinatura do serviço.
 
-### Pré-condição:
+### Pré-condição
+
 + O usuário deve ter o aplicativo Uber instalado no dispositivo, estar logado em sua conta, acessar o ícone do perfil, e clicar na o opcão "Uber Pass".
 
-### Fluxo principal:
+### Fluxo principal
+
 1. O usuário deve abrir o aplicativo;
 2. Acessar o ícone do perfil no canto direito superior da tela;
 3. Acessar a opção "Uber Pass";
@@ -1408,19 +1417,23 @@ Como usuário final eu quero poder ter acesso a parte financeira do aplicativo, 
 6. Selecionar o método de pagamento;
 7. Clicar no botão para adquirir o serviço.
 
-### Opções dos Usuários:
+### Opções dos Usuários
+
 |**Campo**|**Descrição**|**Atalho**|
 | - | - | - |
 |Selecionar forma de pagamento|Selecionar ou adicionar forma de pagamento|Botão|
 |Adquirir Uber Pass|Realizar a assinatura do Uber Pass|Botão|
 
 ### Fluxos Alternativos
-Não há fluxo alternativo.
 
-### User Story:
++ Não há fluxo alternativo.
+
+### User Story
+
 + Eu sou um usuário do aplicativo e desejo visualizar os benefícios do Uber Pass ou realizar a assinatura do serviço, para isso de acessar o aplicativo Uber, estando logado na minha conta, acessar o ícone do perfil na área superior direita da tela, uma vez nas opções de usuário, acessar opção Uber Pass, visualizar os benefícios, e clicar na opção adquirir Uber Pass, selecionar ou adicionar uma forma de pagamento e clicar na opção adquirir Uber Pass.
 
 ### Prototipação:
+
 ![imagem](https://i.imgur.com/QyzXS1q.jpg)
 
 **Opções do usuário**
@@ -1440,20 +1453,27 @@ Não há fluxo alternativo.
 ### Diagrama de caso de uso:
 ![imagem](https://i.imgur.com/3Notuyh.jpg)
 
-# RQ20 - Alterar configurações de segurança
+# G1-R20 - Alterar configurações de segurança
 
-### **- Atores:**
+#### Developer: Maria Júlia Silva Fonseca Guedes Nobre - maria-julia-nobre
+#### Reviwer: Guilherme da Silva Rosario - GuiRosario
+
+### Atores
+
 + Usuário Cliente — O cliente se cadastra e seleciona o campo "Checagem de Segurança" para ativar as opções oferecidas pelo app para tornar a viagem mais segura.
 
 + Usuário Motorista —  O motorista se cadastra e seleciona o campo "Checagem de Segurança" para ativar as opções oferecidas pelo app para tornar a viagem mais segura.
 
-### **- Descrição sucinta:**
+### Descrição sucinta
+
 + Nesta opção, inicialmente, é permitido que usuários  do aplicativo Uber adicionem opções de segurança para tornar a viagem mais tranquila em caso de algum possível acidente ou uma parada longa inesperada. Essa opção aparece somente no início do cadastro do usuário, para possíveis alterações as informações antes cadastradas podem ser alteradas na seleção de “Segurança”.
 
-### **- Pré-condição:**
+### Pré-condição
+
 + Os Atores deverão estar logados no sistema som senha e login para que seja possível ter acesso às opção de "Checagem de Segurança" e suas subsequentes ferramentas. 
 
-### **- Fluxo principal:**
+### Fluxo principal
+
 1. Abra o aplicativo/site da Uber.
 2. Efetuar o login na respectiva plataforma acessada pelo cliente.
 3. Selecione a foto de perfil para acessar o perfil do usuário.
@@ -1472,7 +1492,7 @@ Não há fluxo alternativo.
 | Contatos de Confiança 	| O usuário tem a opção de adicionar contatos de segurança para compartilhar a localização durante viagens.                                     	|
 | U-Ajuda               	| O usuário tem a opção de ativar recursos para checagem de rota e recursos de segurança em casos de o trajeto ser interrompido ou ser desviado. 	|
 | U-Código              	| O usuário tem a opção de solicitar um código para entrar sempre no carro certo solicitado para uma viagem.                                    	|
-### **- Fluxos Alternativos (FA):**
+### **- Fluxos Alternativos (FA):
 
 #### **FA01: —** Contatos de Confiança:
 1. O ator, ao acessar a tela de “Checagem de Segurança” seleciona a opção de adicionar “Contatos de Confiança”.
@@ -1493,15 +1513,16 @@ Não há fluxo alternativo.
 2. O sistema irá apresentar a opção de “Use código para confirmar as viagens”.
 3. Caso o recurso seja ativado, o usuário cliente compartilha o código com o motorista solicitado para a viagem para garantir que, quando o mesmo chegar, o cliente entre no veículo certo.
 
-### **- User Story:**
+### User Story
 + Como usuário cliente da Uber, eu quero selecionar as opções de segurança oferecidas pelo aplicativo para uma viagem segura. Para isso, eu preciso estar cadastrado, ter ativado as devidas opções oferecidas pelo recurso de “Checagem de Segurança” e inserido informações nos devidos campos para que os recursos sejam ativados desde a solicitação do motorista até o final da corrida.
 
 + Como usuário motorista da Uber, eu quero selecionar as opções de segurança oferecidas pelo aplicativo para uma viagem segura. Para isso, eu preciso estar cadastrado, ter ativado as devidas opções oferecidas pelo recurso de “Checagem de Segurança” e inserido informações nos devidos campos para que os recursos sejam ativados desde a solicitação do motorista até o final da corrida.
 
-### **- Casos de uso:**
+### Casos de uso
+
 ![diagramar20](https://user-images.githubusercontent.com/101363425/163055074-bf0e3db6-aab7-46d0-a9af-d12d608d5d26.png)
 
-### **- Prototipação:**
+### Prototipação
 
 #### **1. Menu:**
 ![mmenu](https://user-images.githubusercontent.com/101363425/161869799-9f49e181-be05-4509-ab75-0f346870a610.png)
@@ -1539,35 +1560,51 @@ Não há fluxo alternativo.
 ![perfildousuario2](https://user-images.githubusercontent.com/101363425/163255047-7128e22b-78e1-4dce-b39f-53c98a9e29b8.png)
 
 
-#  R21– Visualizar Direitos Autorais 
+# G2-R21 - Visualizar Direitos Autorais 
+#### Developer: Willian Dos Santos Alves - Celtavhc2012
+#### Reviwer: Italo Gabriel Maia - ItaloGbrmaia
 
-### **- Atores -**
-O ator já logado no aplicativo entra nas configurações e vai até a opção de jurídico, após isso ele irá visualizar o botão direitos autorais, onde fica todos os direitos dos autores.
+### Atores
 
-### ** - Discrição sucinta- **
-Ao  entrar na pagina de direitos autorais o ator tem a opção de selecionar a jurisdição de onde ele necessita ver os direitos, em seguido mostra-se a linguagem na qual o texto está escrito a data da última mudança, e em seguida mostra toda a politica de direitos autorais da Uber e a notificação de violação de Direitos Autorais, seguido de um texto explicando toda a politica e leis envolvidas no contexto de direitos autorais, já na parte final da pagina mostra a localização da Uber no pais no qual está sendo visualizado os direitos autorais e vários outros botões com informações, sobre algo especifico, como Empresa, Produtos, Cidadania global e viaje.
++ O ator já logado no aplicativo entra nas configurações e vai até a opção de jurídico, após isso ele irá visualizar o botão direitos autorais, onde fica todos os direitos dos autores.
 
-### **- Pré-condição -**
-O ator precisa ter o aplicativo instalado e a sua conta logada.
+### Discrição sucinta
 
-### **- Fluxo Principal -**
++ Ao  entrar na pagina de direitos autorais o ator tem a opção de selecionar a jurisdição de onde ele necessita ver os direitos, em seguido mostra-se a linguagem na qual o texto está escrito a data da última mudança, e em seguida mostra toda a politica de direitos autorais da Uber e a notificação de violação de Direitos Autorais, seguido de um texto explicando toda a politica e leis envolvidas no contexto de direitos autorais, já na parte final da pagina mostra a localização da Uber no pais no qual está sendo visualizado os direitos autorais e vários outros botões com informações, sobre algo especifico, como Empresa, Produtos, Cidadania global e viaje.
+
+### Pré-condição
+
++ O ator precisa ter o aplicativo instalado e a sua conta logada.
+
+### Fluxo Principal
 1. O ator ao abrir o aplicativo terá que clicar no botão de configurações no canto superior direito.
+
 2. Após ele ter entrado em configurações ele terá que clicar no botão de jurídico.
+
 3. E logo após ao clicar no botão de Jurídico ele tera que clicar no botão de Direitos Autorais.
+
 4. Ao entrar nos direitos autorais ele terá a opção de escolher o pais de onde ele quer visualizar os direitos autorais.
+
 5. E quando escolher o país, mostrará a linguagem e qual o texto estará redigido.
+
 6. No texto contém toda a descrição dos direitos autorais e as leis no qual o fundamentam e é apresentado em um texto dividido por topicos, para a pessoa poder localizar apenas a questão a qual ela necessita saber.
+
 7. Após todo o texto tem um botão para voltar à Central Jurídica.
+
 8. e abaixo temos, informações sobre a localização da empresa dependendo do país no qual foi escolhido.
+
 9. e outras informações como Empresa, na qual tem os subtitulos Quem somos, O que oferecemos, Newsroom, Investidores, Blog, Carreiras, AI, Gift cards
+
 10. Temos também Produtos, na qual tem os subtitulos, Viaje, Dirigir, Fazer entregas, Faça pedidos, Uber para Empresas, Uber Freight.
+
 11. Temos também Cidadania global, na qual tem os subtitulos, Segurança, Diversidade e inclusão.
+
 12. Temos também Viaje, na qual tem os subtitulos, Aeroportos, Cidades.
 
-### **- Fluxo Alternativos -**
-Caso o usuário clique em qualquer um dos botões sem querer ou tenha entrado na opção errada ele pode voltar e selecionar outro botão novamente, ou caso tenha desistido do uso do aplicativo ele pode clicar 2 vezes no botão de voltar ou no botão home e o aplicativo irá fechar.
+### Fluxo Alternativos
++ Caso o usuário clique em qualquer um dos botões sem querer ou tenha entrado na opção errada ele pode voltar e selecionar outro botão novamente, ou caso tenha desistido do uso do aplicativo ele pode clicar 2 vezes no botão de voltar ou no botão home e o aplicativo irá fechar.
 
-### **- Tela Visualizar Direitos Autorais -**
+### Tela Visualizar Direitos Autorais
 
 ![Imgur](https://imgur.com/nBfAc2t.png)
 
@@ -1577,27 +1614,30 @@ Caso o usuário clique em qualquer um dos botões sem querer ou tenha entrado na
 
 ![Imgur](https://imgur.com/AKtZsNC.png)
 
-### **- Diagrama de caso de uso -**
+### Diagrama de caso de uso
 
 ![Imgur](https://imgur.com/EX4HgEI.png)
 
 
 
-# R22 - Visualizar os Termos e Condições 
+# G2-R22 - Visualizar os Termos e Condições
 
-### **- Atores -**
+#### Developer: Joao Pedro Franco Carneiro Resque - ResqueJP
+#### Reviwer: Lucas Dias Barreto - lucasdias33
 
-Usuário já logado no aplicativo clica na aba de perfil e vai até a opção “Jurídico”, após isso, aparecerá a opção de “Termos e Condições”. O usuário o selecionará e terá acesso ao texto.
+### Atores
 
-### *-Descrição sucinta:**
++ Usuário já logado no aplicativo clica na aba de perfil e vai até a opção “Jurídico”, após isso, aparecerá a opção de “Termos e Condições”. O usuário o selecionará e terá acesso ao texto.
 
-O ator ao entrar em ‘’Termos e Condições’’, encontrará o texto explicativo sobre o aplicativo. O usuário terá acesso a escolha de idioma no início da página e outras abas de pesquisa ao fim do texto.
+### Descrição sucinta
 
-### **- Pré-condição:**
++ O ator ao entrar em ‘’Termos e Condições’’, encontrará o texto explicativo sobre o aplicativo. O usuário terá acesso a escolha de idioma no início da página e outras abas de pesquisa ao fim do texto.
 
-O ator precisa ter o aplicativo instalado e a conta logada.
+### Pré-condição
 
-### **- Fluxo Principal:**
++ O ator precisa ter o aplicativo instalado e a conta logada.
+
+### Fluxo Principal
 
 1. O ator abre o aplicativo na tela de login e acessa a conta.
 
@@ -1615,18 +1655,11 @@ O ator precisa ter o aplicativo instalado e a conta logada.
 
 8. O Aplicativo leva o usuário para a opção selecionada.
 
-### **- Fluxos Alternativos**
-Caso o usuário clique em algum outro botão, ele será direcionado para a tela relacionada ao botão. Exemplo: “RETORNO” levará a outras opções além de “Termos e Condições”.
+### Fluxos Alternativos
 
++ Caso o usuário clique em algum outro botão, ele será direcionado para a tela relacionada ao botão. Exemplo: “RETORNO” levará a outras opções além de “Termos e Condições”.
 
-
-
-
-
-
-
-
- **- Tela de Visualização de Termos e Condições -**
+ **Tela de Visualização de Termos e Condições
 	
 ![Imgur](https://imgur.com/DbYrPdh.png)
 
@@ -1636,36 +1669,42 @@ Caso o usuário clique em algum outro botão, ele será direcionado para a tela 
 	
 ![Imgur](https://imgur.com/UG9s9tR.png)
 	
-**- Diagrama de caso de uso**
+### Diagrama de caso de uso
 
 ![Imgur](https://imgur.com/EX4HgEI.png)
 
 
 
-
-
 # G2-R23 - Visualizar política de privacidade
 
-### - Atores:
+#### Italo Gabriel Prudencio Maia - italoGbrmaia
+#### Reviwer: Willian Dos Santos Alves - Celtavhc2012
+
+### Atores
+
 + Usuário irá receber em seu dispositivo móvel todas as informações sobre políticas de privacidade.
 
-### - Descrição sucinta:
+### Descrição sucinta
+
 + O ator irá visualizar a parte escrita de todas as normas e políticas de privacidade utilizadas pela Uber de acordo com sua jurisdição.
 
-### - Pré-condição:
+### Pré-condição
+
 + O ator precisa ter o aplicativo instalado em seu dispositivo.
++ 
 + O ator precisa ter uma conta na Uber.
 
-### - Fluxo principal:
+### Fluxo principal
 
-### 1 - O aplicativo exibe na tela principal, toda a informação para que o usuário veja sobre as políticas e dados de privacidade da Uber.
-### 2 - O ator pode escolher voltar para a tela anterior através do botão de seta que indica retorno.
+1 - O aplicativo exibe na tela principal, toda a informação para que o usuário veja sobre as políticas e dados de privacidade da Uber.
 
- ### - Fluxos alternativos—------------------------------------------------------------------------------------------
+2 - O ator pode escolher voltar para a tela anterior através do botão de seta que indica retorno.
 
-### FA01 – Inicia a tela com os dados de privacidade da Uber.
+ ### - Fluxos alternativos
 
-### - Prototipação 
+**FA01 – Inicia a tela com os dados de privacidade da Uber.
+
+### Prototipação 
 
 ![Imgur](https://imgur.com/cb4sFhx.png)
 
@@ -1673,21 +1712,23 @@ Caso o usuário clique em algum outro botão, ele será direcionado para a tela 
 
 
 
-# R24 - Visualizar os Provedores de dados 
+# G2-R24 - Visualizar os Provedores de dados 
+#### Italo Willian Dos Santos Alves - Celtavhc2012
+#### Reviwer: Gabriel Prudencio Maia - italoGbrmaia
 
-### **- Atores -**
+### Atores
 
-Usuário já logado no aplicativo clica na aba de perfil e vai até a opção “Jurídico”, após isso, aparecerá a opção de “Provedores de dados”. O usuário o selecionará e terá acesso ao texto.
++ Usuário já logado no aplicativo clica na aba de perfil e vai até a opção “Jurídico”, após isso, aparecerá a opção de “Provedores de dados”. O usuário o selecionará e terá acesso ao texto.
 
-### *-Descrição sucinta:**
+### Descrição sucinta
 
-O ator ao entrar em ‘’Provedores de dados’’, encontrará o texto explicativo sobre o aplicativo. O usuário terá acesso a escolha de idioma no início da página e outras abas de pesquisa ao fim do texto.
++ O ator ao entrar em ‘’Provedores de dados’’, encontrará o texto explicativo sobre o aplicativo. O usuário terá acesso a escolha de idioma no início da página e outras abas de pesquisa ao fim do texto.
 
-### **- Pré-condição:**
+### Pré-condição
 
-O ator precisa ter o aplicativo instalado e a conta logada.
++ O ator precisa ter o aplicativo instalado e a conta logada.
 
-### **- Fluxo Principal:**
+### Fluxo Principal
 
 1. O ator abre o aplicativo na tela de login e acessa a conta.
 
@@ -1705,16 +1746,9 @@ O ator precisa ter o aplicativo instalado e a conta logada.
 
 8. O Aplicativo leva o usuário para a opção selecionada.
 
-### **- Fluxos Alternativos**
-Caso o usuário clique em algum outro botão, ele será direcionado para a tela relacionada ao botão. Exemplo: “RETORNO” levará a outras opções além de “Provedores de dados”.
+### Fluxos Alternativos
 
-
-
-
-
-
-
-
++ Caso o usuário clique em algum outro botão, ele será direcionado para a tela relacionada ao botão. Exemplo: “RETORNO” levará a outras opções além de “Provedores de dados”.
 
  **- Tela de Visualização de Provedores de dados -**
 	
@@ -1726,29 +1760,30 @@ Caso o usuário clique em algum outro botão, ele será direcionado para a tela 
 	
 ![Imgur](https://imgur.com/UsX6fiE.png)
 	
-**- Diagrama de caso de uso**
+### Diagrama de caso de uso
 
 ![Imgur](https://imgur.com/EX4HgEI.png)
 
-# G3-R25 – Visualizar problemas com uma viagem específica
+
+
+# G3-R25 - Visualizar problemas com uma viagem específica
 
 ### Develop: Enzo Lucas Ramos Lemes - enzoolucas
-
 ### Review: Jhonata Batista Silva - JhonataBast
 
-### - Atores:
+### Atores
 
 + Usuário final cadastrado – aparecerá os dados do usuário que foram cadastrados. 
 
-### - Descrição sucinta:
+### Descrição sucinta
 
 + O ator poderá escolher uma viagem específica para registrar algum tipo de problema com a mesma, e a partir daí será apresentada a lista com todas suas últimas.
 
-### - Pré-condição:
+### Pré-condição
 
 + O ator precisa ter o aplicativo instalado em seu dispositivo, logado em sua conta e ter algum tipo de viagem realizada ou cancelada.
 
-### - Fluxo principal:
+### Fluxo principal
 
 FP01 - O ator abre o aplicativo na tela inicial e seleciona a opção do usuário “Insere seus Dados”;
 
@@ -1764,15 +1799,15 @@ FP06 – O ator seleciona a opção “Problemas com uma viagem específica e re
 
 FP07 - O ator abrindo a tela verá as informações sobre todos os seus pedidos com problema;
 
-### - Fluxos alternativos
+### Fluxos alternativos
 
 FA01 – Partindo do FP07, o ator pode selecionar uma viagem específica, onde o sistema apresentará todos os dados da viagem visualizada.
 
-### - User Stories
+### User Stories
 
 O usuário precisa relatar algum tipo de problema com a última viagem, ele esqueceu algumas chaves no banco traseiro do uber e precisa entrar em contato com a uber e com o motorista.
 
-### - Prototipação
+### Prototipação
 
 + Tela de listagem de problemas
 
@@ -1787,27 +1822,27 @@ O usuário precisa relatar algum tipo de problema com a última viagem, ele esqu
 ![imgur](https://i.imgur.com/gfiGTqZ.png)
 
 
+
 # G03-R26 – Visualizar dados de pedidos anteriores
 
-**Develop: Jhonata Batista Silva - JhonataBast**
+#### Develop: Jhonata Batista Silva - JhonataBast
+#### Review: Enzo Lucas - enzoolucas
 
-**Review: Enzo Lucas - enzoolucas**
+### Atores
 
-**- Atores:**
++ Usuário final cadastrado – aparecerá os dados do usuário que foram cadastrados. 
 
-Usuário final cadastrado – aparecerá os dados do usuário que foram cadastrados. 
+### Descrição sucinta
 
-**- Descrição sucinta:**
-
-O ator poderá visualizar os últimos pedidos, com as informações de preços, data dos pedidos e a avalições que ele já tenha dado para esses últimos pedidos recentes, já na próxima tela poderá ver uma serie de opções de ajuda na qual poderá escolher para o último pedido que tenha feito. 
++ O ator poderá visualizar os últimos pedidos, com as informações de preços, data dos pedidos e a avalições que ele já tenha dado para esses últimos pedidos recentes, já na próxima tela poderá ver uma serie de opções de ajuda na qual poderá escolher para o último pedido que tenha feito. 
 
 Ex.  Itens errados ou faltando
 
-**- Pré-condição:**
+### Pré-condição
 
-O ator precisa ter o aplicativo instalado em seu dispositivo, ter cadastro ativo e ter feito algum pedido de comida.
++ O ator precisa ter o aplicativo instalado em seu dispositivo, ter cadastro ativo e ter feito algum pedido de comida.
 
-**- Fluxo principal:**
+### Fluxo principal
 
 1 - O ator abre o aplicativo na tela inicial e seleciona a opção do usuário “Insere seus Dados”;
 
@@ -1833,8 +1868,7 @@ O ator precisa ter o aplicativo instalado em seu dispositivo, ter cadastro ativo
 
 12 - O ator poderá selecionar n ajudas para seu pedido anterior informando a central se algo deu errado, se veio faltando, o pedido não chegou etc.;
 
-**- Opções do Usuários:**
-
+### Opções do Usuários
 
 |![](Aspose.Words.c7f23341-6aef-4955-b8e2-860bd0537e44.001.png)**Pedido anterior 1**|![](Aspose.Words.c7f23341-6aef-4955-b8e2-860bd0537e44.002.png)**Selecionar pedido**|**Pedido anterior** |
 | :-: | :-: | :-: |
@@ -1843,11 +1877,11 @@ O ator precisa ter o aplicativo instalado em seu dispositivo, ter cadastro ativo
 |Valor|Pedido anterior |...|
 |Imagem pedido ||Opção 10|
 
-**- User Storie:**
+### User Storie
 
 Analisando o último pedido realizado, pude ver que o cliete saiu satisfeito com o pedido, devido ter dado as 5 estrelas para o estabelecimento e pelo preço que foi pago, ou seja, ele estava bem satisfeito. 
 
-**- Prototipação** 
+### Prototipação
 
 ![image](https://i.imgur.com/OhDhgfc.png)
 
@@ -1863,30 +1897,30 @@ Analisando o último pedido realizado, pude ver que o cliete saiu satisfeito com
 
 ![image](https://i.imgur.com/5qFJaFd.jpg)
 
-**- Diagrama de caso de uso**
+### Diagrama de caso de uso
 
 ![image](https://i.imgur.com/aNfCNab.png)
 
 
+
 # G03-R27 – Visualizar itens incorretos ou ausentes
 
-**Develop: Tatiane Yumi Coli Shibata - TaatiShibata**
+#### Develop: Tatiane Yumi Coli Shibata - TaatiShibata
+#### Review: Jhonata Batista - JhonataBast**
 
-**Review: Jhonata Batista - JhonataBast**
+### Atores
 
-**- Atores:**
++ Usuário final cadastrado – aparecerá os dados do usuário que foi cadastrado na plataforma.
 
-Usuário final cadastrado – aparecerá os dados do usuário que foi cadastrado na plataforma.
+### Descrição Sucinta
 
-\- **Descrição Sucinta:**
++ O usuário entra na tela de ajuda, e seleciona uma das opções, por exemplo na aba itens incorretos ou ausentes, o usuário pode seguir os passos do guia, ou pedir ajuda ao suporte da Uber, clicando no botão e enviar resumidamente o que estava errado ou incorreto, anexar uma foto, e enviar a solicitação de ajuda.
 
-O usuário entra na tela de ajuda, e seleciona uma das opções, por exemplo na aba itens incorretos ou ausentes, o usuário pode seguir os passos do guia, ou pedir ajuda ao suporte da Uber, clicando no botão e enviar resumidamente o que estava errado ou incorreto, anexar uma foto, e enviar a solicitação de ajuda.
+### Pré-Condição
 
--**Pré-Condição:**
++ É necessário que o usuário esteja logado na conta cadastrada, e feito pelo menos um pedido.
 
-É necessário que o usuário esteja logado na conta cadastrada, e feito pelo menos um pedido.
-
-**-Fluxo Principal:**
+### Fluxo Principal
 
 1 - O usuário abre o aplicativo na tela inicial e seleciona a opção do usuário “Insere seus Dados”;
 
@@ -1912,17 +1946,17 @@ O usuário entra na tela de ajuda, e seleciona uma das opções, por exemplo na 
 
 12 – Caso o usuário não consiga solucionar a ajuda pelo guia apresentado, ele pode solicitar ajuda via suporte da Uber, colocar as informações necessárias e aguardar resposta.
 
-**-Fluxo alternativo:**
+### Fluxo alternativo
 
 FA01 – “Outras opções” de cadastro 
 
-` `1 - Durante o passo 1 do “Fluxo principal” o ator pode alternativamente se cadastrar caso não tenha cadastro, com a opção de usuário “número de celular” escolher entre “continuar com o Facebook”, “continuar com o Google” para se cadastrar.
+1 - Durante o passo 1 do “Fluxo principal” o ator pode alternativamente se cadastrar caso não tenha cadastro, com a opção de usuário “número de celular” escolher entre “continuar com o Facebook”, “continuar com o Google” para se cadastrar.
 
-**- User Story**
+### User Story
 
 Foi verificado que o usuário precisou solicitar ajudar ao suporte da Uber, pois no seu último pedido faltou um item, e como ele não obteve ajuda com a guia, precisou entrar em contato diretamente com o suporte, detalhando o item faltoso.
 
-\- **Prototipação:**
+**- Prototipação:**
 
 ![image](https://i.imgur.com/t8fqb6b.png)
 
@@ -1934,15 +1968,17 @@ Foi verificado que o usuário precisou solicitar ajudar ao suporte da Uber, pois
 
 ![image](https://i.imgur.com/5qFJaFd.jpg)
 
-**- Diagrama de caso de uso:**
+### Diagrama de caso de uso
 
 ![image](https://i.imgur.com/hWxgdol.png)
 
 
 
 # G4-R29-Visualizar licenças do software
-#### Developer: Armano Barros Alves Junior
+
+#### Developer: Armano Barros Alves Junior - armanoalves
 #### Reviewer: Izabela Caldeira Sena Ferreira - I-sena
+
 ### Atores 
 
 + Usuário final - Haverá um tela com uma extensão absurdamente grande diga-se de passagem que conterá todas as informações jurídicas.
@@ -1950,6 +1986,7 @@ Foi verificado que o usuário precisou solicitar ajudar ao suporte da Uber, pois
 ### Descrição sucinta 
 
 + Local onde apresentará toda e qualquer informação necessária para o usuário com relação as licenças do software do aplicativo proposto.
+
 ### Pré-condição 
 
 + Inicialmente, o usuário deve ter em seu dispositivo móvel o aplicativo instalado e após realizar o mesmo criar sua conta para que ele possa acessar as informações que de licenças do aplicativo.
@@ -1986,7 +2023,6 @@ Foi verificado que o usuário precisou solicitar ajudar ao suporte da Uber, pois
 
 ![Imgur](https://i.imgur.com/R9ml0ZA.jpg)
 
-
 ### Diagrama
 
 ![Imgur](https://i.imgur.com/uvchNk4.png)
@@ -1999,15 +2035,15 @@ Foi verificado que o usuário precisou solicitar ajudar ao suporte da Uber, pois
 
 ### Atores
 
-Usuário Final – Ter conhecimento de como são usados seus dados de localização.
++ Usuário Final – Ter conhecimento de como são usados seus dados de localização.
 
 ### Descrição sucinta
 
-Possibilitar que o usuário saiba como o aplicativo usa as informações a respeito de sua localização.
++ Possibilitar que o usuário saiba como o aplicativo usa as informações a respeito de sua localização.
 
 ### Pré-condição
 
-O ator deve ter o aplicativo pré-instalado em seu dispositivo móvel, estar logado no mesmo com login e senha e deve estar conectado á internet.
++ O ator deve ter o aplicativo pré-instalado em seu dispositivo móvel, estar logado no mesmo com login e senha e deve estar conectado á internet.
 
 ### Fluxo Principal
 
@@ -2029,7 +2065,7 @@ O ator deve ter o aplicativo pré-instalado em seu dispositivo móvel, estar log
 
 ### User Story G04-R30-Visualizar dados de localização
 
-Como usuário final eu quero saber como o aplicativo usa as minhas informações de localização, para que eu possa ter conhecimento uma vez que localização é um dado pessoal e privado, e deve ser usado corretamente.
++ Como usuário final eu quero saber como o aplicativo usa as minhas informações de localização, para que eu possa ter conhecimento uma vez que localização é um dado pessoal e privado, e deve ser usado corretamente.
 ### Prototipação de telas
 
 **Página com as informações**
@@ -2176,7 +2212,7 @@ Como usuário final eu quero saber como o aplicativo usa as minhas informações
 1. O sistema redireciona o usuário final para o perfil oficial da Uber no serviço selecionado.
 1. Caso de uso encerrado.
 
-### FA12 - Selecionar idioma da tela:
+### FA12 - Selecionar idioma da tela
 1. No passo 8, ao final da tela o  usuário clica no ícone “mundo” com o idioma atualmente selecionado.
 1. O sistema exibe várias opções de idiomas.
 1 O usuário seleciona um idioma.
@@ -2203,22 +2239,22 @@ Como usuário final eu quero saber como o aplicativo usa as minhas informações
 1. No passo 8, o usuário final clica no botão “Termos”.
 1. O sistema exibe os termos de uso da Uber.
 
-### Fluxo de exceção:
+### Fluxo de exceção
 
 + Não se aplica.
 
 
-### Pós-condições:
+### Pós-condições
 
 + O usuário final terá conhecimento sobre as políticas municipais da Uber vigentes na Polônia.
 
 
-### User Story G04-R31-Visualizar normas municipais:
+### User Story G04-R31-Visualizar normas municipais
 
 + Como um usuário final cadastrado eu quero poder conhecer as informações de operabilidade e preços da Uber para que seja possível me manter informado sobre as políticas da empresa.
 
 
-### **Prototipação das telas:**
+### Prototipação das telas
 
 **Visualizar normas municipais:**
 ![Visualizar normas municipais](https://imgur.com/B54nj5F.jpeg)
@@ -2238,7 +2274,6 @@ Como usuário final eu quero saber como o aplicativo usa as minhas informações
 # G4-R32-Vizualizar informações jurídicas
 
 #### Developer: Luccas Castro de Souza - luccasocastro
-
 #### Reviewer: Bruno Silva - brunoF-Silva
 
 ### Atores
