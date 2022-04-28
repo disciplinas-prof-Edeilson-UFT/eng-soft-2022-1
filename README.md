@@ -1943,7 +1943,7 @@ Analisando o último pedido realizado, pude ver que o cliete saiu satisfeito com
 # G03-R27 – Visualizar itens incorretos ou ausentes
 
 #### Develop: Tatiane Yumi Coli Shibata - TaatiShibata
-#### Review: Jhonata Batista - JhonataBast**
+#### Review: Jhonata Batista - JhonataBast
 
 ### Atores
 
@@ -2008,6 +2008,65 @@ Foi verificado que o usuário precisou solicitar ajudar ao suporte da Uber, pois
 ### Diagrama de caso de uso
 
 ![image](https://i.imgur.com/hWxgdol.png)
+
+
+
+
+# G03-R28-Solicitar-Ajuda-com-viagens
+
+#### Developer: Helorrayne Cristine - HelorrayneC
+#### Reviwer: Jhonata Batista - JhonataBast
+
+### Atores
+
+Usuário final cadastrado
+
+### Descrição sucinta
+
+O ator poderá solicitar ajuda com viagens  na aba de solicitar ajuda com viagens dentro da última viagem e terá a ajuda que precisar do suporte da Uber. A ajuda que ele poderá receber é de diversas formas, como: Revisar a tarifa;  trocar a forma de pagamento da viagem; caso ele tenha sido cobrado por um valor que estava pendente de uma viagem anterior; mudar a avaliação do motorista; caso o motorista tenha sido rude ou pouco profissional; dúvidas referente à cobrança; entre mais opções na aba “Mais opções”.
+
+### Pré-condição
+
+O ator precisa ter o aplicativo instalado, ser cadastrado e ter feito uma viagem.
+
+### Fluxo principal
+
+1- O ator abre o aplicativo na sessão do perfil e clica em “viagens”;
+
+2- O aplicativo abre a sessão “suas viagens”, onde será possível visualizar as 
+últimas viagens;
+
+3- O ator vai poder clicar na sua última viagem;
+
+4- O ator poderá ver os detalhes da sua última viagem;
+
+5- O ator poderá solicitar ajuda na aba “Solicitar ajuda com viagens”;
+
+6- O ator poderá ver o status da sua viagem e o valor do mesmo com a moeda do país que fez a viagem;
+
+7- O ator poderá solicitar ajuda referente ao seu problema;
+Revisar minha tarifa;
+Trocar a forma de pagamento de uma viagem;
+Fui cobrado por um valor pendente de uma viagem anterior;
+Como mudo a avaliação de um motorista parceiro?;
+O motorista parceiro foi rude ou pouco profissional;
+Trata-se de outra dúvida referente à cobrança;
+Mais opções.
+
+### Fluxo alternativo
+
+Sem fluxo alternativo.
+
+ ### Prototipação
+
+ **- Tela Solicitar Ajuda com viagens**
+
+![image](https://i.imgur.com/2vw9u4O.jpg) 
+
+### Diagrama de Caso de uso
+
+![image](https://i.imgur.com/9mVCWZY.jpg)
+
 
 
 
