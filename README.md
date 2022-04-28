@@ -1,4 +1,29 @@
+## **Universidade Federal do Tocantins - Campus Palmas**
+## **Curso:** Bacharelado em Ciência da Computação 
+## **Disciplina:** Engenharia de Software
+## **Professor:** Edeilson Milhomem da Silva
+## **Semestre:** 2022/1
+
+## **<center> Relatorio de especificações e requisitos do projeto</center>**
+
+## <center>Sumário</center>
+
+1. [G1-R01- Solicitar Viagem](#G1-R01) - Developer: Yuri de Souza Nascimento - n0xcimento <br>
+2. [G1-R02- Solicitar Entrega](#G1-R02) - Developer: Maria Julia Silva Fonseca Guedes Nobre - maria-julia-nobre <br>
+3. [G1-R03- Visualizar Perfil do Usuário](#G1-R03)- Developer: Guilherme da Silva Rosário - [GuiRosario] <br>
+4. [G1-R04 -Viagens recentes](#G1-R04) - Developer: Marcos Dyeimison Moreira da Silva - [M-Dyeimison] <br>
+5. [G2-R05-Cadastro de Usuario](#G2-R05) - Developer: Italo Gabriel Prudencio Maia - italoGbrmaia <br>
+6. [G2-R06-inalizar cadastro usuário](#G2-R06) - Developer: Lucas Dias Barreto - lucasdias33 <br>
+7. [G2-R07-Recuperar Senha de Usuário](#G2-R07) - Developer: Joao Pedro Franco Carneiro Resque - Resquejp
+8. [G2-R08–Visualizar Home](#G2-R08) - Developer: Willian dos Santos Alves - Celtavhc2012
+9. [G3-R09-Solicitar Ajuda](#G3-R09) - Developer: Enzo Lucas Ramos Lemes - enzoolucas
+10. [G3-R10–Visualizar comida](#G3-R10) - Developer: Jhonata Batista Silva - JhonataBast
+11. [G3-R11-Solicitar Ajuda](#G3-R11) Por Pedido - Developer: Tatiane Yumi Coli Shibata - TaatiShibata
+
+<div id='G1-R01'/> 
+
 # G1-R01-Solicitar viagem
+
 #### Developer: Yuri de Souza Nascimento - n0xcimento
 #### Reviwer: Guilherme da Silva Rosário - GuiRosario
 
@@ -81,6 +106,7 @@
 
 ![imagem](https://i.imgur.com/PnFLBan.png)
 
+<div id='G1-R02'/> 
 
 # G1-R02-Solicitar Entrega
 #### Developer: Maria Julia Silva Fonseca Guedes Nobre - maria-julia-nobre
@@ -161,6 +187,8 @@
 #### **4. Mapa de rotas:**
 ![localization map](https://user-images.githubusercontent.com/101363425/161869797-8be6a93e-5655-4a8b-a5c6-5438934f850e.png)
 
+<div id='G1-R03'/>
+
 # G1-R03-Visualizar Perfil do Usuário
 #### Developer: Guilherme da Silva Rosário - GuiRosario
 #### Reviwer: Marcos Dyeimison Moreira da Silva - M-Dyeimison
@@ -218,6 +246,7 @@
 ![Diagrama](https://i.imgur.com/16rsgYq.png)
 
 
+<div id='G1-R04'/> 
 
 # G1-R04-Viagens recentes
 #### Developer: Marcos Dyeimison Moreira da Silva - M-Dyeimison
@@ -277,6 +306,8 @@
 ![imagem](https://i.imgur.com/kutKloz.png)
 
 
+
+<div id='G2-R05'/> 
 
 # G2-R05-Cadastro de Usuario
 #### Developer: Italo Gabriel Prudencio Maia - italoGbrmaia
@@ -353,6 +384,7 @@ FA05 – Inicia a tela de inserir criar senha como primeiro caso. O ator passa p
 ![Imgur](https://i.imgur.com/s1ehwhS.png)
 
 
+<div id='G2-R06'/> 
 
 # G2-R06-inalizar cadastro usuário
 #### Developer: Lucas Dias Barreto - lucasdias33
@@ -419,6 +451,7 @@ FA02 – O usuário marca a opção “Concordo”
 ![Imgur](https://imgur.com/NEJQqCG.png) 
 
 
+<div id='G2-R07'/> 
 
 # G2-R07-Recuperar Senha de Usuário
 #### Developer: Joao Pedro Franco Carneiro Resque - Resquejp
@@ -470,6 +503,7 @@ FA02 – O usuário marca a opção “Concordo”
 ![Imgur](https://i.imgur.com/e8tyFcg.png)
 
 
+<div id='G2-R08'/>
 
 # G2-R08–Visualizar Home
 #### Developer: Willian dos Santos Alves - Celtavhc2012
@@ -543,6 +577,7 @@ FA02 – O usuário marca a opção “Concordo”
 ![Imgur](https://i.imgur.com/oXmJ2A1.png)
 
 
+<div id='G3-R09'/> 
 
 # G3-R09-Solicitar Ajuda
 #### Developer: Enzo Lucas Ramos Lemes - enzoolucas
@@ -599,6 +634,7 @@ FA03 – Durante o FP06, o ator pode selecionar algum dos tópicos exibidos.
 ![Imgur](https://i.imgur.com/dF9IEI6.png)
 
 
+<div id='G3-R10'/> 
 
 # G3-R10–Visualizar comida
 #### Developer: Jhonata Batista Silva - JhonataBast
@@ -661,6 +697,7 @@ FA01 – “Outras opções” de cadastro \*\* 1 - Durante o passo 1 do “Flux
 ![image2](https://i.imgur.com/R3BNjfX.png)
 
 
+<div id='G3-R11'/> 
 
 # G3-R11-Solicitar Ajuda Por Pedido 
 #### Developer: Tatiane Yumi Coli Shibata - TaatiShibata
