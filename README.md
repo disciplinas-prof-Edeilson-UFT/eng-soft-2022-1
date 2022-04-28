@@ -1906,7 +1906,7 @@ Analisando o último pedido realizado, pude ver que o cliete saiu satisfeito com
 # G03-R27 – Visualizar itens incorretos ou ausentes
 
 #### Develop: Tatiane Yumi Coli Shibata - TaatiShibata
-#### Review: Jhonata Batista - JhonataBast**
+#### Review: Jhonata Batista - JhonataBast
 
 ### Atores
 
@@ -1977,8 +1977,8 @@ Foi verificado que o usuário precisou solicitar ajudar ao suporte da Uber, pois
 
 # G03-R28-Solicitar-Ajuda-com-viagens
 
-## Developer: Helorrayne Cristine - HelorrayneC
-## Reviwer: Jhonata Batista - JhonataBast
+#### Developer: Helorrayne Cristine - HelorrayneC
+#### Reviwer: Jhonata Batista - JhonataBast
 
 ### Atores
 
@@ -2020,9 +2020,9 @@ Mais opções.
 
 Sem fluxo alternativo.
 
-### Prototipação
+ ### Prototipação
 
-### Tela Solicitar Ajuda com viagens
+ **- Tela Solicitar Ajuda com viagens**
 
 ![image](https://i.imgur.com/2vw9u4O.jpg) 
 
