@@ -1977,8 +1977,8 @@ Foi verificado que o usuário precisou solicitar ajudar ao suporte da Uber, pois
 
 # G03-R28-Solicitar-Ajuda-com-viagens
 
-### Developer: HelorrayneC
-### Reviwer: JhonataBast
+## Developer: Helorrayne Cristine - HelorrayneC
+## Reviwer: Jhonata Batista - JhonataBast
 
 ### Atores
 
