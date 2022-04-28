@@ -1,24 +1,45 @@
-## **Universidade Federal do Tocantins - Campus Palmas**
-## **Curso:** Bacharelado em Ciência da Computação 
-## **Disciplina:** Engenharia de Software
-## **Professor:** Edeilson Milhomem da Silva
-## **Semestre:** 2022/1
+### **Universidade Federal do Tocantins - Campus Palmas**
+### **Curso:** Bacharelado em Ciência da Computação 
+### **Disciplina:** Engenharia de Software
+### **Professor:** Edeilson Milhomem da Silva
+### **Semestre:** 2022/1
 
-## **<center> Relatorio de especificações e requisitos do projeto</center>**
+### **<center> Relatorio de especificações e requisitos do projeto</center>**
 
-## <center>Sumário</center>
+### <center>**Sumário**</center>
 
 1. [G1-R01- Solicitar Viagem](#G1-R01) - Developer: Yuri de Souza Nascimento - n0xcimento <br>
 2. [G1-R02- Solicitar Entrega](#G1-R02) - Developer: Maria Julia Silva Fonseca Guedes Nobre - maria-julia-nobre <br>
 3. [G1-R03- Visualizar Perfil do Usuário](#G1-R03)- Developer: Guilherme da Silva Rosário - [GuiRosario] <br>
-4. [G1-R04 -Viagens recentes](#G1-R04) - Developer: Marcos Dyeimison Moreira da Silva - [M-Dyeimison] <br>
-5. [G2-R05-Cadastro de Usuario](#G2-R05) - Developer: Italo Gabriel Prudencio Maia - italoGbrmaia <br>
-6. [G2-R06-inalizar cadastro usuário](#G2-R06) - Developer: Lucas Dias Barreto - lucasdias33 <br>
-7. [G2-R07-Recuperar Senha de Usuário](#G2-R07) - Developer: Joao Pedro Franco Carneiro Resque - Resquejp
-8. [G2-R08–Visualizar Home](#G2-R08) - Developer: Willian dos Santos Alves - Celtavhc2012
-9. [G3-R09-Solicitar Ajuda](#G3-R09) - Developer: Enzo Lucas Ramos Lemes - enzoolucas
-10. [G3-R10–Visualizar comida](#G3-R10) - Developer: Jhonata Batista Silva - JhonataBast
-11. [G3-R11-Solicitar Ajuda](#G3-R11) Por Pedido - Developer: Tatiane Yumi Coli Shibata - TaatiShibata
+4. [G1-R04- Viagens recentes](#G1-R04) - Developer: Marcos Dyeimison Moreira da Silva - [M-Dyeimison] <br>
+5. [G2-R05- Cadastro de Usuario](#G2-R05) - Developer: Italo Gabriel Prudencio Maia - italoGbrmaia <br>
+6. [G2-R06- inalizar cadastro usuário](#G2-R06) - Developer: Lucas Dias Barreto - lucasdias33 <br>
+7. [G2-R07- Recuperar Senha de Usuário](#G2-R07) - Developer: Joao Pedro Franco Carneiro Resque - Resquejp
+8. [G2-R08- Visualizar Home](#G2-R08) - Developer: Willian dos Santos Alves - Celtavhc2012
+9. [G3-R09- Solicitar Ajuda](#G3-R09) - Developer: Enzo Lucas Ramos Lemes - enzoolucas
+10. [G3-R10- Visualizar comida](#G3-R10) - Developer: Jhonata Batista Silva - JhonataBast
+11. [G3-R11- Solicitar Ajuda](#G3-R11) Por Pedido - Developer: Tatiane Yumi Coli Shibata - TaatiShibata
+12. [G3-R12-Visualizar Última Viagem](#G3-R12) - Developer: Helorrayne Cristine de Alcantara Rodrigues - HelorrayneC
+13. [G4-R13-Visualizar carteira](#G4-R13) - Developer: Izabela Caldeira Sena Ferreira - I-sena
+14. [G4-R14-Editar informações do usuário](#G4-R14) - Developer: Armano Barros Alves Junior - armanoalves
+15. [G4-R15-Configuração da Conta](#G4-R15) - Developer: Bruno Ferreira da Silva - brunoF-Silva
+16. [G4-R16-Histórico de viagens](#G4-R16) - Developer: Luccas Castro de Souza - luccasocastro
+17. [G1-R17 - Visualizar explicação sobre a nota do usuário](#G1-R17) - Developer: Guilherme da Silva Rosario - GuiRosario
+18. [G1-R18 - Cadastro como motorista do Uber](#G1-R18) - Developer: Yuri de Sousa Nascimento - n0xcimento
+19. [G1-R19 - Adquirir Uber Pass](#G1-R19) - Developer: Marcos Dyeimison Moreira da Silva - M-Dyeimison
+20. [G1-R20 - Alterar configurações de segurança](#G1-R20) - Developer: Maria Júlia Silva Fonseca Guedes Nobre - maria-julia-nobre
+21. [G2-R21 - Visualizar Direitos Autorais](#G2-R21) - Developer: Willian Dos Santos Alves - Celtavhc2012
+22. [G2-R22 - Visualizar os Termos e Condições](#G2-R22) - Developer: Joao Pedro Franco Carneiro Resque - ResqueJP
+23. [G2-R23 - Visualizar política de privacidade](#G2-R23) - Italo Gabriel Prudencio Maia - italoGbrmaia
+24. [G2-R24 - Visualizar os Provedores de dados](#G2-R24) - Italo Willian Dos Santos Alves - Celtavhc2012
+25. [G3-R25 - Visualizar problemas com uma viagem específica](#G3-R25) - Develop: Enzo Lucas Ramos Lemes - enzoolucas
+26. [G03-R26 – Visualizar dados de pedidos anteriores](#G3-R26) - Develop: Jhonata Batista Silva - JhonataBast
+27. [G03-R27 – Visualizar itens incorretos ou ausentes](#G3-R27) - Develop: Tatiane Yumi Coli Shibata - TaatiShibata
+28. [G03-R28-Solicitar-Ajuda-com-viagens](#G3-R28) - Developer: Helorrayne Cristine - HelorrayneC
+29. [G4-R29-Visualizar licenças do software](#G4-R29) - Developer: Armano Barros Alves Junior - armanoalves
+30. [G04-R30-Visualizar dados de localização](#G4-R30) - Developer: Izabela Caldeira Sena Ferreira - I-sena
+31. [G4-R31-Visualizar normas municipais](#G4-R31) - Developer: Bruno Ferreira da Silva - brunoF-Silva
+32. [G4-R32-Vizualizar informações jurídicas](#G4-R32) - Developer: Luccas Castro de Souza - luccasocastro
 
 <div id='G1-R01'/> 
 
@@ -746,6 +767,7 @@ FA01 – “Outras opções” de cadastro
 ![image](https://i.imgur.com/qwiN7fs.png)
 
 
+<div id='G3-R12'/> 
 
 # G3-R12-Visualizar Última Viagem
 #### Developer: Helorrayne Cristine de Alcantara Rodrigues - HelorrayneC
@@ -805,6 +827,7 @@ Solicitar ajuda com viagens.
 ![imgur](https://i.imgur.com/URrwfEI.png)
 
 
+<div id='G4-R13'/> 
 
 # G4-R13-Visualizar carteira
 #### Developer: Izabela Caldeira Sena Ferreira - I-sena
@@ -903,6 +926,7 @@ Como usuário final eu quero poder ter acesso a parte financeira do aplicativo, 
 ![Imgur](https://i.imgur.com/d6tDL5j.jpg "Diagrama caso de uso")
 
 
+<div id='G4-R14'/> 
 
 # G4-R14-Editar informações do usuário
 #### Developer: Armano Barros Alves Junior - armanoalves 
@@ -981,6 +1005,7 @@ Como usuário final eu quero poder ter acesso a parte financeira do aplicativo, 
 ![Imgur](https://i.imgur.com/PtXiz5h.png)
 
 
+<div id='G4-R15'/> 
 
 # G4-R15-Configuração da Conta
 #### Developer: Bruno Ferreira da Silva - brunoF-Silva
@@ -1211,6 +1236,8 @@ Como usuário final eu quero poder ter acesso a parte financeira do aplicativo, 
 
 ![Diagrama de caso de uso](https://imgur.com/XFUy4r7.jpeg)
 
+<div id='G4-R16'/> 
+
 # G4-R16-Histórico de viagens
 #### Developer: Luccas Castro de Souza - luccasocastro 
 #### Reviewer: Bruno Ferreira da Silva - brunoF-Silva
@@ -1308,6 +1335,8 @@ Como usuário final eu quero poder ter acesso a parte financeira do aplicativo, 
 
 ![imgur](https://imgur.com/PPIyYNo.png)
 
+<div id='G1-R17'/> 
+
 # G1-R17 - Visualizar explicação sobre a nota do usuário
 
 #### Developer: Guilherme da Silva Rosario - GuiRosario
@@ -1357,6 +1386,9 @@ Como usuário final eu quero poder ter acesso a parte financeira do aplicativo, 
 ### Diagrama
 
 ![Imgur](https://i.imgur.com/wYJOe4R.png)
+
+
+<div id='G1-R18'/> 
 
 # G1-R18 - Cadastro como motorista do Uber
 
@@ -1427,6 +1459,8 @@ Como usuário final eu quero poder ter acesso a parte financeira do aplicativo, 
 
    ![Imgur](https://i.imgur.com/imgoHUe.jpg)
 
+<div id='G1-R19'/> 
+
 # G1-R19 - Adquirir Uber Pass 
 
 #### Developer: Marcos Dyeimison Moreira da Silva - M-Dyeimison
@@ -1489,6 +1523,8 @@ Como usuário final eu quero poder ter acesso a parte financeira do aplicativo, 
 
 ### Diagrama de caso de uso:
 ![imagem](https://i.imgur.com/3Notuyh.jpg)
+
+<div id='G1-R20'/> 
 
 # G1-R20 - Alterar configurações de segurança
 
@@ -1597,6 +1633,8 @@ Como usuário final eu quero poder ter acesso a parte financeira do aplicativo, 
 ![perfildousuario2](https://user-images.githubusercontent.com/101363425/163255047-7128e22b-78e1-4dce-b39f-53c98a9e29b8.png)
 
 
+<div id='G2-R21'/> 
+
 # G2-R21 - Visualizar Direitos Autorais 
 #### Developer: Willian Dos Santos Alves - Celtavhc2012
 #### Reviwer: Italo Gabriel Maia - ItaloGbrmaia
@@ -1656,6 +1694,7 @@ Como usuário final eu quero poder ter acesso a parte financeira do aplicativo, 
 ![Imgur](https://imgur.com/EX4HgEI.png)
 
 
+<div id='G2-R22'/> 
 
 # G2-R22 - Visualizar os Termos e Condições
 
@@ -1711,6 +1750,7 @@ Como usuário final eu quero poder ter acesso a parte financeira do aplicativo, 
 ![Imgur](https://imgur.com/EX4HgEI.png)
 
 
+<div id='G2-R23'/>
 
 # G2-R23 - Visualizar política de privacidade
 
@@ -1748,6 +1788,7 @@ Como usuário final eu quero poder ter acesso a parte financeira do aplicativo, 
 ![imagem](https://i.imgur.com/PnFLBan.png)
 
 
+<div id='G2-R24'/>
 
 # G2-R24 - Visualizar os Provedores de dados 
 #### Italo Willian Dos Santos Alves - Celtavhc2012
@@ -1802,6 +1843,7 @@ Como usuário final eu quero poder ter acesso a parte financeira do aplicativo, 
 ![Imgur](https://imgur.com/EX4HgEI.png)
 
 
+<div id='G3-R25'/>
 
 # G3-R25 - Visualizar problemas com uma viagem específica
 
@@ -1859,6 +1901,7 @@ O usuário precisa relatar algum tipo de problema com a última viagem, ele esqu
 ![imgur](https://i.imgur.com/gfiGTqZ.png)
 
 
+<div id='G3-R26'/>
 
 # G03-R26 – Visualizar dados de pedidos anteriores
 
@@ -1939,6 +1982,7 @@ Analisando o último pedido realizado, pude ver que o cliete saiu satisfeito com
 ![image](https://i.imgur.com/aNfCNab.png)
 
 
+<div id='G3-R27'/>
 
 # G03-R27 – Visualizar itens incorretos ou ausentes
 
@@ -2011,6 +2055,7 @@ Foi verificado que o usuário precisou solicitar ajudar ao suporte da Uber, pois
 
 
 
+<div id='G3-R28'/>
 
 # G03-R28-Solicitar-Ajuda-com-viagens
 
@@ -2069,6 +2114,7 @@ Sem fluxo alternativo.
 
 
 
+<div id='G4-R29'/>
 
 # G4-R29-Visualizar licenças do software
 
@@ -2124,6 +2170,7 @@ Sem fluxo alternativo.
 ![Imgur](https://i.imgur.com/uvchNk4.png)
 
 
+<div id='G4-R30'/>
 
 # G04-R30-Visualizar dados de localização
 #### Developer: Izabela Caldeira Sena Ferreira - I-sena
@@ -2177,6 +2224,7 @@ Sem fluxo alternativo.
 ![Imgur](https://i.imgur.com/z3G88oJ.png "Diagrama caso de uso")
 
 
+<div id='G4-R31'/>
 
 # G4-R31-Visualizar normas municipais
 
@@ -2366,6 +2414,7 @@ Sem fluxo alternativo.
 ![Diagrama de caso de uso](https://imgur.com/jBLosdQ.jpeg)
 
 
+<div id='G4-R32'/>
 
 # G4-R32-Vizualizar informações jurídicas
 
