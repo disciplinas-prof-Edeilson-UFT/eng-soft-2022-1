@@ -12,7 +12,7 @@
 1. [G1-R01- Solicitar Viagem](#G1-R01) - Developer: Yuri de Souza Nascimento - n0xcimento <br>
 2. [G1-R02- Solicitar Entrega](#G1-R02) - Developer: Maria Julia Silva Fonseca Guedes Nobre - maria-julia-nobre <br>
 3. [G1-R03- Visualizar Perfil do Usuário](#G1-R03)- Developer: Guilherme da Silva Rosário - [GuiRosario] <br>
-4. [G1-R04- Viagens recentes](#G1-R04) - Developer: Marcos Dyeimison Moreira da Silva - [M-Dyeimison] <br>
+4. [G1-R04- Localizar veículos perto de você](#G1-R04) - Developer: Marcos Dyeimison Moreira da Silva - [M-Dyeimison] <br>
 5. [G2-R05- Cadastro de Usuario](#G2-R05) - Developer: Italo Gabriel Prudencio Maia - italoGbrmaia <br>
 6. [G2-R06- inalizar cadastro usuário](#G2-R06) - Developer: Lucas Dias Barreto - lucasdias33 <br>
 7. [G2-R07- Recuperar Senha de Usuário](#G2-R07) - Developer: Joao Pedro Franco Carneiro Resque - Resquejp
@@ -270,7 +270,7 @@
 
 <div id='G1-R04'/> 
 
-# G1-R04-Viagens recentes
+# G1-R04-Localizar veículos perto de você
 #### Developer: Marcos Dyeimison Moreira da Silva - M-Dyeimison
 #### Reviwer: Maria Julia Silva Fonseca Guedes Nobre - maria-julia-nobre
 
