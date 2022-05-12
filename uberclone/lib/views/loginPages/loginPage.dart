@@ -1,7 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:teste1flutter/cadastro.dart';
-import 'package:teste1flutter/rpsenha.dart';
-import 'package:teste1flutter/telacm.dart';
 
  class TelaLogin extends StatefulWidget {
   const TelaLogin({ Key? key }) : super(key: key);
@@ -97,11 +94,11 @@ class _TelaLogin extends  State<TelaLogin> {
                   style: TextStyle(color: Colors.white ),),
                   onPressed:() {
                     
-                    Navigator.push(context, MaterialPageRoute(
-                      builder: (BuildContext context) => const TelaCadastro(),
-                      ),
+                    //Navigator.push(context, MaterialPageRoute(
+                      //builder: (BuildContext context) => const TelaCadastro(),
+                     // ),
                     
-                    );
+                   // );
                    
                   }
                   ),)
@@ -114,11 +111,11 @@ class _TelaLogin extends  State<TelaLogin> {
                   child:const Text("Recuperar Senha",
                   style: TextStyle(color: Colors.white ),),
                   onPressed:() {
-                   Navigator.push(context, MaterialPageRoute(
-                      builder: (BuildContext context) => const RecuperarSenha(),
-                      )
+                   //Navigator.push(context, MaterialPageRoute(
+                    //  builder: (BuildContext context) => const RecuperarSenha(),
+                      //)
                     
-                    );
+//                  );
                    
                   }
                   ),
