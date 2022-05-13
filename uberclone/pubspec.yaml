@@ -40,5 +40,14 @@ flutter:
     - family: Open Sans
       fonts:
         - asset: fonts/OpenSans-VariableFont_wdth,wght.ttf
+    - family: IndieFlower
+      fonts:
+        - asset: fonts/IndieFlower-Regular.ttf
+    - family: Rubik
+      fonts:
+        - asset: fonts/Rubik-VariableFont_wght.ttf
+    - family: DMSans
+      fonts:
+        - asset: fonts/DMSans-Medium.ttf
 
     
