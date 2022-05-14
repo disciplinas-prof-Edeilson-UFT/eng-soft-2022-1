@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:teste1flutter/cadastro.dart';
+import 'package:teste1flutter/telalogin.dart';
 
-
+class RecuperarSenha extends StatefulWidget {
   const RecuperarSenha({ Key? key }) : super(key: key);
 
-  
+  @override
   State<RecuperarSenha> createState() => _RecuperarSenhaState();
-
+}
 
 class _RecuperarSenhaState extends State<RecuperarSenha> {
   @override
