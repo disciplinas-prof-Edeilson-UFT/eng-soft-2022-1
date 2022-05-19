@@ -19,12 +19,15 @@ dependencies:
   firebase_core:
   firebase_auth:
   cupertino_icons: ^1.0.2
+  http:
+  provider: ^6.0.2
+  cloud_firestore:
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  flutter_lints: ^1.0.0
+  flutter_lints: ^2.0.1
 
 
 flutter:
@@ -39,15 +42,15 @@ flutter:
   fonts:
     - family: Open Sans
       fonts:
-        - asset: fonts/OpenSans-VariableFont_wdth,wght.ttf
+        - asset: assets/fonts/OpenSans-VariableFont_wdth,wght.ttf
     - family: IndieFlower
       fonts:
-        - asset: fonts/IndieFlower-Regular.ttf
+        - asset: assets/fonts/IndieFlower-Regular.ttf
     - family: Rubik
       fonts:
-        - asset: fonts/Rubik-VariableFont_wght.ttf
+        - asset: assets/fonts/Rubik-VariableFont_wght.ttf
     - family: DMSans
       fonts:
-        - asset: fonts/DMSans-Medium.ttf
+        - asset: assets/fonts/DMSans-Medium.ttf
 
     
