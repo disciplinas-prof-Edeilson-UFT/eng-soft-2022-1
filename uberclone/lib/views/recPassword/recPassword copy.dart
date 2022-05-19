@@ -18,7 +18,7 @@ class _RecuperarSenhaState extends State<RecuperarSenha> {
       barrierDismissible: false, // user must tap button!
       builder: (BuildContext context) {
         return AlertDialog(
-          content: Text('Email enviado com sucesso'),
+          content: const Text('Email enviado com sucesso'),
           actions: [
             TextButton(
               onPressed: () => Navigator.pop(context, 'Ok'),
