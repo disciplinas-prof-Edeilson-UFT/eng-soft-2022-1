@@ -8,18 +8,26 @@ version: 1.0.0+1
 environment:
   sdk: ">=2.16.2 <3.0.0"
 
+flutter_native_splash:
+  background_image: assets/image/splash_image.png
+  android_12:
 
 dependencies:
+  flutter_native_splash: ^2.1.6
   flutter:
     sdk: flutter
-
+  firebase_core:
+  firebase_auth:
   cupertino_icons: ^1.0.2
+  http:
+  provider: ^6.0.2
+  cloud_firestore:
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  flutter_lints: ^1.0.0
+  flutter_lints: ^2.0.1
 
 
 flutter:
@@ -32,8 +40,14 @@ flutter:
 
 
   fonts:
-    - family: Open Sans
+    - family: IndieFlower
       fonts:
-        - asset: fonts/OpenSans-VariableFont_wdth,wght.ttf
+        - asset: assets/fonts/IndieFlower-Regular.ttf
+    - family: Rubik
+      fonts:
+        - asset: assets/fonts/Rubik-VariableFont_wght.ttf
+    - family: DMSans
+      fonts:
+        - asset: assets/fonts/DMSans-Medium.ttf
 
     
