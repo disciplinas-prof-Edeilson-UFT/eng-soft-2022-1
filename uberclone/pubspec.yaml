@@ -28,6 +28,7 @@ dev_dependencies:
     sdk: flutter
 
   flutter_lints: ^2.0.1
+  font_awesome_flutter: ^10.1.0
 
 
 flutter:
