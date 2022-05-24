@@ -94,9 +94,9 @@ class _ViewCarteiraState extends State<ViewCarteira> {
                                   print('Caminho para cadastro');
                                 },
                                 child: Row(
-                                  children: [
-                                    const Icon(Icons.add),
-                                    const Text(
+                                  children: const[
+                                    Icon(Icons.add),
+                                    Text(
                                       'Adicionar saldo',
                                       style: TextStyle(
                                           fontSize: 15, color: Colors.white),
