@@ -14,3 +14,10 @@ pickup_point_location(pickupPoint) async {
       .doc()
       .set({'pickup_point_adress': pickupPoint});
 }
+
+whereToLocation(whereTo) async {
+  await FirebaseFirestore.instance
+      .collection('address')
+      .doc()
+      .set({'where_to_adress': whereTo});
+}
