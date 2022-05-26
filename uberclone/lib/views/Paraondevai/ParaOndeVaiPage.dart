@@ -44,7 +44,7 @@ class EndItemField extends StatelessWidget {
     return Container(
       padding: EdgeInsets.symmetric(horizontal: 5),
       width: size.width * 0.9,
-      height: size.height * 0.04,
+      height: size.height * 0.05,
       color: Color.fromARGB(255, 240, 239, 239),
       child: TextFormField(
         decoration: InputDecoration(
