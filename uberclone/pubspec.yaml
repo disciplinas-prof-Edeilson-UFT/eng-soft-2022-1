@@ -37,6 +37,10 @@ flutter:
 
   assets:
     - assets/image/
+    - assets/mapa.png
+    - assets/pacote.png
+    - assets/carro.png
+
 
 
   fonts:
