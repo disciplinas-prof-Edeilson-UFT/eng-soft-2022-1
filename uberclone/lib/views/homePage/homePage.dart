@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:uberclone/utilities/auth_service.dart';
+import 'package:uberclone/views/editInfo/editInfo.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -38,6 +39,17 @@ class HomePage extends StatelessWidget {
                 ),
               ),
             ),
+            OutlinedButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (BuildContext context) => EditInfoUser(),
+                  ),
+                );
+              },
+              child: Text('Editar conta'),
+            )
           ],
         ),
       ),
