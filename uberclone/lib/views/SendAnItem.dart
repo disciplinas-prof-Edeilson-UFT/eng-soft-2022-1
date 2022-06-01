@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:uberclone/utilities/validacao.dart';
-import 'package:uberclone/views/SendAnItemConfirmed/SendAnItemConfirmed.dart';
+import 'package:uberclone/utilities/defaultColors.dart';
+import 'package:uberclone/views/SendAnItemConfirmed.dart';
+
+import '../utilities/defaultColors.dart';
 
 class SendAnItemPage extends StatefulWidget {
   const SendAnItemPage({Key? key}) : super(key: key);
@@ -17,10 +20,10 @@ class _SendAnItemPageState extends State<SendAnItemPage> {
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
     return Scaffold(
-      backgroundColor: Colors.black,
+      backgroundColor: AppColors.backgroundMain,
       appBar: AppBar(
         elevation: 0,
-        backgroundColor: Colors.black,
+        backgroundColor: AppColors.backgroundMain,
         leading: IconButton(
           icon: const Icon(
             Icons.arrow_back,
@@ -39,25 +42,30 @@ class _SendAnItemPageState extends State<SendAnItemPage> {
               const Text(
                 "Para onde vai?",
                 style: TextStyle(
-                    color: Colors.white,
-                    fontSize: 30,
-                    fontWeight: FontWeight.bold),
+                  color: Colors.white,
+                  fontSize: 30,
+                  fontFamily: 'Uber Move Bold',
+                ),
               ),
               TextFormField(
                 controller: myAnddres,
                 autofocus: true,
                 keyboardType: TextInputType.text,
                 style: const TextStyle(
+                  fontFamily: 'Uber Move Medium',
                   color: Colors.white,
                   fontSize: 18,
                 ),
-                decoration: InputDecoration(
+                decoration: const InputDecoration(
                   border: OutlineInputBorder(),
-                  fillColor: Colors.white12,
+                  fillColor: AppColors.backgroundMain,
                   filled: true,
                   hintText: "Escolha a localização do remetente",
-                  hintStyle: TextStyle(color: Colors.white),
-                  labelStyle: const TextStyle(color: Colors.black),
+                  hintStyle: TextStyle(
+                    color: Colors.white,
+                    fontFamily: 'Uber Move Medium',
+                  ),
+                  labelStyle: TextStyle(color: AppColors.black),
                 ),
                 validator: (value) => Validacao.validacaoName(name: value),
               ),
@@ -69,16 +77,20 @@ class _SendAnItemPageState extends State<SendAnItemPage> {
                 autofocus: true,
                 keyboardType: TextInputType.text,
                 style: const TextStyle(
+                  fontFamily: 'Uber Move Medium',
                   color: Colors.white,
                   fontSize: 18,
                 ),
                 decoration: InputDecoration(
                   border: OutlineInputBorder(),
-                  fillColor: Colors.white12,
+                  fillColor: AppColors.backgroundMain,
                   filled: true,
                   hintText: "Escolha a localização do destinatário",
-                  hintStyle: TextStyle(color: Colors.white),
-                  labelStyle: const TextStyle(color: Colors.black),
+                  hintStyle: TextStyle(
+                    color: Colors.white,
+                    fontFamily: 'Uber Move Medium',
+                  ),
+                  labelStyle: const TextStyle(color: AppColors.black),
                 ),
                 validator: (value) => Validacao.validacaoName(name: value),
               ),
@@ -91,7 +103,7 @@ class _SendAnItemPageState extends State<SendAnItemPage> {
               Container(
                 height: size.height * 0.08,
                 width: size.width * 0.90,
-                decoration: const BoxDecoration(color: Colors.black),
+                decoration: const BoxDecoration(color: AppColors.black),
                 child: OutlinedButton(
                   style: ElevatedButton.styleFrom(
                     onPrimary: Colors.transparent,
@@ -109,9 +121,10 @@ class _SendAnItemPageState extends State<SendAnItemPage> {
                     child: Text(
                       "Confirmar Envio",
                       style: TextStyle(
-                          fontSize: 20,
-                          color: Colors.white,
-                          fontWeight: FontWeight.bold),
+                        fontFamily: 'Uber Move Bold',
+                        fontSize: 20,
+                        color: Colors.white,
+                      ),
                     ),
                   ),
                 ),

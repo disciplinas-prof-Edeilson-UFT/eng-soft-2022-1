@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:uberclone/utilities/defaultColors.dart';
+
+import '../utilities/defaultColors.dart';
 
 class SendAnItemConfirmed extends StatelessWidget {
   const SendAnItemConfirmed({Key? key}) : super(key: key);
@@ -7,15 +10,15 @@ class SendAnItemConfirmed extends StatelessWidget {
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
     return Scaffold(
-      backgroundColor: Colors.black,
+      backgroundColor: AppColors.backgroundMain,
       appBar: AppBar(
-        backgroundColor: Colors.black,
+        backgroundColor: AppColors.backgroundMain,
         elevation: 0,
         leading: OutlinedButton(
           onPressed: () {
             Navigator.of(context).pop();
           },
-          child: Icon(
+          child: const Icon(
             Icons.arrow_back,
             color: Colors.white,
             size: 30,
@@ -24,7 +27,7 @@ class SendAnItemConfirmed extends StatelessWidget {
       ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
-        children: [
+        children: const [
           Center(
             child: Image(
               image: NetworkImage(
@@ -34,10 +37,13 @@ class SendAnItemConfirmed extends StatelessWidget {
             ),
           ),
           Padding(padding: EdgeInsets.only(bottom: 8)),
-          const Text(
+          Text(
             "Envio confirmado!",
             style: TextStyle(
-                color: Colors.white, fontSize: 25, fontWeight: FontWeight.bold),
+              color: Colors.white,
+              fontSize: 25,
+              fontFamily: 'Uber Move Bold',
+            ),
           ),
         ],
       ),
