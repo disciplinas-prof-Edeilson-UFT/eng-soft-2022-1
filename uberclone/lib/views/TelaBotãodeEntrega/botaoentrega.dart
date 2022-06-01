@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
+import 'package:uberclone/utilities/defaultColors.dart';
 
 class EntregaPage extends StatelessWidget {
   const EntregaPage({Key? key}) : super(key: key);
@@ -39,7 +40,10 @@ class EntregaPage extends StatelessWidget {
                 children: [
                   Text(
                     'Envie itens e encomendas pelo Uber Flash',
-                    style: TextStyle(fontSize: 40.0, color: Colors.white),
+                    style: TextStyle(
+                        fontSize: 37.0,
+                        color: Colors.white,
+                        fontFamily: 'Uber Move Bold'),
                   ),
                   Padding(
                     padding: EdgeInsets.only(
@@ -48,7 +52,10 @@ class EntregaPage extends StatelessWidget {
                   ),
                   Text(
                     'A entrega será feita no tempo que leva para dirigir até o destino',
-                    style: TextStyle(fontSize: 18.0, color: Colors.white),
+                    style: TextStyle(
+                        fontSize: 15.0,
+                        color: Colors.white,
+                        fontFamily: 'Uber Move Medium'),
                   ),
                   Padding(
                     padding: EdgeInsets.only(
@@ -58,7 +65,7 @@ class EntregaPage extends StatelessWidget {
                   Container(
                     height: size.height * 0.06,
                     width: size.width * 0.90,
-                    decoration: const BoxDecoration(color: Colors.black),
+                    decoration: const BoxDecoration(color: AppColors.black),
                     child: OutlinedButton(
                       style: ElevatedButton.styleFrom(
                         onPrimary: Colors.transparent,
@@ -84,7 +91,8 @@ class EntregaPage extends StatelessWidget {
                   Container(
                     height: size.height * 0.06,
                     width: size.width * 0.90,
-                    decoration: const BoxDecoration(color: Colors.white12),
+                    decoration:
+                        const BoxDecoration(color: AppColors.backgroundMain),
                     child: OutlinedButton(
                       style: ElevatedButton.styleFrom(
                         onPrimary: Colors.transparent,
