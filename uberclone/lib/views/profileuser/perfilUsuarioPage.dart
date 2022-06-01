@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:uberclone/utilities/defaultColors.dart';
 
 import 'CardsProfile.dart';
 import 'ListItem.dart';
@@ -12,6 +13,7 @@ class PerfilUsuarioPage extends StatelessWidget {
     Size size = MediaQuery.of(context).size;
     return Scaffold(
       //app bar do aplicativo
+
       appBar: AppBar(
         backgroundColor: Colors.transparent,
         elevation: 0,
@@ -27,7 +29,8 @@ class PerfilUsuarioPage extends StatelessWidget {
         ),
       ),
       //safe area inicio
-      backgroundColor: Colors.white12,
+      backgroundColor: AppColors.backgroundMain,
+
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 15),

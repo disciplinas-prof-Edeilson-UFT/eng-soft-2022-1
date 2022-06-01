@@ -34,7 +34,8 @@ class ListItem extends StatelessWidget {
               style: const TextStyle(
                   fontSize: 16,
                   fontWeight: FontWeight.w600,
-                  color: Colors.white),
+                  color: Colors.white,
+                  fontFamily: "Uber Move Medium"),
             )
           ],
         ),

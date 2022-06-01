@@ -13,7 +13,10 @@ class ProfileTop extends StatelessWidget {
         const Text(
           'Usuario Final',
           style: TextStyle(
-              fontSize: 30, fontWeight: FontWeight.bold, color: Colors.white),
+              fontSize: 30,
+              fontWeight: FontWeight.bold,
+              color: Colors.white,
+              fontFamily: "Uber Move Medium"),
         ),
         const Padding(padding: EdgeInsets.only(right: 100)),
         IconButton(

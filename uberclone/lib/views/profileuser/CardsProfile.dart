@@ -33,7 +33,8 @@ class CardsProfile extends StatelessWidget {
               style: const TextStyle(
                   fontSize: 16,
                   color: Colors.white,
-                  fontWeight: FontWeight.bold),
+                  fontWeight: FontWeight.bold,
+                  fontFamily: "Uber Move Medium"),
             )
           ],
         ),
