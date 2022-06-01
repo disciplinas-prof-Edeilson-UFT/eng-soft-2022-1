@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 //import 'package:teste1flutter/btn.dart';
 //import 'package:teste1flutter/telalogin.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:uberclone/utilities/defaultColors.dart';
 
 class ViewCarteira extends StatefulWidget {
   const ViewCarteira({Key? key}) : super(key: key);
@@ -16,6 +17,7 @@ class _ViewCarteiraState extends State<ViewCarteira> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+    
         backgroundColor: Colors.black,
         appBar: AppBar(
           leading: IconButton(
@@ -35,7 +37,7 @@ class _ViewCarteiraState extends State<ViewCarteira> {
               )),
           centerTitle: false,
           elevation: 0,
-          backgroundColor: Colors.black,
+          backgroundColor:AppColors.backgroundMain,
         ),
         body: Padding(
             padding: const EdgeInsets.all(10),
@@ -67,7 +69,8 @@ class _ViewCarteiraState extends State<ViewCarteira> {
                             SizedBox(height: 1),
                             const Text(
                               'Uber Cash',
-                              style: TextStyle(
+                              style: TextStyle( 
+                                fontFamily: "Uber Move Medium",
                                 fontSize: 15,
                                 color: Colors.black,
                               ),
@@ -76,6 +79,7 @@ class _ViewCarteiraState extends State<ViewCarteira> {
                             const Text(
                               'R\$ 0,00',
                               style: TextStyle(
+                                fontFamily: "Uber Move Medium",
                                 fontSize: 35,
                                 color: Colors.black,
                               ),
@@ -89,7 +93,7 @@ class _ViewCarteiraState extends State<ViewCarteira> {
                                     shape: MaterialStateProperty.all(
                                         RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(20),
-                                ))),
+                                ),),),
                                 onPressed: () {
                                   print('Caminho para cadastro');
                                 },
@@ -99,6 +103,7 @@ class _ViewCarteiraState extends State<ViewCarteira> {
                                     Text(
                                       'Adicionar saldo',
                                       style: TextStyle(
+                                         fontFamily: "Uber Move Medium",
                                           fontSize: 15, color: Colors.white),
                                     ),
                                   ],
@@ -116,7 +121,9 @@ class _ViewCarteiraState extends State<ViewCarteira> {
                         FaIcon(FontAwesomeIcons.ccVisa, color: Colors.white),
                     title: Text(
                       '**** **** 9767 ',
-                      style: TextStyle(color: Colors.white),
+                      style: TextStyle(
+                         fontFamily: "Uber Move Medium",
+                        color: Colors.white),
                     ),
                   ),
                   const ListTile(
@@ -124,32 +131,42 @@ class _ViewCarteiraState extends State<ViewCarteira> {
                         color: Colors.white),
                     title: Text(
                       '**** **** 9487 ',
-                      style: TextStyle(color: Colors.white),
+                      style: TextStyle(
+                         fontFamily: "Uber Move Medium",
+                        color: Colors.white),
                     ),
                   ),
                   const ListTile(
                     leading: Icon(Icons.payments, color: Colors.green),
                     title: Text(
                       'Dinheiro',
-                      style: TextStyle(color: Colors.white),
+                      style: TextStyle(
+                         fontFamily: "Uber Move Medium",
+                        color: Colors.white),
                     ),
                   ),
                   const SizedBox(height: 10),
                   const Text(
                     'Adicionar forma de Pagamento',
-                    style: TextStyle(fontSize: 20, color: Colors.blue),
+                    style: TextStyle(
+                       fontFamily: "Uber Move Medium",
+                      fontSize: 20, color: Colors.blue),
                   ),
                   const SizedBox(height: 15),
                   const Text(
                     'Perfis de Viagem',
-                    style: TextStyle(fontSize: 18, color: Colors.white54),
+                    style: TextStyle(
+                       fontFamily: "Uber Move Medium",
+                      fontSize: 18, color: Colors.white54),
                   ),
                   const ListTile(
                     leading: FaIcon(FontAwesomeIcons.circleUser,
                         color: Colors.white),
                     title: Text(
                       'Personal',
-                      style: TextStyle(color: Colors.white),
+                      style: TextStyle(
+                         fontFamily: "Uber Move Medium",
+                        color: Colors.white),
                     ),
                   ),
                   ListTile(
@@ -160,44 +177,58 @@ class _ViewCarteiraState extends State<ViewCarteira> {
                       children: [
                         Text(
                           'Comece a Usar Uber para Empresas',
-                          style: TextStyle(color: Colors.blue),
+                          style: TextStyle(
+                             fontFamily: "Uber Move Medium",
+                            color: Colors.blue),
                         ),
                         Text(
                           'Ative os recursos de viagens de trabalho',
-                          style: TextStyle(fontSize: 15, color: Colors.white54),
+                          style: TextStyle(
+                             fontFamily: "Uber Move Medium",
+                            fontSize: 15, color: Colors.white54),
                         ),
                       ],
                     ),
                   ),
                   const Text(
                     'Vouchers',
-                    style: TextStyle(fontSize: 18, color: Colors.white54),
+                    style: TextStyle(
+                       fontFamily: "Uber Move Medium",
+                      fontSize: 18, color: Colors.white54),
                   ),
                   const ListTile(
                     leading:
                         FaIcon(FontAwesomeIcons.ticket, color: Colors.white),
                     title: Text(
                       'Vouchrers',
-                      style: TextStyle(color: Colors.white),
+                      style: TextStyle(
+                         fontFamily: "Uber Move Medium",
+                        color: Colors.white),
                     ),
                   ),
                   const SizedBox(height: 10),
                   const Text(
                     'Adicionar código do Voucher',
-                    style: TextStyle(fontSize: 20, color: Colors.blue),
+                    style: TextStyle(
+                       fontFamily: "Uber Move Medium",
+                      fontSize: 20, color: Colors.blue),
                   ),
                   const SizedBox(height: 10),
                   const Text(
                     'Promoções',
-                    style: TextStyle(fontSize: 18, color: Colors.white54),
+                    style: TextStyle(
+                       fontFamily: "Uber Move Medium",
+                      fontSize: 18, color: Colors.white54),
                   ),
                   const SizedBox(height: 10),
                   const Text(
                     'Adicionar código Promocional',
-                    style: TextStyle(fontSize: 20, color: Colors.blue),
+                    style: TextStyle(
+                       fontFamily: "Uber Move Medium",
+                      fontSize: 20, color: Colors.blue),
                   ),
                 ],
               ),
-            )));
+            ),),);
   }
 }
