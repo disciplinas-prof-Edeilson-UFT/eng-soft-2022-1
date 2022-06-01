@@ -36,7 +36,7 @@ flutter:
 
 
   assets:
-    - assets/image/
+    - assets/image/imagembg.png
 
 
   fonts:
@@ -59,4 +59,4 @@ flutter:
       fonts: 
         - asset: assets/fonts/UberMoveMedium.otf
 
-    
+
