@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:uberclone/utilities/defaultColors.dart';
 import 'package:uberclone/utilities/validacao.dart';
 import 'package:uberclone/views/CorfirmedPage/CorfirmedPage.dart';
 
@@ -17,10 +18,10 @@ class _WhereToReceivePageState extends State<WhereToReceivePage> {
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
     return Scaffold(
-      backgroundColor: Colors.black,
+      backgroundColor: AppColors.backgroundMain,
       appBar: AppBar(
         elevation: 0,
-        backgroundColor: Colors.black,
+        backgroundColor: AppColors.backgroundMain,
         leading: IconButton(
           icon: const Icon(
             Icons.arrow_back,
@@ -36,13 +37,12 @@ class _WhereToReceivePageState extends State<WhereToReceivePage> {
           padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
           child: ListView(
             children: [
-              const Text(
-                "Para onde vai?",
-                style: TextStyle(
+              const Text("Para onde vai?",
+                  style: TextStyle(
                     color: Colors.white,
+                    fontFamily: 'Uber Move Bold',
                     fontSize: 30,
-                    fontWeight: FontWeight.bold),
-              ),
+                  )),
               TextFormField(
                 controller: myAnddres,
                 autofocus: true,
@@ -53,11 +53,14 @@ class _WhereToReceivePageState extends State<WhereToReceivePage> {
                 ),
                 decoration: InputDecoration(
                   border: OutlineInputBorder(),
-                  fillColor: Colors.white12,
+                  fillColor: AppColors.backgroundMain,
                   filled: true,
                   hintText: "Escolha a localização do remetente",
-                  hintStyle: TextStyle(color: Colors.white),
-                  labelStyle: const TextStyle(color: Colors.black),
+                  hintStyle: TextStyle(
+                    color: Colors.white,
+                    fontFamily: 'uber move medium',
+                  ),
+                  labelStyle: const TextStyle(color: AppColors.black),
                 ),
                 validator: (value) => Validacao.validacaoName(name: value),
               ),
@@ -70,15 +73,19 @@ class _WhereToReceivePageState extends State<WhereToReceivePage> {
                 keyboardType: TextInputType.text,
                 style: const TextStyle(
                   color: Colors.white,
+                  fontFamily: 'Uber Move Medium',
                   fontSize: 18,
                 ),
                 decoration: InputDecoration(
                   border: OutlineInputBorder(),
-                  fillColor: Colors.white12,
+                  fillColor: AppColors.backgroundMain,
                   filled: true,
                   hintText: "Escolha a localização do destinatário",
-                  hintStyle: TextStyle(color: Colors.white),
-                  labelStyle: const TextStyle(color: Colors.black),
+                  hintStyle: TextStyle(
+                    color: Colors.white,
+                    fontFamily: 'Uber Move Medium',
+                  ),
+                  labelStyle: const TextStyle(color: AppColors.black),
                 ),
                 validator: (value) => Validacao.validacaoName(name: value),
               ),
@@ -91,7 +98,7 @@ class _WhereToReceivePageState extends State<WhereToReceivePage> {
               Container(
                 height: size.height * 0.08,
                 width: size.width * 0.90,
-                decoration: const BoxDecoration(color: Colors.black),
+                decoration: const BoxDecoration(color: AppColors.black),
                 child: OutlinedButton(
                   style: ElevatedButton.styleFrom(
                     onPrimary: Colors.transparent,
@@ -107,11 +114,12 @@ class _WhereToReceivePageState extends State<WhereToReceivePage> {
                   },
                   child: const Center(
                     child: Text(
-                      "Confirmar Viagem",
+                      "Confirmar Envio",
                       style: TextStyle(
-                          fontSize: 20,
-                          color: Colors.white,
-                          fontWeight: FontWeight.bold),
+                        fontSize: 20,
+                        color: Colors.white,
+                        fontFamily: 'Uber Move Bold',
+                      ),
                     ),
                   ),
                 ),

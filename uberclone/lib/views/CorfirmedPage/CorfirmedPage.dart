@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:uberclone/utilities/defaultColors.dart';
 
 class CorfirmedPage extends StatelessWidget {
   const CorfirmedPage({Key? key}) : super(key: key);
@@ -7,9 +8,9 @@ class CorfirmedPage extends StatelessWidget {
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
     return Scaffold(
-      backgroundColor: Colors.black,
+      backgroundColor: AppColors.backgroundMain,
       appBar: AppBar(
-        backgroundColor: Colors.black,
+        backgroundColor: AppColors.backgroundMain,
         elevation: 0,
         leading: OutlinedButton(
           onPressed: () {
@@ -37,7 +38,10 @@ class CorfirmedPage extends StatelessWidget {
           const Text(
             "Viagem confirmada!",
             style: TextStyle(
-                color: Colors.white, fontSize: 25, fontWeight: FontWeight.bold),
+              color: Colors.white,
+              fontFamily: 'Uber Move Bold',
+              fontSize: 25,
+            ),
           ),
         ],
       ),
