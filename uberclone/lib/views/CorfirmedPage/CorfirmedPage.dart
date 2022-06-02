@@ -10,13 +10,15 @@ class CorfirmedPage extends StatelessWidget {
     return Scaffold(
       backgroundColor: AppColors.backgroundMain,
       appBar: AppBar(
-        backgroundColor: AppColors.backgroundMain,
+        backgroundColor: Colors.transparent,
         elevation: 0,
         leading: OutlinedButton(
           onPressed: () {
             Navigator.of(context).pop();
+            Navigator.of(context).pop();
+            Navigator.of(context).pop();
           },
-          child: Icon(
+          child: const Icon(
             Icons.arrow_back,
             color: Colors.white,
             size: 30,
@@ -25,7 +27,7 @@ class CorfirmedPage extends StatelessWidget {
       ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
-        children: [
+        children: const [
           Center(
             child: Image(
               image: NetworkImage(
@@ -35,7 +37,7 @@ class CorfirmedPage extends StatelessWidget {
             ),
           ),
           Padding(padding: EdgeInsets.only(bottom: 8)),
-          const Text(
+          Text(
             "Viagem confirmada!",
             style: TextStyle(
               color: Colors.white,

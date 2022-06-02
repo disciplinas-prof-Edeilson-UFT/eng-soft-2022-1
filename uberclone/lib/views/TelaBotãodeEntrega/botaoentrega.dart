@@ -1,14 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/foundation/key.dart';
-import 'package:flutter/src/widgets/framework.dart';
 import 'package:uberclone/utilities/defaultColors.dart';
+import 'package:uberclone/views/SendAnItem.dart';
+import 'package:uberclone/views/WhereToReceivePage/WhereToReceivePage.dart';
 
 class EntregaPage extends StatelessWidget {
   const EntregaPage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    Size size = MediaQuery.of(context).size;
     return Scaffold(
       appBar: AppBar(
         elevation: 0,
@@ -25,55 +24,58 @@ class EntregaPage extends StatelessWidget {
       ),
       backgroundColor: Colors.white12,
       body: SafeArea(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.start,
+        child: ListView(
           children: [
-            Container(
-              // padding: EdgeInsets.symmetric(vertical: 5.0, horizontal: 40.0),
-              child: Image.asset(
-                "assets/image/imagembg.png",
-              ),
+            // padding: EdgeInsets.symmetric(vertical: 5.0, horizontal: 40.0),
+            Image.asset(
+              "assets/image/imagembg.png",
             ),
+
             Padding(
-              padding: EdgeInsets.all(15.0),
+              padding: const EdgeInsets.all(15.0),
               child: Column(
                 children: [
-                  Text(
+                  const Text(
                     'Envie itens e encomendas pelo Uber Flash',
                     style: TextStyle(
                         fontSize: 37.0,
                         color: Colors.white,
                         fontFamily: 'Uber Move Bold'),
                   ),
-                  Padding(
+                  const Padding(
                     padding: EdgeInsets.only(
-                      bottom: 5.0,
+                      bottom: 10,
                     ),
                   ),
-                  Text(
+                  const Text(
                     'A entrega será feita no tempo que leva para dirigir até o destino',
                     style: TextStyle(
                         fontSize: 15.0,
                         color: Colors.white,
                         fontFamily: 'Uber Move Medium'),
                   ),
-                  Padding(
+                  const Padding(
                     padding: EdgeInsets.only(
-                      bottom: 15,
+                      bottom: 50,
                     ),
                   ),
                   Container(
-                    height: size.height * 0.06,
-                    width: size.width * 0.90,
                     decoration: const BoxDecoration(color: AppColors.black),
                     child: OutlinedButton(
                       style: ElevatedButton.styleFrom(
                         onPrimary: Colors.transparent,
                       ),
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (BuildContext context) => SendAnItemPage(),
+                          ),
+                        );
+                      },
                       child: const Center(
                         child: Text(
-                          "Confirmar Envio",
+                          "Envie um item",
                           style: TextStyle(
                             fontFamily: 'Uber Move Bold',
                             fontSize: 20,
@@ -83,24 +85,30 @@ class EntregaPage extends StatelessWidget {
                       ),
                     ),
                   ),
-                  Padding(
+                  const Padding(
                     padding: EdgeInsets.only(
-                      bottom: 8,
+                      bottom: 10,
                     ),
                   ),
                   Container(
-                    height: size.height * 0.06,
-                    width: size.width * 0.90,
                     decoration:
                         const BoxDecoration(color: AppColors.backgroundMain),
                     child: OutlinedButton(
                       style: ElevatedButton.styleFrom(
                         onPrimary: Colors.transparent,
                       ),
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (BuildContext context) =>
+                                WhereToReceivePage(),
+                          ),
+                        );
+                      },
                       child: const Center(
                         child: Text(
-                          "Receba um Item",
+                          "Receba um item",
                           style: TextStyle(
                             fontFamily: 'Uber Move Bold',
                             fontSize: 20,

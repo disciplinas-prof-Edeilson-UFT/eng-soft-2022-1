@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_rating_bar/flutter_rating_bar.dart';
-import 'package:teste1flutter/btn.dart';
-import 'package:teste1flutter/telalogin.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+
+import 'loginPages/loginPage.dart';
 
 class ViewUltimaViagem extends StatefulWidget {
   const ViewUltimaViagem({Key? key}) : super(key: key);
@@ -19,14 +18,13 @@ class _ViewUltimaViagemState extends State<ViewUltimaViagem> {
         backgroundColor: Colors.black,
         appBar: AppBar(
           leading: IconButton(
-            icon: const Icon(Icons.arrow_back),
+            icon: const Icon(
+              Icons.arrow_back,
+              color: Colors.white,
+              size: 30,
+            ),
             onPressed: () => {
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (BuildContext context) => const TelaLogin(),
-                ),
-              )
+              Navigator.of(context).pop(),
             },
           ),
           title: const Text('Detalhes da viagem',
@@ -128,7 +126,7 @@ class _ViewUltimaViagemState extends State<ViewUltimaViagem> {
                           bottom: 2, top: 0, left: 20, right: 2),
                       height: 100,
                       width: 350,
-                      decoration: BoxDecoration(
+                      decoration: const BoxDecoration(
                         gradient: LinearGradient(
                           begin: Alignment.topCenter,
                           end: Alignment.bottomRight,
@@ -138,9 +136,9 @@ class _ViewUltimaViagemState extends State<ViewUltimaViagem> {
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         crossAxisAlignment: CrossAxisAlignment.center,
-                        children: [
+                        children: const [
                           SizedBox(height: 10),
-                          const ListTile(
+                          ListTile(
                             leading: FaIcon(FontAwesomeIcons.key,
                                 color: Color.fromARGB(255, 5, 1, 1)),
                             title: Text(
@@ -163,7 +161,7 @@ class _ViewUltimaViagemState extends State<ViewUltimaViagem> {
                           bottom: 2, top: 0, left: 20, right: 2),
                       height: 100,
                       width: 350,
-                      decoration: BoxDecoration(
+                      decoration: const BoxDecoration(
                         gradient: LinearGradient(
                           begin: Alignment.topCenter,
                           end: Alignment.bottomRight,
@@ -173,9 +171,9 @@ class _ViewUltimaViagemState extends State<ViewUltimaViagem> {
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         crossAxisAlignment: CrossAxisAlignment.center,
-                        children: [
+                        children: const [
                           SizedBox(height: 10),
-                          const ListTile(
+                          ListTile(
                             leading: FaIcon(FontAwesomeIcons.shield,
                                 color: Color.fromARGB(255, 5, 1, 1)),
                             title: Text(
@@ -198,7 +196,7 @@ class _ViewUltimaViagemState extends State<ViewUltimaViagem> {
                           bottom: 2, top: 0, left: 20, right: 2),
                       height: 100,
                       width: 350,
-                      decoration: BoxDecoration(
+                      decoration: const BoxDecoration(
                         gradient: LinearGradient(
                           begin: Alignment.topCenter,
                           end: Alignment.bottomRight,
@@ -208,9 +206,9 @@ class _ViewUltimaViagemState extends State<ViewUltimaViagem> {
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         crossAxisAlignment: CrossAxisAlignment.center,
-                        children: [
+                        children: const [
                           SizedBox(height: 10),
-                          const ListTile(
+                          ListTile(
                             leading: FaIcon(FontAwesomeIcons.car,
                                 color: Color.fromARGB(255, 5, 1, 1)),
                             title: Text(
@@ -233,7 +231,7 @@ class _ViewUltimaViagemState extends State<ViewUltimaViagem> {
                           bottom: 2, top: 0, left: 20, right: 2),
                       height: 100,
                       width: 350,
-                      decoration: BoxDecoration(
+                      decoration: const BoxDecoration(
                         gradient: LinearGradient(
                           begin: Alignment.topCenter,
                           end: Alignment.bottomRight,
@@ -243,9 +241,9 @@ class _ViewUltimaViagemState extends State<ViewUltimaViagem> {
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         crossAxisAlignment: CrossAxisAlignment.center,
-                        children: [
+                        children: const [
                           SizedBox(height: 10),
-                          const ListTile(
+                          ListTile(
                             leading: FaIcon(FontAwesomeIcons.map,
                                 color: Color.fromARGB(255, 5, 1, 1)),
                             title: Text(

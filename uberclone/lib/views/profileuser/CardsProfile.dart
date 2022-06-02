@@ -17,7 +17,7 @@ class CardsProfile extends StatelessWidget {
     return Container(
       width: size.width * 0.28,
       height: size.height * 0.14,
-      decoration: BoxDecoration(color: Colors.grey.withOpacity(0.5)),
+      decoration: const BoxDecoration(color: Colors.white10),
       child: TextButton(
         onPressed: () => {},
         child: Column(

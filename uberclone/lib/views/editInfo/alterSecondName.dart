@@ -1,6 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:uberclone/data/funcFireStore.dart';
+import 'package:uberclone/utilities/validacao.dart';
 
 class SecondPage extends StatefulWidget {
   const SecondPage({Key? key}) : super(key: key);
@@ -34,6 +35,7 @@ class _SecondPageState extends State<SecondPage> {
                     color: Colors.white,
                   ),
                 ),
+                validator: (value) => Validacao.validacaoName(name: value),
               ),
             ),
             Center(
@@ -47,6 +49,7 @@ class _SecondPageState extends State<SecondPage> {
                   onPressed: () {
                     alterSecondName(secondName.text,
                         FirebaseAuth.instance.currentUser!.uid);
+                    Navigator.of(context).pop();
                     Navigator.of(context).pop();
                   },
                   child: const Text(

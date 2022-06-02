@@ -3,11 +3,9 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:uberclone/widgets/buttons_class.dart';
 
-import 'alterEmail.dart';
 import 'alterFirstName.dart';
 import 'alterNumber.dart';
 import 'alterSecondName.dart';
-import 'alterPassword.dart';
 
 class EditInfoUser extends StatefulWidget {
   const EditInfoUser({Key? key}) : super(key: key);
@@ -90,16 +88,6 @@ class _EditInfoUserState extends State<EditInfoUser> {
                                 buttonText: "Número de telefone",
                                 buttonText2: info["number"],
                                 tela: ThirdPage(),
-                              ),
-                              ButtonEdit(
-                                buttonText: "E-mail",
-                                buttonText2: info["email"],
-                                tela: FourthPage(),
-                              ),
-                              ButtonEdit(
-                                buttonText: "Senha",
-                                buttonText2: "......",
-                                tela: FifthPage(),
                               ),
                             ],
                           ),

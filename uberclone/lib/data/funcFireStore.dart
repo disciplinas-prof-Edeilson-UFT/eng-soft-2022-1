@@ -42,16 +42,9 @@ alterEmail(email, id) async {
 }
 
 // ignore: non_constant_identifier_names
-pickup_point_location(pickupPoint) async {
+pickup_point_location(String pickupPoint, String whereTo) async {
   await FirebaseFirestore.instance
       .collection('address')
       .doc()
-      .set({'pickup_point_adress': pickupPoint});
-}
-
-whereToLocation(whereTo) async {
-  await FirebaseFirestore.instance
-      .collection('address')
-      .doc()
-      .set({'where_to_adress': whereTo});
+      .set({'pickup_point_adress': pickupPoint, 'where_to_adress': whereTo});
 }
