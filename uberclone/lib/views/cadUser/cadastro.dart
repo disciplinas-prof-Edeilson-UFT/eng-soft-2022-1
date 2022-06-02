@@ -1,4 +1,4 @@
-// ignore: file_names
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:uberclone/data/funcFireStore.dart';
@@ -15,7 +15,9 @@ class TelaCadastro extends StatefulWidget {
 class _TelaCadastro extends State<TelaCadastro> {
   bool isLoading = false;
 
-  final TextEditingController name = TextEditingController();
+  final TextEditingController firstName = TextEditingController();
+  final TextEditingController secondName = TextEditingController();
+  final TextEditingController number = TextEditingController();
   final formkey = GlobalKey<FormState>();
   final TextEditingController email = TextEditingController();
   final TextEditingController password = TextEditingController();
@@ -24,6 +26,8 @@ class _TelaCadastro extends State<TelaCadastro> {
     try {
       setState(() => isLoading = true);
       await context.read<AuthService>().cadastrar(email.text, password.text);
+      create(firstName.text, secondName.text, number.text, email.text,
+          FirebaseAuth.instance.currentUser!.uid);
     } on AuthException catch (e) {
       setState(() => isLoading = false);
       ScaffoldMessenger.of(context)
@@ -66,7 +70,7 @@ class _TelaCadastro extends State<TelaCadastro> {
                         width: 200,
                       ),
                       TextFormField(
-                        controller: name,
+                        controller: firstName,
                         autofocus: true,
                         keyboardType: TextInputType.text,
                         style: const TextStyle(
@@ -84,6 +88,52 @@ class _TelaCadastro extends State<TelaCadastro> {
                         ),
                         validator: (value) =>
                             Validacao.validacaoName(name: value),
+                      ),
+                      const Padding(
+                        padding: EdgeInsets.only(bottom: 15),
+                      ),
+                      TextFormField(
+                        controller: secondName,
+                        autofocus: true,
+                        keyboardType: TextInputType.text,
+                        style: const TextStyle(
+                          color: Colors.black,
+                          fontSize: 20,
+                        ),
+                        decoration: InputDecoration(
+                          border: OutlineInputBorder(
+                            borderRadius: BorderRadius.circular(10),
+                          ),
+                          fillColor: Colors.white,
+                          filled: true,
+                          hintText: "Sobrenome",
+                          labelStyle: const TextStyle(color: Colors.black),
+                        ),
+                        validator: (value) =>
+                            Validacao.validacaoName(name: value),
+                      ),
+                      const Padding(
+                        padding: EdgeInsets.only(bottom: 15),
+                      ),
+                      TextFormField(
+                        controller: number,
+                        autofocus: true,
+                        keyboardType: TextInputType.text,
+                        style: const TextStyle(
+                          color: Colors.black,
+                          fontSize: 20,
+                        ),
+                        decoration: InputDecoration(
+                          border: OutlineInputBorder(
+                            borderRadius: BorderRadius.circular(10),
+                          ),
+                          fillColor: Colors.white,
+                          filled: true,
+                          hintText: "Número de telefone",
+                          labelStyle: const TextStyle(color: Colors.black),
+                        ),
+                        validator: (value) =>
+                            Validacao.validatePhone(phone: value),
                       ),
                       const Padding(
                         padding: EdgeInsets.only(bottom: 15),
@@ -142,9 +192,8 @@ class _TelaCadastro extends State<TelaCadastro> {
                             style: ElevatedButton.styleFrom(
                               primary: Colors.blue[900],
                             ),
-                            onPressed: () {
+                            onPressed: () async {
                               cadastrar();
-                              create(name.text, email.text);
                             },
                             child: const Text(
                               'Cadastrar',

@@ -31,15 +31,15 @@ class _TelaInicialState extends State<TelaInicial> {
                         fontSize: 40.0,
                         fontWeight: FontWeight.w400,
                         color: Colors.white,
-                        fontFamily: 'DMSans',
+                        fontFamily: 'Uber Move Medium',
                       ),
                     ),
                   ),
                   Container(
                     padding: const EdgeInsets.symmetric(
                         vertical: 5.0, horizontal: 40.0),
-                    child: Image.network(
-                      'https://user-images.githubusercontent.com/101363425/167319855-36a15f67-28a5-4bff-b3c4-ef26d81430e3.png',
+                    child: Image.asset(
+                      'assets/image/uber1.png',
                       alignment: Alignment.topCenter,
                       height: 190.0,
                     ),
@@ -54,7 +54,7 @@ class _TelaInicialState extends State<TelaInicial> {
                         fontSize: 35.0,
                         fontWeight: FontWeight.w500,
                         color: Colors.white,
-                        fontFamily: 'DMSans',
+                        fontFamily: 'Uber Move Medium',
                       ),
                     ),
                   ),
@@ -80,7 +80,7 @@ class _TelaInicialState extends State<TelaInicial> {
                               fontSize: 19.0,
                               fontWeight: FontWeight.w300,
                               color: Colors.white,
-                              fontFamily: 'DMSans',
+                              fontFamily: 'Uber Move Medium',
                             ),
                           ),
                           Icon(

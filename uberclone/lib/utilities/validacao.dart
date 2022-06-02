@@ -38,4 +38,19 @@ class Validacao {
 
     return null;
   }
+
+  static String? validatePhone({required String? phone}) {
+    if (phone == null) {
+      return null;
+    }
+
+    RegExp phoneRegExp =
+        RegExp(r"^\\([0-9]{2}\\)((3[0-9]{3}-[0-9]{4})|(9[0-9]{3}-[0-9]{5}))$");
+    if (phone.isEmpty) {
+      return 'O campo número de telefone não pode ser vazio';
+    } else if (!phoneRegExp.hasMatch(phone)) {
+      return 'Insira um email válido';
+    }
+    return null;
+  }
 }
