@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:uberclone/views/color.dart';
 
 class VierwInfoLegais extends StatefulWidget {
   const VierwInfoLegais({Key? key}) : super(key: key);
@@ -11,7 +12,7 @@ class _VierwInfoLegaisState extends State<VierwInfoLegais> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.black,
+      backgroundColor: AppColors.backgroundMain,
       appBar: AppBar(
         title: Text('Informações Legais'),
         backgroundColor: Colors.black,
@@ -25,42 +26,49 @@ class _VierwInfoLegaisState extends State<VierwInfoLegais> {
            children: const [
              ListTile(
 
-               title: Text('Direitos Autorais', style: TextStyle(color: Colors.white),
-                ),
+               title: Text('Direitos Autorais', style: TextStyle (fontFamily: 'Uber Move Medium', color: Colors.white,
+                 ),
+               ),
+               ),
+             ListTile(
+
+               title: Text('Termos e Condições', style: TextStyle (fontFamily: 'Uber Move Medium', color: Colors.white,
+             ),
+             ),
              ),
              ListTile(
 
-               title: Text('Termos e Condições', style: TextStyle(color: Colors.white),
+               title: Text('Política de Privacidade', style: TextStyle(fontFamily: 'Uber Move Medium', color: Colors.white,
+               ),
                ),
              ),
              ListTile(
 
-               title: Text('Política de Privacidade', style: TextStyle(color: Colors.white),
+               title: Text('Provedores de Dados', style: TextStyle(fontFamily: 'Uber Move Medium', color: Colors.white,
+               ),
                ),
              ),
              ListTile(
 
-               title: Text('Provedores de Dados', style: TextStyle(color: Colors.white),
+               title: Text('Licenças de Software', style: TextStyle(fontFamily: 'Uber Move Medium', color: Colors.white,
+               ),
                ),
              ),
              ListTile(
 
-               title: Text('Licenças de Software', style: TextStyle(color: Colors.white),
+               title: Text('Dados de Localização', style: TextStyle(fontFamily: 'Uber Move Medium', color: Colors.white,
+               ),
                ),
              ),
              ListTile(
 
-               title: Text('Dados de Localização', style: TextStyle(color: Colors.white),
+               title: Text('Normas Municipais', style: TextStyle(fontFamily: 'Uber Move Medium', color: Colors.white,
                ),
              ),
-             ListTile(
-
-               title: Text('Normas Municipais', style: TextStyle(color: Colors.white),
-               ),
              ),
-           ],
+           ]
           ),
-    )
+      ),
     );
 
   }
