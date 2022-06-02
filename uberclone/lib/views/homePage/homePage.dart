@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:uberclone/utilities/auth_service.dart';
+import 'package:uberclone/views/homePage/visualizarHome.dart';
 import 'package:uberclone/views/WhereToReceivePage/WhereToReceivePage.dart';
 
 import '../TelaBotãodeEntrega/botaoentrega.dart';
@@ -19,6 +20,18 @@ class HomePage extends StatelessWidget {
             const Text(
               'Home Page Uber',
               style: TextStyle(fontSize: 50.0),
+            ),
+            TextButton(onPressed: () {
+              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (BuildContext context) =>
+                                      Home(),
+                                ),
+                              );
+            }, child: Text(
+              'IR PARA HOME'
+            ),
             ),
             Padding(
               padding: const EdgeInsets.symmetric(vertical: 24, horizontal: 20),
