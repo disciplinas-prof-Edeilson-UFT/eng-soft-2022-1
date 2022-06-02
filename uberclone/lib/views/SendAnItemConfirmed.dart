@@ -12,10 +12,12 @@ class SendAnItemConfirmed extends StatelessWidget {
     return Scaffold(
       backgroundColor: AppColors.backgroundMain,
       appBar: AppBar(
-        backgroundColor: AppColors.backgroundMain,
+        backgroundColor: Colors.transparent,
         elevation: 0,
         leading: OutlinedButton(
           onPressed: () {
+            Navigator.of(context).pop();
+            Navigator.of(context).pop();
             Navigator.of(context).pop();
           },
           child: const Icon(

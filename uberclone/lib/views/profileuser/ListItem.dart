@@ -17,29 +17,30 @@ class ListItem extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 6),
       child: Container(
-          child: TextButton(
-        onPressed: () => {},
-        child: Row(
-          children: [
-            Icon(
-              icon,
-              size: 25,
-              color: Colors.white,
-            ),
-            SizedBox(
-              width: size.width * 0.03,
-            ),
-            Text(
-              title,
-              style: const TextStyle(
-                  fontSize: 16,
-                  fontWeight: FontWeight.w600,
-                  color: Colors.white,
-                  fontFamily: "Uber Move Medium"),
-            )
-          ],
+        child: TextButton(
+          onPressed: () => {},
+          child: Row(
+            children: [
+              Icon(
+                icon,
+                size: 25,
+                color: Colors.white,
+              ),
+              SizedBox(
+                width: size.width * 0.03,
+              ),
+              Text(
+                title,
+                style: const TextStyle(
+                    fontSize: 16,
+                    fontWeight: FontWeight.w600,
+                    color: Colors.white,
+                    fontFamily: "Uber Move Medium"),
+              )
+            ],
+          ),
         ),
-      )),
+      ),
     );
   }
 }

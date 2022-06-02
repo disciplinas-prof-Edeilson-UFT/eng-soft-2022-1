@@ -35,8 +35,14 @@ class Help extends StatelessWidget {
         backgroundColor: Colors.transparent,
         appBar: AppBar(
           leading: IconButton(
-            icon: const Icon(Icons.arrow_back_outlined),
-            onPressed: () {},
+            icon: const Icon(
+              Icons.arrow_back,
+              color: Colors.white,
+              size: 30,
+            ),
+            onPressed: () => {
+              Navigator.of(context).pop(),
+            },
           ),
           backgroundColor: AppColors.backgroundMain,
           title: const Text(

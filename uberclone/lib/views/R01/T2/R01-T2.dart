@@ -1,59 +1,146 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:uberclone/data/funcFireStore.dart';
+import 'package:uberclone/utilities/validacao.dart';
+import 'package:uberclone/utilities/defaultColors.dart';
+import 'package:uberclone/views/SendAnItemConfirmed.dart';
 
-class r01_t2 extends StatelessWidget {
-  final TextEditingController pickuppoint = TextEditingController();
-  r01_t2({Key? key}) : super(key: key);
+class ViagemButton extends StatefulWidget {
+  const ViagemButton({Key? key}) : super(key: key);
+
+  @override
+  State<ViagemButton> createState() => _ViagemButtonState();
+}
+
+class _ViagemButtonState extends State<ViagemButton> {
+  TextEditingController myAnddres = TextEditingController();
+  TextEditingController location = TextEditingController();
+  String id = FirebaseAuth.instance.currentUser!.uid;
 
   @override
   Widget build(BuildContext context) {
-    final TextEditingController _whereToPoint = TextEditingController();
     return Scaffold(
+      backgroundColor: AppColors.backgroundMain,
       appBar: AppBar(
-        backgroundColor: Colors.black12,
-        title:
-            const Text("Pickup point", style: TextStyle(color: Colors.white)),
+        elevation: 0,
+        backgroundColor: Colors.transparent,
+        leading: IconButton(
+          icon: const Icon(
+            Icons.arrow_back,
+            color: Colors.white,
+          ),
+          onPressed: () => {
+            Navigator.of(context).pop(),
+          },
+        ),
       ),
-      backgroundColor: Colors.black,
-      body: Center(
-        child: Column(children: [
-          TextFormField(
-            controller: pickuppoint,
-            keyboardType: TextInputType.text,
-            decoration: InputDecoration(
-              hintText: "Input",
-              filled: true,
-              fillColor: const Color.fromARGB(255, 207, 205, 205),
-              border: OutlineInputBorder(
-                borderRadius: BorderRadius.circular(10),
-              ),
+      body: SafeArea(
+        child: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 10),
+          child: Expanded(
+            child: ListView(
+              children: [
+                const Text(
+                  "Para onde vai?",
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 30,
+                    fontFamily: 'Uber Move Bold',
+                  ),
+                ),
+                const Padding(
+                  padding: EdgeInsets.only(
+                    bottom: 20,
+                  ),
+                ),
+                Flexible(
+                  child: TextFormField(
+                    controller: myAnddres,
+                    autofocus: true,
+                    keyboardType: TextInputType.text,
+                    style: const TextStyle(
+                      fontFamily: 'Uber Move Medium',
+                      color: Colors.white,
+                      fontSize: 18,
+                    ),
+                    decoration: const InputDecoration(
+                      border: OutlineInputBorder(),
+                      fillColor: AppColors.backgroundMain,
+                      filled: true,
+                      hintText: "Escolha sua localização de partida",
+                      hintStyle: TextStyle(
+                        color: Colors.white,
+                        fontFamily: 'Uber Move Medium',
+                      ),
+                      labelStyle: TextStyle(color: AppColors.black),
+                    ),
+                    validator: (value) => Validacao.validacaoName(name: value),
+                  ),
+                ),
+                const Padding(
+                  padding: EdgeInsets.only(bottom: 15),
+                ),
+                Flexible(
+                  child: TextFormField(
+                    controller: location,
+                    autofocus: true,
+                    keyboardType: TextInputType.text,
+                    style: const TextStyle(
+                      fontFamily: 'Uber Move Medium',
+                      color: Colors.white,
+                      fontSize: 18,
+                    ),
+                    decoration: const InputDecoration(
+                      border: OutlineInputBorder(),
+                      fillColor: AppColors.backgroundMain,
+                      filled: true,
+                      hintText: "Escolha sua localização de chegada",
+                      hintStyle: TextStyle(
+                        color: Colors.white,
+                        fontFamily: 'Uber Move Medium',
+                      ),
+                      labelStyle: TextStyle(color: AppColors.black),
+                    ),
+                    validator: (value) => Validacao.validacaoName(name: value),
+                  ),
+                ),
+                const Padding(
+                  padding: EdgeInsets.only(bottom: 370),
+                ),
+                Flexible(
+                  child: Container(
+                    decoration: const BoxDecoration(color: AppColors.black),
+                    child: OutlinedButton(
+                      style: ElevatedButton.styleFrom(
+                        onPrimary: Colors.transparent,
+                      ),
+                      onPressed: () {
+                        pickup_point_location(myAnddres.text, location.text);
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (BuildContext context) =>
+                                const SendAnItemConfirmed(),
+                          ),
+                        );
+                      },
+                      child: const Center(
+                        child: Text(
+                          "Confirmar Envio",
+                          style: TextStyle(
+                            fontFamily: 'Uber Move Bold',
+                            fontSize: 20,
+                            color: Colors.white,
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+              ],
             ),
-            onEditingComplete: () => pickup_point_location(pickuppoint.text),
-            validator: (value) {
-              if (value == null) return "Enter pickup point";
-              return null;
-            },
           ),
-          Container(
-            color: const Color.fromARGB(255, 20, 20, 20),
-            child: TextFormField(
-              controller: _whereToPoint,
-              style: const TextStyle(color: Colors.white),
-              cursorColor: Colors.white,
-              decoration: const InputDecoration(
-                border: InputBorder.none,
-                prefixText: '   ',
-                hintText: 'Para onde?',
-                hintStyle: TextStyle(color: Color.fromARGB(255, 209, 209, 209)),
-              ),
-              onEditingComplete: () => whereToLocation(_whereToPoint.text),
-              validator: (value) {
-                if (value == null) return "Enter where to point";
-                return null;
-              },
-            ),
-          ),
-        ],)
+        ),
       ),
     );
   }

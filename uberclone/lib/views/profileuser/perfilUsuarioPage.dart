@@ -1,5 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'package:uberclone/utilities/auth_service.dart';
 import 'package:uberclone/utilities/defaultColors.dart';
+import 'package:uberclone/views/SolicitarAjuda/SolicitarAjuda.dart';
+import 'package:uberclone/views/ViewCarteira.dart';
+import 'package:uberclone/views/ViewInfoLegais.dart';
+import 'package:uberclone/views/accountConfig/configs_da_conta.dart';
+import 'package:uberclone/views/visuultimaviagem.dart';
 
 import 'CardsProfile.dart';
 import 'ListItem.dart';
@@ -47,20 +54,105 @@ class PerfilUsuarioPage extends StatelessWidget {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    CardsProfile(
-                      size: size,
-                      title: "Ajuda",
-                      icon: Icons.help,
+                    Container(
+                      width: size.width * 0.28,
+                      height: size.height * 0.14,
+                      decoration: const BoxDecoration(color: Colors.white10),
+                      child: TextButton(
+                        onPressed: () => {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (BuildContext context) => Help(),
+                            ),
+                          ),
+                        },
+                        child: Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: const [
+                            Icon(
+                              Icons.help,
+                              size: 40,
+                              color: Colors.white,
+                            ),
+                            Text(
+                              'Ajuda',
+                              style: TextStyle(
+                                  fontSize: 16,
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.bold,
+                                  fontFamily: "Uber Move Medium"),
+                            )
+                          ],
+                        ),
+                      ),
                     ),
-                    CardsProfile(
-                      size: size,
-                      title: "Pagamento",
-                      icon: Icons.payment,
+                    Container(
+                      width: size.width * 0.28,
+                      height: size.height * 0.14,
+                      decoration: const BoxDecoration(color: Colors.white10),
+                      child: TextButton(
+                        onPressed: () => {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (BuildContext context) => ViewCarteira(),
+                            ),
+                          ),
+                        },
+                        child: Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: const [
+                            Icon(
+                              Icons.payments,
+                              size: 40,
+                              color: Colors.white,
+                            ),
+                            Text(
+                              'Carteira',
+                              style: TextStyle(
+                                  fontSize: 16,
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.bold,
+                                  fontFamily: "Uber Move Medium"),
+                            )
+                          ],
+                        ),
+                      ),
                     ),
-                    CardsProfile(
-                      size: size,
-                      title: "Viagens",
-                      icon: Icons.timelapse_sharp,
+                    Container(
+                      width: size.width * 0.28,
+                      height: size.height * 0.14,
+                      decoration: const BoxDecoration(color: Colors.white10),
+                      child: TextButton(
+                        onPressed: () => {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (BuildContext context) =>
+                                  ViewUltimaViagem(),
+                            ),
+                          ),
+                        },
+                        child: Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: const [
+                            Icon(
+                              Icons.timelapse_sharp,
+                              size: 40,
+                              color: Colors.white,
+                            ),
+                            Text(
+                              'Viagens',
+                              style: TextStyle(
+                                  fontSize: 16,
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.bold,
+                                  fontFamily: "Uber Move Medium"),
+                            )
+                          ],
+                        ),
+                      ),
                     ),
                   ],
                 ),
@@ -85,19 +177,135 @@ class PerfilUsuarioPage extends StatelessWidget {
                         title: "Uber Pass",
                         icon: Icons.confirmation_number,
                       ),
-                      ListItem(
-                          size: size,
-                          title: "Configurações",
-                          icon: Icons.settings),
-                      ListItem(
-                        size: size,
-                        title: "Dirija com o Uber",
-                        icon: Icons.directions_car,
+                      Padding(
+                        padding: const EdgeInsets.symmetric(vertical: 6),
+                        child: Container(
+                          child: TextButton(
+                            onPressed: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (BuildContext context) => Configs(),
+                                ),
+                              );
+                            },
+                            child: Row(
+                              children: [
+                                const Icon(
+                                  Icons.settings,
+                                  size: 25,
+                                  color: Colors.white,
+                                ),
+                                SizedBox(
+                                  width: size.width * 0.03,
+                                ),
+                                const Text(
+                                  'Configurações',
+                                  style: TextStyle(
+                                      fontSize: 16,
+                                      fontWeight: FontWeight.w600,
+                                      color: Colors.white,
+                                      fontFamily: "Uber Move Medium"),
+                                ),
+                              ],
+                            ),
+                          ),
+                        ),
                       ),
-                      ListItem(
-                        size: size,
-                        title: "Legal",
-                        icon: Icons.info,
+                      Padding(
+                        padding: const EdgeInsets.symmetric(vertical: 6),
+                        child: Container(
+                          child: TextButton(
+                            onPressed: () {},
+                            child: Row(
+                              children: [
+                                const Icon(
+                                  Icons.directions_car,
+                                  size: 25,
+                                  color: Colors.white,
+                                ),
+                                SizedBox(
+                                  width: size.width * 0.03,
+                                ),
+                                const Text(
+                                  'Dirija como uber',
+                                  style: TextStyle(
+                                      fontSize: 16,
+                                      fontWeight: FontWeight.w600,
+                                      color: Colors.white,
+                                      fontFamily: "Uber Move Medium"),
+                                ),
+                              ],
+                            ),
+                          ),
+                        ),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.symmetric(vertical: 6),
+                        child: Container(
+                          child: TextButton(
+                            onPressed: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (BuildContext context) =>
+                                      VierwInfoLegais(),
+                                ),
+                              );
+                            },
+                            child: Row(
+                              children: [
+                                const Icon(
+                                  Icons.info,
+                                  size: 25,
+                                  color: Colors.white,
+                                ),
+                                SizedBox(
+                                  width: size.width * 0.03,
+                                ),
+                                const Text(
+                                  'Legal',
+                                  style: TextStyle(
+                                      fontSize: 16,
+                                      fontWeight: FontWeight.w600,
+                                      color: Colors.white,
+                                      fontFamily: "Uber Move Medium"),
+                                ),
+                              ],
+                            ),
+                          ),
+                        ),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.symmetric(vertical: 6),
+                        child: Container(
+                          child: TextButton(
+                            onPressed: () {
+                              context.read<AuthService>().logout();
+                              Navigator.of(context).pop();
+                            },
+                            child: Row(
+                              children: [
+                                const Icon(
+                                  Icons.exit_to_app,
+                                  size: 25,
+                                  color: Colors.red,
+                                ),
+                                SizedBox(
+                                  width: size.width * 0.03,
+                                ),
+                                const Text(
+                                  'Sair do App',
+                                  style: TextStyle(
+                                      fontSize: 16,
+                                      fontWeight: FontWeight.w600,
+                                      color: Colors.white,
+                                      fontFamily: "Uber Move Medium"),
+                                ),
+                              ],
+                            ),
+                          ),
+                        ),
                       ),
                     ],
                   ),

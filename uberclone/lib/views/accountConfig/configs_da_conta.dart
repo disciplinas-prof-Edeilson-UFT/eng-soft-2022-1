@@ -3,12 +3,8 @@
 import 'package:flutter/material.dart';
 import 'package:uberclone/utilities/defaultColors.dart';
 
-void main() {
-  runApp(TelaPrincipal());
-}
-
-class TelaPrincipal extends StatelessWidget {
-  TelaPrincipal({Key? key}) : super(key: key);
+class Configs extends StatelessWidget {
+  Configs({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -24,9 +20,14 @@ class TelaPrincipal extends StatelessWidget {
               fontFamily: "Uber Move Medium",
             ),
           ),
-          leading: Icon(
-            Icons.arrow_back,
-            size: 40.0,
+          leading: IconButton(
+            icon: const Icon(
+              Icons.arrow_back,
+              color: Colors.white,
+            ),
+            onPressed: () => {
+              Navigator.of(context).pop(),
+            },
           ),
         ),
         body: Column(
@@ -38,9 +39,10 @@ class TelaPrincipal extends StatelessWidget {
                     horizontal: 20.0,
                     vertical: 20.0,
                   ),
-                  child: CircleAvatar(
-                    radius: 40.0,
-                    backgroundColor: Colors.white,
+                  child: Icon(
+                    Icons.account_circle_rounded,
+                    color: Colors.white,
+                    size: 80,
                   ),
                 ),
                 Text(

@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:uberclone/utilities/auth_service.dart';
-import 'package:uberclone/views/homePage/homePage.dart';
+
 import 'package:uberclone/views/loginPages/loginPage.dart';
+
+import '../views/homePage/visualizarHome.dart';
 
 class AuthCheck extends StatefulWidget {
   const AuthCheck({Key? key}) : super(key: key);

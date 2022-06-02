@@ -1,5 +1,7 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:uberclone/data/funcFireStore.dart';
+import 'package:uberclone/utilities/validacao.dart';
 
 class ThirdPage extends StatefulWidget {
   const ThirdPage({Key? key}) : super(key: key);
@@ -33,6 +35,7 @@ class _ThirdPageState extends State<ThirdPage> {
                     color: Colors.white,
                   ),
                 ),
+                validator: (value) => Validacao.validatePhone(phone: value),
               ),
             ),
             Center(
@@ -44,7 +47,9 @@ class _ThirdPageState extends State<ThirdPage> {
                     backgroundColor: Colors.black,
                   ),
                   onPressed: () {
-                    alterNumber(number.text, 'TNiofms0uPgkeEs737Yc');
+                    alterNumber(
+                        number.text, FirebaseAuth.instance.currentUser!.uid);
+                    Navigator.of(context).pop();
                     Navigator.of(context).pop();
                   },
                   child: const Text(

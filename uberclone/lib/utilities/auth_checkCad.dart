@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:uberclone/utilities/auth_service.dart';
 import 'package:uberclone/views/cadUser/cadastro.dart';
-import 'package:uberclone/views/homePage/homePage.dart';
+
+import '../views/homePage/visualizarHome.dart';
 
 class AuthCheckCad extends StatefulWidget {
   const AuthCheckCad({Key? key}) : super(key: key);

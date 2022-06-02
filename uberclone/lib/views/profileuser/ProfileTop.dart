@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:uberclone/views/editInfo/editInfo.dart';
 
 class ProfileTop extends StatelessWidget {
   const ProfileTop({
@@ -8,7 +9,7 @@ class ProfileTop extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Row(
-      mainAxisAlignment: MainAxisAlignment.start,
+      mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: <Widget>[
         const Text(
           'Usuario Final',
@@ -18,15 +19,20 @@ class ProfileTop extends StatelessWidget {
               color: Colors.white,
               fontFamily: "Uber Move Medium"),
         ),
-        const Padding(padding: EdgeInsets.only(right: 100)),
         IconButton(
-          alignment: Alignment.center,
           icon: const Icon(
-            Icons.account_circle_outlined,
+            Icons.account_circle_rounded,
             color: Colors.white,
-            size: 65,
+            size: 40,
           ),
-          onPressed: () => {},
+          onPressed: () => {
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (BuildContext context) => EditInfoUser(),
+              ),
+            ),
+          },
         ),
       ],
     );
