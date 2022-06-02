@@ -1,12 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:uberclone/utilities/auth_service.dart';
+
+import 'package:uberclone/views/editInfo/editInfo.dart';
+
+
 import 'package:uberclone/views/R01/T2/R01-T2.dart';
 import 'package:uberclone/views/homePage/visualizarHome.dart';
+
 import 'package:uberclone/views/WhereToReceivePage/WhereToReceivePage.dart';
 
 import '../TelaBotãodeEntrega/botaoentrega.dart';
 import '../profileuser/perfilUsuarioPage.dart';
+
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -142,6 +148,17 @@ class HomePage extends StatelessWidget {
                 ),
               ),
             ),
+            OutlinedButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (BuildContext context) => EditInfoUser(),
+                  ),
+                );
+              },
+              child: Text('Editar conta'),
+            )
           ],
         ),
       ),
