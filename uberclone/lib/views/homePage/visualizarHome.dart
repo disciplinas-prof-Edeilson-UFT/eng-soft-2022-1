@@ -89,8 +89,7 @@ class HomePage extends StatelessWidget {
                         //width: 110.0,
                         //height: 110.0,
                         padding: const EdgeInsets.fromLTRB(127, 10, 0, 10),
-                        child: Image.network(
-                            'https://user-images.githubusercontent.com/101363425/170397086-6b20d2df-5977-4abd-8674-bc2f603bb113.png'),
+                        child: Image.asset('assets/image/binoculo.png'),
                         //height: 80,
                         //width: 80,
                       ),

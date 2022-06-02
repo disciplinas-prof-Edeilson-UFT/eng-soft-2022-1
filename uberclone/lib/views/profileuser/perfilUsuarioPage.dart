@@ -164,166 +164,160 @@ class PerfilUsuarioPage extends StatelessWidget {
 
                 //Container final list
                 SizedBox(
-                  height: size.height * 0.4,
-                  width: size.width,
-                  child: ListView(
-                    children: [
-                      ListItem(
-                        size: size,
-                        title: "Mensagens",
-                        icon: Icons.mail,
-                      ),
-                      ListItem(
-                        size: size,
-                        title: "Uber Pass",
-                        icon: Icons.confirmation_number,
-                      ),
-                      Padding(
-                        padding: const EdgeInsets.symmetric(vertical: 6),
-                        child: Container(
-                          child: TextButton(
-                            onPressed: () {
-                              Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                  builder: (BuildContext context) => Configs(),
-                                ),
-                              );
-                            },
-                            child: Row(
-                              children: [
-                                const Icon(
-                                  Icons.settings,
-                                  size: 25,
-                                  color: Colors.white,
-                                ),
-                                SizedBox(
-                                  width: size.width * 0.03,
-                                ),
-                                const Text(
-                                  'Configurações',
-                                  style: TextStyle(
-                                      fontSize: 16,
-                                      fontWeight: FontWeight.w600,
-                                      color: Colors.white,
-                                      fontFamily: "Uber Move Medium"),
-                                ),
-                              ],
+                    height: size.height * 0.4,
+                    width: size.width,
+                    child: ListView(
+                      children: [
+                        ListItem(
+                          size: size,
+                          title: "Mensagens",
+                          icon: Icons.mail,
+                        ),
+                        ListItem(
+                          size: size,
+                          title: "Uber Pass",
+                          icon: Icons.confirmation_number,
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.symmetric(vertical: 6),
+                          child: Container(
+                            child: TextButton(
+                              onPressed: () {
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                    builder: (BuildContext context) =>
+                                        Configs(),
+                                  ),
+                                );
+                              },
+                              child: Row(
+                                children: [
+                                  const Icon(
+                                    Icons.settings,
+                                    size: 25,
+                                    color: Colors.white,
+                                  ),
+                                  SizedBox(
+                                    width: size.width * 0.03,
+                                  ),
+                                  const Text(
+                                    'Configurações',
+                                    style: TextStyle(
+                                        fontSize: 16,
+                                        fontWeight: FontWeight.w600,
+                                        color: Colors.white,
+                                        fontFamily: "Uber Move Medium"),
+                                  ),
+                                ],
+                              ),
                             ),
                           ),
                         ),
-                      ),
-                      Padding(
-                        padding: const EdgeInsets.symmetric(vertical: 6),
-                        child: Container(
-                          child: TextButton(
-                            onPressed: () {
-                              Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                  builder: (BuildContext context) => R18(),
-                                ),
-                              );
-                            },
-                            child: Row(
-                              children: [
-                                const Icon(
-                                  Icons.car_crash_sharp,
-                            onPressed: () {},
-                            child: Row(
-                              children: [
-                                const Icon(
-                                  Icons.directions_car,
-                                  size: 25,
-                                  color: Colors.white,
-                                ),
-                                SizedBox(
-                                  width: size.width * 0.03,
-                                ),
-                                const Text(
-                                  'Dirija ou faça entregas com o app da Uber',
+                        Padding(
+                          padding: const EdgeInsets.symmetric(vertical: 6),
+                          child: Container(
+                            child: TextButton(
+                              onPressed: () {
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                    builder: (BuildContext context) => R18(),
+                                  ),
+                                );
+                              },
+                              child: Row(
+                                children: [
+                                  const Icon(
+                                    Icons.car_crash_sharp,
+                                    color: Colors.white,
+                                  ),
+                                  SizedBox(
+                                    width: size.width * 0.03,
+                                  ),
+                                  const Text(
+                                    'Dirija ou faça entregas com o app da Uber',
+                                    style: TextStyle(
+                                        fontSize: 16,
+                                        fontWeight: FontWeight.w600,
+                                        color: Colors.white,
+                                        fontFamily: "Uber Move Medium"),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.symmetric(vertical: 6),
+                          child: Container(
+                            child: TextButton(
+                              onPressed: () {
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                    builder: (BuildContext context) =>
+                                        VierwInfoLegais(),
+                                  ),
+                                );
+                              },
+                              child: Row(
+                                children: [
+                                  const Icon(
+                                    Icons.info,
+                                    size: 25,
+                                    color: Colors.white,
+                                  ),
+                                  SizedBox(
+                                    width: size.width * 0.03,
+                                  ),
+                                  const Text(
+                                    'Legal',
+                                    style: TextStyle(
+                                        fontSize: 16,
+                                        fontWeight: FontWeight.w600,
+                                        color: Colors.white,
+                                        fontFamily: "Uber Move Medium"),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.symmetric(vertical: 6),
+                          child: Container(
+                            child: TextButton(
+                              onPressed: () {
+                                context.read<AuthService>().logout();
+                                Navigator.of(context).pop();
+                              },
+                              child: Row(
+                                children: [
+                                  const Icon(
+                                    Icons.exit_to_app,
+                                    size: 25,
+                                    color: Colors.red,
+                                  ),
+                                  SizedBox(
+                                    width: size.width * 0.03,
+                                  ),
+                                  const Text(
+                                    'Sair do App',
+                                    style: TextStyle(
+                                        fontSize: 16,
+                                        fontWeight: FontWeight.w600,
+                                        color: Colors.white,
+                                        fontFamily: "Uber Move Medium"),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ),
+                        ),
+                      ],
+                    )),
 
-                                  style: TextStyle(
-                                      fontSize: 16,
-                                      fontWeight: FontWeight.w600,
-                                      color: Colors.white,
-                                      fontFamily: "Uber Move Medium"),
-                                ),
-                              ],
-                            ),
-                          ),
-                        ),
-                      ),
-                      Padding(
-                        padding: const EdgeInsets.symmetric(vertical: 6),
-                        child: Container(
-                          child: TextButton(
-                            onPressed: () {
-                              Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                  builder: (BuildContext context) =>
-                                      VierwInfoLegais(),
-                                ),
-                              );
-                            },
-                            child: Row(
-                              children: [
-                                const Icon(
-                                  Icons.info,
-                                  size: 25,
-                                  color: Colors.white,
-                                ),
-                                SizedBox(
-                                  width: size.width * 0.03,
-                                ),
-                                const Text(
-                                  'Legal',
-                                  style: TextStyle(
-                                      fontSize: 16,
-                                      fontWeight: FontWeight.w600,
-                                      color: Colors.white,
-                                      fontFamily: "Uber Move Medium"),
-                                ),
-                              ],
-                            ),
-                          ),
-                        ),
-                      ),
-                      Padding(
-                        padding: const EdgeInsets.symmetric(vertical: 6),
-                        child: Container(
-                          child: TextButton(
-                            onPressed: () {
-                              context.read<AuthService>().logout();
-                              Navigator.of(context).pop();
-                            },
-                            child: Row(
-                              children: [
-                                const Icon(
-                                  Icons.exit_to_app,
-                                  size: 25,
-                                  color: Colors.red,
-                                ),
-                                SizedBox(
-                                  width: size.width * 0.03,
-                                ),
-                                const Text(
-                                  'Sair do App',
-                                  style: TextStyle(
-                                      fontSize: 16,
-                                      fontWeight: FontWeight.w600,
-                                      color: Colors.white,
-                                      fontFamily: "Uber Move Medium"),
-                                ),
-                              ],
-                            ),
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
                 //final container list
                 const Spacer(
                   flex: 6,
