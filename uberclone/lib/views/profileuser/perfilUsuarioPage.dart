@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:uberclone/utilities/auth_service.dart';
 import 'package:uberclone/utilities/defaultColors.dart';
+import 'package:uberclone/views/CadastroMotorista/r18_cadastro_como_motorista_do_uber.dart';
 import 'package:uberclone/views/SolicitarAjuda/SolicitarAjuda.dart';
 import 'package:uberclone/views/ViewCarteira.dart';
 import 'package:uberclone/views/ViewInfoLegais.dart';
@@ -162,7 +163,7 @@ class PerfilUsuarioPage extends StatelessWidget {
                 ),
 
                 //Container final list
-                Container(
+                SizedBox(
                   height: size.height * 0.4,
                   width: size.width,
                   child: ListView(
@@ -216,11 +217,18 @@ class PerfilUsuarioPage extends StatelessWidget {
                         padding: const EdgeInsets.symmetric(vertical: 6),
                         child: Container(
                           child: TextButton(
-                            onPressed: () {},
+                            onPressed: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (BuildContext context) => R18(),
+                                ),
+                              );
+                            },
                             child: Row(
                               children: [
                                 const Icon(
-                                  Icons.directions_car,
+                                  Icons.car_crash_sharp,
                                   size: 25,
                                   color: Colors.white,
                                 ),
@@ -228,7 +236,7 @@ class PerfilUsuarioPage extends StatelessWidget {
                                   width: size.width * 0.03,
                                 ),
                                 const Text(
-                                  'Dirija como uber',
+                                  'Dirija ou faça entregas com o app da Uber',
                                   style: TextStyle(
                                       fontSize: 16,
                                       fontWeight: FontWeight.w600,

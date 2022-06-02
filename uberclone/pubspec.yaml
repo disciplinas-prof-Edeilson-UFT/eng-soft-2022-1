@@ -44,6 +44,7 @@ flutter:
     - assets/carro.png
     - assets/image/imagembg.png
     - assets/image/uber1.png
+    - assets/image/banner01.jpeg
 
 
   fonts:

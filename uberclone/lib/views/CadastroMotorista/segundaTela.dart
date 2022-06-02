@@ -1,42 +1,40 @@
 import 'package:flutter/material.dart';
-import 'package:r18_cadastro_como_motorista_do_uber/r18_cadastro_como_motorista_do_uber.dart';
-
 
 class SegundaTela extends StatelessWidget {
+  const SegundaTela({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: Colors.grey[900],
-        body: SafeArea(
-          child: Center(
-            child: Column(
-              children: <Widget> [
-                SizedBox(height: 200.0),
-                Icon(
-                  Icons.check,
-                  color: Colors.green,
-                  size: 200.0,
-                  semanticLabel: 'Text to announce in accessibility modes',
-                ),
-                SizedBox(height: 50.0),
-                Text(
-                  'Obrigado pela informação',
-                  style: TextStyle(
+      backgroundColor: Colors.grey[900],
+      body: SafeArea(
+        child: Center(
+          child: Column(
+            children: <Widget>[
+              const SizedBox(height: 200.0),
+              const Icon(
+                Icons.check,
+                color: Colors.green,
+                size: 200.0,
+                semanticLabel: 'Text to announce in accessibility modes',
+              ),
+              const SizedBox(height: 50.0),
+              const Text(
+                'Obrigado pela informação',
+                style: TextStyle(
                   fontSize: 20.0,
                   color: Colors.white,
                 ),
               ),
-                SizedBox(height: 120.0),
+              const SizedBox(height: 120.0),
               Align(
                 alignment: Alignment.bottomCenter,
-                child: Container(
+                child: SizedBox(
                   width: 400,
-                  child: RaisedButton(
+                  child: ElevatedButton(
                     onPressed: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(builder: (context) => R18()),
-                      );
+                      Navigator.of(context).pop();
+                      Navigator.of(context).pop();
                     },
                     child: const Text(
                       'Continuar',
@@ -50,10 +48,10 @@ class SegundaTela extends StatelessWidget {
                   ),
                 ),
               ),
-              ],
-            ),
+            ],
           ),
-          ),
-        );
-      }
-    }
+        ),
+      ),
+    );
+  }
+}

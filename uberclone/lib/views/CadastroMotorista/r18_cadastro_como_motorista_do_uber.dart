@@ -1,19 +1,22 @@
 import 'package:flutter/material.dart';
-import 'package:r18_cadastro_como_motorista_do_uber/segundaTela.dart';
+import 'package:uberclone/utilities/defaultColors.dart';
+import 'package:uberclone/views/CadastroMotorista/segundaTela.dart';
 
-//Ctrl+Alt+L
-void main() => runApp(MaterialApp(
-      home: R18(),
-    ));
+class R18 extends StatefulWidget {
+  const R18({Key? key}) : super(key: key);
 
-class R18 extends StatelessWidget {
+  @override
+  State<R18> createState() => _R18State();
+}
+
+class _R18State extends State<R18> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey[900],
+      backgroundColor: AppColors.backgroundMain,
       appBar: AppBar(
-        backgroundColor: Colors.black,
-        title: Text(
+        backgroundColor: Colors.transparent,
+        title: const Text(
           'Uber',
           style: TextStyle(
             color: Colors.white,
@@ -22,77 +25,74 @@ class R18 extends StatelessWidget {
           ),
         ),
       ),
-      body: SingleChildScrollView(
+      body: SafeArea(
         child: Padding(
-          padding: EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 0.0),
-          child: Column(
-            children: <Widget>[
-              Text(
+          padding: const EdgeInsets.all(15),
+          child: ListView(
+            children: [
+              const Text(
                 'Inscreva-se para dirigir',
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 30.0,
                   fontWeight: FontWeight.bold,
+                  fontFamily: 'Uber Move Bold',
                 ),
               ),
-
-              SizedBox(height: 25.0),
-
-              Text(
+              const SizedBox(height: 25.0),
+              const Text(
                 "•Conheça mais pessoas em sua cidade\n•Ganhe dinheiro extra dirigindo quando quiser\n•Ganhe dinheiro rápido",
                 style: TextStyle(
-                  fontSize: 18.0,
-                  color: Colors.white,
-                ),
+                    fontSize: 18.0,
+                    color: Colors.white,
+                    fontFamily: 'Uber Move Medium'),
               ),
-              SizedBox(height: 30.0),
-              Text(
+              const SizedBox(height: 30.0),
+              const Text(
                 'Escolha uma cidade',
                 style: TextStyle(
+                  fontFamily: 'Uber Move Medium',
                   fontSize: 15.0,
                   color: Colors.white,
                 ),
               ),
-              TextField(
+              const TextField(
                 //controller: _textController,
                 decoration: InputDecoration(
                   filled: true,
                   fillColor: Colors.grey,
-                  border: const OutlineInputBorder(),
+                  border: OutlineInputBorder(),
                 ),
               ),
-              SizedBox(height: 25.0),
-              Image(
-                image: AssetImage('assets/banner01.png'),
+              const SizedBox(height: 25.0),
+              Image.asset(
+                'assets/image/banner01.jpeg',
               ),
-
-              SizedBox(height: 10.0),
-
-              Text(
-                'Ao continuar, eu concordo que a Uber e seus representantes podem entrar em contato comigo por e mail, telefone ou SMS (inclusive por sistema de discagem telefônica automática) no endereço de e-mail ou número que eu forneci, inclusive para finalidades de marketing.\n\nPara participar de uma promoção, você deve ver a oferta e se cadastrar para dirigir com a Uber nesta página até 1º de maio de 2023. A promoção se aplica apenas aos ganhos totais de suas primeiras viagens com a Uber. Esse valor não inclui extras, outras promoções ou taxas pagas à Uber. Para participar, você deve se cadastrar na cidade estipulada e concluir o número mínimo de viagens até 90 dias depois do cadastro. A Uber cobrirá a diferença entre o valor mínimo promocional e seus ganhos totais caso eles fiquem abaixo do indicado na promoção. Viagens canceladas não contam como viagens concluídas. As ofertas de promoção e os requisitos mínimos de viagem podem variar conforme a cidade. Nós nos reserva mos o direito de reter ou debitar pagamentos caso haja prova ou suspeita de erro, fraude, ação ilegal ou violação dos termos de motorista parceiro ou destes termos. Promoção disponível por tempo limitado. Os termos estão sujeitos a alterações.',
-                style: TextStyle(
-                  fontSize: 15.0,
-                  color: Colors.white,
-                )
-              ),
-
-              SizedBox(height: 10.0),
-
+              const SizedBox(height: 10.0),
+              const Text(
+                  'Ao continuar, eu concordo que a Uber e seus representantes podem entrar em contato comigo por e mail, telefone ou SMS (inclusive por sistema de discagem telefônica automática) no endereço de e-mail ou número que eu forneci, inclusive para finalidades de marketing.\n\nPara participar de uma promoção, você deve ver a oferta e se cadastrar para dirigir com a Uber nesta página até 1º de maio de 2023. A promoção se aplica apenas aos ganhos totais de suas primeiras viagens com a Uber. Esse valor não inclui extras, outras promoções ou taxas pagas à Uber. Para participar, você deve se cadastrar na cidade estipulada e concluir o número mínimo de viagens até 90 dias depois do cadastro. A Uber cobrirá a diferença entre o valor mínimo promocional e seus ganhos totais caso eles fiquem abaixo do indicado na promoção. Viagens canceladas não contam como viagens concluídas. As ofertas de promoção e os requisitos mínimos de viagem podem variar conforme a cidade. Nós nos reserva mos o direito de reter ou debitar pagamentos caso haja prova ou suspeita de erro, fraude, ação ilegal ou violação dos termos de motorista parceiro ou destes termos. Promoção disponível por tempo limitado. Os termos estão sujeitos a alterações.',
+                  style: TextStyle(
+                    fontFamily: 'Uber Move Medium',
+                    fontSize: 15.0,
+                    color: Colors.white,
+                  )),
+              const SizedBox(height: 10.0),
               Align(
                 alignment: Alignment.bottomCenter,
-                child: Container(
+                child: SizedBox(
                   width: 400,
-
-                  child: RaisedButton(
+                  child: ElevatedButton(
                     onPressed: () {
                       Navigator.push(
                         context,
-                        MaterialPageRoute(builder: (context) => SegundaTela()),
+                        MaterialPageRoute(
+                            builder: (context) => const SegundaTela()),
                       );
                     },
                     child: const Text(
                       'Continuar',
                       style: TextStyle(
+                        fontFamily: 'Uber Move Medium',
                         fontSize: 25,
                         color: Colors.black,
                         //textColor: Colors.white,
