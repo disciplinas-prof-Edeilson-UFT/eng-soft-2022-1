@@ -43,7 +43,7 @@ flutter:
     - assets/pacote.png
     - assets/carro.png
     - assets/image/imagembg.png
-
+    - assets/image/mapa2.jpg
 
   fonts:
     - family: Open Sans
