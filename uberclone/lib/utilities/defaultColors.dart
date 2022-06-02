@@ -5,4 +5,3 @@ class AppColors {
   static const Color black = Colors.black;
   static const Color buttonColor = Colors.white24;
   static Color? blueButton = Colors.blue[900];
-}
