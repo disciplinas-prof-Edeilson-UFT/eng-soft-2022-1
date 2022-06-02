@@ -49,5 +49,11 @@ flutter:
     - family: DMSans
       fonts:
         - asset: assets/fonts/DMSans-Medium.ttf
+   - family: Uber Move Bold
+      fonts:
+        - asset: assets/fonts/UberMoveBold.otf
+    - family: Uber Move Medium
+      fonts:
+        - asset: assets/fonts/UberMoveMedium.otf
 
     
