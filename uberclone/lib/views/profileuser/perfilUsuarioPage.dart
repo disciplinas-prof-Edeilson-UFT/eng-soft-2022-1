@@ -229,6 +229,11 @@ class PerfilUsuarioPage extends StatelessWidget {
                               children: [
                                 const Icon(
                                   Icons.car_crash_sharp,
+                            onPressed: () {},
+                            child: Row(
+                              children: [
+                                const Icon(
+                                  Icons.directions_car,
                                   size: 25,
                                   color: Colors.white,
                                 ),
@@ -237,6 +242,7 @@ class PerfilUsuarioPage extends StatelessWidget {
                                 ),
                                 const Text(
                                   'Dirija ou faça entregas com o app da Uber',
+
                                   style: TextStyle(
                                       fontSize: 16,
                                       fontWeight: FontWeight.w600,

@@ -47,6 +47,7 @@ flutter:
     - assets/image/banner01.jpeg
 
 
+
   fonts:
     - family: Uber Move Bold
       fonts:
