@@ -51,6 +51,8 @@ class _RecuperarSenhaState extends State<RecuperarSenha> {
   recoverPassword(String email) async {
     try {
       await FirebaseAuth.instance.sendPasswordResetEmail(email: email);
+      // ignore: use_build_context_synchronously
+      Navigator.of(context).pop();
       _showMyDialog();
     } catch (e) {
       _showMyDialogErro();
@@ -73,59 +75,62 @@ class _RecuperarSenhaState extends State<RecuperarSenha> {
         backgroundColor: Colors.transparent,
       ),
       body: SingleChildScrollView(
-          child: Padding(
-              padding: const EdgeInsets.all(15),
-              child: Column(children: [
-                const Padding(
-                  padding: EdgeInsets.only(bottom: 50),
+        child: Padding(
+          padding: const EdgeInsets.all(15),
+          child: Column(
+            children: [
+              const Padding(
+                padding: EdgeInsets.only(bottom: 50),
+              ),
+              TextFormField(
+                controller: email,
+                autofocus: true,
+                keyboardType: TextInputType.emailAddress,
+                style: const TextStyle(
+                  color: Colors.black,
+                  fontSize: 20,
                 ),
-                TextFormField(
-                  controller: email,
-                  autofocus: true,
-                  keyboardType: TextInputType.emailAddress,
-                  style: const TextStyle(
-                    color: Colors.black,
-                    fontSize: 20,
+                decoration: InputDecoration(
+                  border: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(10),
                   ),
-                  decoration: InputDecoration(
-                    border: OutlineInputBorder(
-                      borderRadius: BorderRadius.circular(10),
+                  fillColor: Colors.white,
+                  filled: true,
+                  hintText: "E-mail",
+                  labelStyle: const TextStyle(color: Colors.black),
+                ),
+              ),
+              const Padding(
+                padding: EdgeInsets.only(bottom: 35),
+              ),
+              Center(
+                child: SizedBox(
+                  height: 50,
+                  width: 200,
+                  child: ElevatedButton(
+                    style: ElevatedButton.styleFrom(primary: Colors.blue[900]),
+                    onPressed: () {
+                      recoverPassword(email.text);
+                    },
+                    child: const Text(
+                      'Enviar',
+                      style: TextStyle(fontSize: 20, color: Colors.white),
                     ),
-                    fillColor: Colors.white,
-                    filled: true,
-                    hintText: "E-mail",
-                    labelStyle: const TextStyle(color: Colors.black),
                   ),
                 ),
-                const Padding(
-                  padding: EdgeInsets.only(bottom: 35),
-                ),
-                Center(
-                  child: SizedBox(
-                    height: 50,
-                    width: 200,
-                    child: ElevatedButton(
-                      style:
-                          ElevatedButton.styleFrom(primary: Colors.blue[900]),
-                      onPressed: () {
-                        recoverPassword(email.text);
-                      },
-                      child: const Text(
-                        'Enviar',
-                        style: TextStyle(fontSize: 20, color: Colors.white),
-                      ),
-                    ),
-                  ),
-                ),
-                const Padding(
-                  padding: EdgeInsets.only(bottom: 300),
-                ),
-                Image.network(
-                  'https://cdn-icons-png.flaticon.com/512/5969/5969323.png',
-                  height: 100,
-                  width: 100,
-                ),
-              ]))),
+              ),
+              const Padding(
+                padding: EdgeInsets.only(bottom: 300),
+              ),
+              Image.network(
+                'https://cdn-icons-png.flaticon.com/512/5969/5969323.png',
+                height: 100,
+                width: 100,
+              ),
+            ],
+          ),
+        ),
+      ),
     );
   }
 }
