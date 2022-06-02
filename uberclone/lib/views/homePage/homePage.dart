@@ -1,7 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:uberclone/utilities/auth_service.dart';
+
 import 'package:uberclone/views/editInfo/editInfo.dart';
+
+
+import 'package:uberclone/views/R01/T2/R01-T2.dart';
+import 'package:uberclone/views/homePage/visualizarHome.dart';
 
 import 'package:uberclone/views/WhereToReceivePage/WhereToReceivePage.dart';
 
@@ -22,6 +27,18 @@ class HomePage extends StatelessWidget {
             const Text(
               'Home Page Uber',
               style: TextStyle(fontSize: 50.0),
+            ),
+            TextButton(onPressed: () {
+              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (BuildContext context) =>
+                                      Home(),
+                                ),
+                              );
+            }, child: Text(
+              'IR PARA HOME'
+            ),
             ),
             Padding(
               padding: const EdgeInsets.symmetric(vertical: 24, horizontal: 20),
@@ -68,9 +85,23 @@ class HomePage extends StatelessWidget {
                     ),
                   );
                 },
-                child: Row(
-                  children: const [
+                child: Column(
+                  children: [
                     Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: FloatingActionButton.extended(
+                        label: const Text("Input pickup point"),
+                        //shape: ShapeBorder(),
+                        hoverElevation: 0,
+                        elevation: 0,
+                        onPressed: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (BuildContext context) => r01_t2(),
+                            ),
+                          );
+                        },
                       padding: EdgeInsets.all(16.0),
                       child: Text(
                         'Entrega',
@@ -101,6 +132,17 @@ class HomePage extends StatelessWidget {
                         'Perfil usuario',
                         style: TextStyle(fontSize: 18),
                       ),
+                    ),
+                    Row(
+                      children: const [
+                        Padding(
+                          padding: EdgeInsets.all(16.0),
+                          child: Text(
+                            'Sair da Conta',
+                            style: TextStyle(fontSize: 18),
+                          ),
+                        ),
+                      ],
                     ),
                   ],
                 ),
