@@ -46,9 +46,6 @@ flutter:
 
 
   fonts:
-    - family: Open Sans
-      fonts:
-        - asset: assets/fonts/OpenSans-VariableFont_wdth,wght.ttf
     - family: IndieFlower
       fonts:
         - asset: assets/fonts/IndieFlower-Regular.ttf
@@ -58,10 +55,10 @@ flutter:
     - family: DMSans
       fonts:
         - asset: assets/fonts/DMSans-Medium.ttf
-    - family: Uber Move Bold
       fonts:
         - asset: assets/fonts/UberMoveBold.otf
     - family: Uber Move Medium
       fonts:
         - asset: assets/fonts/UberMoveMedium.otf
+
 
