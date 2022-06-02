@@ -28,6 +28,7 @@ dev_dependencies:
     sdk: flutter
 
   flutter_lints: ^2.0.1
+  font_awesome_flutter: ^10.1.0
 
 
 flutter:
@@ -36,7 +37,12 @@ flutter:
 
 
   assets:
+
     - assets/image/
+    - assets/mapa.png
+    - assets/pacote.png
+    - assets/carro.png
+    - assets/image/imagembg.png
 
 
   fonts:
@@ -59,4 +65,4 @@ flutter:
       fonts:
         - asset: assets/fonts/UberMoveMedium.otf
 
-    
+
