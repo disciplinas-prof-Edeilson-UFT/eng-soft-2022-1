@@ -45,7 +45,7 @@ class PerfilUsuarioPage extends StatelessWidget {
           child: Container(
             width: size.width,
             height: size.height,
-            child: Column(
+            child: ListView(
               children: <Widget>[
                 const ProfileTop(),
                 const Spacer(
@@ -297,7 +297,7 @@ class PerfilUsuarioPage extends StatelessWidget {
                                   const Icon(
                                     Icons.exit_to_app,
                                     size: 25,
-                                    color: Colors.red,
+                                    color: Colors.blue,
                                   ),
                                   SizedBox(
                                     width: size.width * 0.03,
