@@ -10,9 +10,10 @@ class Configs extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.transparent,
+        backgroundColor: AppColors.backgroundMain,
         appBar: AppBar(
-          backgroundColor: AppColors.backgroundMain,
+          elevation: 0,
+          backgroundColor: Colors.transparent,
           title: Text(
             'Configs. da conta',
             style: TextStyle(
@@ -30,7 +31,7 @@ class Configs extends StatelessWidget {
             },
           ),
         ),
-        body: Column(
+        body: ListView(
           children: <Widget>[
             Row(
               children: <Widget>[
