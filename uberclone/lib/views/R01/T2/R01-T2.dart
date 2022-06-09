@@ -37,108 +37,100 @@ class _ViagemButtonState extends State<ViagemButton> {
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 10),
-          child: Expanded(
-            child: ListView(
-              children: [
-                const Text(
-                  "Para onde vai?",
-                  style: TextStyle(
+          child: ListView(
+            children: [
+              const Text(
+                "Para onde vai?",
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 30,
+                  fontFamily: 'Uber Move Bold',
+                ),
+              ),
+              const Padding(
+                padding: EdgeInsets.only(
+                  bottom: 20,
+                ),
+              ),
+              TextFormField(
+                controller: myAnddres,
+                autofocus: true,
+                keyboardType: TextInputType.text,
+                style: const TextStyle(
+                  fontFamily: 'Uber Move Medium',
+                  color: Colors.white,
+                  fontSize: 18,
+                ),
+                decoration: const InputDecoration(
+                  border: OutlineInputBorder(),
+                  fillColor: AppColors.backgroundMain,
+                  filled: true,
+                  hintText: "Escolha sua localização de partida",
+                  hintStyle: TextStyle(
                     color: Colors.white,
-                    fontSize: 30,
-                    fontFamily: 'Uber Move Bold',
+                    fontFamily: 'Uber Move Medium',
                   ),
+                  labelStyle: TextStyle(color: AppColors.black),
                 ),
-                const Padding(
-                  padding: EdgeInsets.only(
-                    bottom: 20,
+                validator: (value) => Validacao.validacaoName(name: value),
+              ),
+              const Padding(
+                padding: EdgeInsets.only(bottom: 15),
+              ),
+              TextFormField(
+                controller: location,
+                autofocus: true,
+                keyboardType: TextInputType.text,
+                style: const TextStyle(
+                  fontFamily: 'Uber Move Medium',
+                  color: Colors.white,
+                  fontSize: 18,
+                ),
+                decoration: const InputDecoration(
+                  border: OutlineInputBorder(),
+                  fillColor: AppColors.backgroundMain,
+                  filled: true,
+                  hintText: "Escolha sua localização de chegada",
+                  hintStyle: TextStyle(
+                    color: Colors.white,
+                    fontFamily: 'Uber Move Medium',
                   ),
+                  labelStyle: TextStyle(color: AppColors.black),
                 ),
-                Flexible(
-                  child: TextFormField(
-                    controller: myAnddres,
-                    autofocus: true,
-                    keyboardType: TextInputType.text,
-                    style: const TextStyle(
-                      fontFamily: 'Uber Move Medium',
-                      color: Colors.white,
-                      fontSize: 18,
-                    ),
-                    decoration: const InputDecoration(
-                      border: OutlineInputBorder(),
-                      fillColor: AppColors.backgroundMain,
-                      filled: true,
-                      hintText: "Escolha sua localização de partida",
-                      hintStyle: TextStyle(
+                validator: (value) => Validacao.validacaoName(name: value),
+              ),
+              const Padding(
+                padding: EdgeInsets.only(bottom: 370),
+              ),
+              Container(
+                decoration: const BoxDecoration(color: AppColors.black),
+                child: OutlinedButton(
+                  style: ElevatedButton.styleFrom(
+                    onPrimary: Colors.transparent,
+                  ),
+                  onPressed: () {
+                    pickup_point_location(myAnddres.text, location.text);
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (BuildContext context) =>
+                            const SendAnItemConfirmed(),
+                      ),
+                    );
+                  },
+                  child: const Center(
+                    child: Text(
+                      "Confirmar Envio",
+                      style: TextStyle(
+                        fontFamily: 'Uber Move Bold',
+                        fontSize: 20,
                         color: Colors.white,
-                        fontFamily: 'Uber Move Medium',
-                      ),
-                      labelStyle: TextStyle(color: AppColors.black),
-                    ),
-                    validator: (value) => Validacao.validacaoName(name: value),
-                  ),
-                ),
-                const Padding(
-                  padding: EdgeInsets.only(bottom: 15),
-                ),
-                Flexible(
-                  child: TextFormField(
-                    controller: location,
-                    autofocus: true,
-                    keyboardType: TextInputType.text,
-                    style: const TextStyle(
-                      fontFamily: 'Uber Move Medium',
-                      color: Colors.white,
-                      fontSize: 18,
-                    ),
-                    decoration: const InputDecoration(
-                      border: OutlineInputBorder(),
-                      fillColor: AppColors.backgroundMain,
-                      filled: true,
-                      hintText: "Escolha sua localização de chegada",
-                      hintStyle: TextStyle(
-                        color: Colors.white,
-                        fontFamily: 'Uber Move Medium',
-                      ),
-                      labelStyle: TextStyle(color: AppColors.black),
-                    ),
-                    validator: (value) => Validacao.validacaoName(name: value),
-                  ),
-                ),
-                const Padding(
-                  padding: EdgeInsets.only(bottom: 370),
-                ),
-                Flexible(
-                  child: Container(
-                    decoration: const BoxDecoration(color: AppColors.black),
-                    child: OutlinedButton(
-                      style: ElevatedButton.styleFrom(
-                        onPrimary: Colors.transparent,
-                      ),
-                      onPressed: () {
-                        pickup_point_location(myAnddres.text, location.text);
-                        Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder: (BuildContext context) =>
-                                const SendAnItemConfirmed(),
-                          ),
-                        );
-                      },
-                      child: const Center(
-                        child: Text(
-                          "Confirmar Envio",
-                          style: TextStyle(
-                            fontFamily: 'Uber Move Bold',
-                            fontSize: 20,
-                            color: Colors.white,
-                          ),
-                        ),
                       ),
                     ),
                   ),
                 ),
-              ],
-            ),
+              ),
+            ],
           ),
         ),
       ),

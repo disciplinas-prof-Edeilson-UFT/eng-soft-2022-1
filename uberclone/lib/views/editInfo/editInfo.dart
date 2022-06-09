@@ -77,17 +77,17 @@ class _EditInfoUserState extends State<EditInfoUser> {
                               ButtonEdit(
                                 buttonText: "Nome",
                                 buttonText2: info!["name"]["firstName"],
-                                tela: FirstPage(),
+                                tela: const FirstPage(),
                               ),
                               ButtonEdit(
                                 buttonText: "Sobrenome",
                                 buttonText2: info["name"]["secondName"],
-                                tela: SecondPage(),
+                                tela: const SecondPage(),
                               ),
                               ButtonEdit(
                                 buttonText: "Número de telefone",
                                 buttonText2: info["number"],
-                                tela: ThirdPage(),
+                                tela: const ThirdPage(),
                               ),
                             ],
                           ),

@@ -8,10 +8,6 @@ version: 1.0.0+1
 environment:
   sdk: ">=2.16.2 <3.0.0"
 
-flutter_native_splash:
-  background_image: assets/image/splash_image.png
-  android_12:
-
 dependencies:
   flutter_native_splash: ^2.1.6
   flutter:
