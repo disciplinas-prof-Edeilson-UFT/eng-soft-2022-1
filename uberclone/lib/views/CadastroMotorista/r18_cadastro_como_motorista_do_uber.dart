@@ -15,6 +15,7 @@ class _R18State extends State<R18> {
     return Scaffold(
       backgroundColor: AppColors.backgroundMain,
       appBar: AppBar(
+        elevation: 0,
         backgroundColor: Colors.transparent,
         title: const Text(
           'Uber',

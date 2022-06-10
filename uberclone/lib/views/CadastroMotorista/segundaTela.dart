@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:uberclone/utilities/defaultColors.dart';
 
 class SegundaTela extends StatelessWidget {
   const SegundaTela({Key? key}) : super(key: key);
@@ -6,7 +7,7 @@ class SegundaTela extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey[900],
+      backgroundColor: AppColors.backgroundMain,
       body: SafeArea(
         child: Center(
           child: Column(

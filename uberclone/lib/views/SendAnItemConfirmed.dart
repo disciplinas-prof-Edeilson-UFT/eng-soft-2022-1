@@ -18,7 +18,6 @@ class SendAnItemConfirmed extends StatelessWidget {
           onPressed: () {
             Navigator.of(context).pop();
             Navigator.of(context).pop();
-            Navigator.of(context).pop();
           },
           child: const Icon(
             Icons.arrow_back,

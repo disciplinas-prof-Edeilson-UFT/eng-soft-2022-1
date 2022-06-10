@@ -18,7 +18,6 @@ class _TelaCadastro extends State<TelaCadastro> {
   final TextEditingController firstName = TextEditingController();
   final TextEditingController secondName = TextEditingController();
   final TextEditingController number = TextEditingController();
-  final formkey = GlobalKey<FormState>();
   final TextEditingController email = TextEditingController();
   final TextEditingController password = TextEditingController();
 
@@ -50,9 +49,9 @@ class _TelaCadastro extends State<TelaCadastro> {
         backgroundColor: Colors.transparent,
       ),
       body: (isLoading)
-          ? Scaffold(
+          ? const Scaffold(
               backgroundColor: Colors.black,
-              body: const Center(
+              body: Center(
                 child: CircularProgressIndicator(
                   color: Colors.white,
                 ),
@@ -64,8 +63,8 @@ class _TelaCadastro extends State<TelaCadastro> {
                 child: Form(
                   child: Column(
                     children: [
-                      Image.network(
-                        'https://cdn-icons-png.flaticon.com/512/5969/5969323.png',
+                      Image.asset(
+                        'ube.png',
                         height: 200,
                         width: 200,
                       ),
