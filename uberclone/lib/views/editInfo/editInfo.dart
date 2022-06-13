@@ -3,6 +3,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:uberclone/widgets/buttons_class.dart';
 
+import '../../utilities/defaultColors.dart';
 import 'alterFirstName.dart';
 import 'alterNumber.dart';
 import 'alterSecondName.dart';
@@ -27,15 +28,11 @@ class _EditInfoUserState extends State<EditInfoUser> {
   late Future<Map<String, dynamic>> _infoDate;
 
   @override
-  void initState() {
-    _infoDate = _doc();
-    super.initState();
-  }
-
   @override
   Widget build(BuildContext context) {
+    _infoDate = _doc();
     return Scaffold(
-      backgroundColor: Colors.white12,
+      backgroundColor: AppColors.backgroundMain,
       appBar: AppBar(
           title: const Text("Editar conta",
               style: TextStyle(fontFamily: 'Uber Move Medium')),

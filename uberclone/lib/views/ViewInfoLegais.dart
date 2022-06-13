@@ -16,7 +16,7 @@ class _VierwInfoLegaisState extends State<VierwInfoLegais> {
       backgroundColor: AppColors.backgroundMain,
       appBar: AppBar(
         title: Text('Informações Legais'),
-        backgroundColor: Colors.transparent,
+        backgroundColor: AppColors.backgroundMain,
         elevation: 0,
         leading: IconButton(
           icon: const Icon(

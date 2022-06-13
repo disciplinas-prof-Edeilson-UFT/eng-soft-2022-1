@@ -25,7 +25,7 @@ class _SendAnItemPageState extends State<SendAnItemPage> {
       backgroundColor: AppColors.backgroundMain,
       appBar: AppBar(
         elevation: 0,
-        backgroundColor: Colors.transparent,
+        backgroundColor: AppColors.backgroundMain,
         leading: IconButton(
           icon: const Icon(
             Icons.arrow_back,

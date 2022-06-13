@@ -11,7 +11,7 @@ class EntregaPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         elevation: 0,
-        backgroundColor: Colors.transparent,
+        backgroundColor: AppColors.backgroundMain,
         leading: IconButton(
           icon: const Icon(
             Icons.arrow_back,

@@ -126,7 +126,7 @@ class HomePage extends StatelessWidget {
                           },
                           child: Container(
                             decoration: BoxDecoration(
-                              color: Color.fromARGB(10, 255, 255, 255),
+                              color: AppColors.buttonHome,
                               borderRadius: BorderRadius.circular(10),
                             ),
                             width: 170,
@@ -174,7 +174,7 @@ class HomePage extends StatelessWidget {
                         },
                         child: Container(
                           decoration: BoxDecoration(
-                            color: Color.fromARGB(10, 255, 255, 255),
+                            color: AppColors.buttonHome,
                             borderRadius: BorderRadius.circular(10),
                           ),
                           width: 170,
@@ -221,7 +221,7 @@ class HomePage extends StatelessWidget {
                   width: 360,
                   decoration: BoxDecoration(
                     shape: BoxShape.rectangle,
-                    color: Color.fromARGB(10, 255, 255, 255),
+                    color: AppColors.buttonHome,
                     borderRadius: BorderRadius.circular(30),
                   ),
                   child: Row(
