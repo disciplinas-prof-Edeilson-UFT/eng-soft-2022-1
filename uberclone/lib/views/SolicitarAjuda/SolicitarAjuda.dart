@@ -32,8 +32,9 @@ class Help extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.transparent,
+        backgroundColor: AppColors.backgroundMain,
         appBar: AppBar(
+          elevation: 0,
           leading: IconButton(
             icon: const Icon(
               Icons.arrow_back,

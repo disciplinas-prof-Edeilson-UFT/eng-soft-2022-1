@@ -12,7 +12,7 @@ class SendAnItemConfirmed extends StatelessWidget {
     return Scaffold(
       backgroundColor: AppColors.backgroundMain,
       appBar: AppBar(
-        backgroundColor: Colors.transparent,
+        backgroundColor: AppColors.backgroundMain,
         elevation: 0,
         leading: OutlinedButton(
           onPressed: () {

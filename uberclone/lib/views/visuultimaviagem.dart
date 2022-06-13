@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-
-import 'loginPages/loginPage.dart';
+import '../utilities/defaultColors.dart';
 
 class ViewUltimaViagem extends StatefulWidget {
   const ViewUltimaViagem({Key? key}) : super(key: key);
@@ -15,7 +14,7 @@ class _ViewUltimaViagemState extends State<ViewUltimaViagem> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: Colors.black,
+        backgroundColor: AppColors.backgroundMain,
         appBar: AppBar(
           leading: IconButton(
             icon: const Icon(
@@ -33,7 +32,7 @@ class _ViewUltimaViagemState extends State<ViewUltimaViagem> {
               )),
           centerTitle: false,
           elevation: 0,
-          backgroundColor: Colors.black,
+          backgroundColor: AppColors.backgroundMain,
         ),
         body: Padding(
           padding: const EdgeInsets.all(10),

@@ -22,13 +22,15 @@ class _ViewCarteiraState extends State<ViewCarteira> {
             Navigator.of(context).pop(),
           },
         ),
-        title: const Text('Carteira',
-            style: TextStyle(
-              fontSize: 25,
-            )),
+        title: const Text(
+          'Carteira',
+          style: TextStyle(
+            fontSize: 25,
+          ),
+        ),
         centerTitle: false,
         elevation: 0,
-        backgroundColor: Colors.transparent,
+        backgroundColor: AppColors.backgroundMain,
       ),
       body: Padding(
         padding: const EdgeInsets.all(10),
