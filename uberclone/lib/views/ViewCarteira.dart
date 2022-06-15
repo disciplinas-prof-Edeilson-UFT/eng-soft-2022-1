@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
+// ignore: depend_on_referenced_packages
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-
-
 import '../utilities/defaultColors.dart';
+
 
 class ViewCarteira extends StatefulWidget {
   const ViewCarteira({Key? key}) : super(key: key);
@@ -57,7 +57,7 @@ class _ViewCarteiraState extends State<ViewCarteira> {
                       height: 200,
                       width: 350,
                       decoration: BoxDecoration(
-                          gradient: LinearGradient(
+                          gradient: const LinearGradient(
                             begin: Alignment.topCenter,
                             end: Alignment.bottomRight,
                             colors: [
