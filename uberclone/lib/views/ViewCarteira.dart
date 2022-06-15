@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import '../utilities/defaultColors.dart';
 
-
 class ViewCarteira extends StatefulWidget {
   const ViewCarteira({Key? key}) : super(key: key);
 
@@ -18,16 +17,8 @@ class _ViewCarteiraState extends State<ViewCarteira> {
       backgroundColor: AppColors.backgroundMain,
       appBar: AppBar(
         leading: IconButton(
-          icon: const Icon(Icons.arrow_back),
-          onPressed: () => {
-            // Navigator.push(
-            context,
-            //MaterialPageRoute(
-            //   builder: (BuildContext context) => const TelaLogin(),
-            //),
-            // )
-          },
-        ),
+            icon: const Icon(Icons.arrow_back),
+            onPressed: () => Navigator.of(context).pop()),
         title: const Text('Carteira',
             style: TextStyle(
               fontSize: 25,

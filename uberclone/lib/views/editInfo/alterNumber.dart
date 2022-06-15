@@ -55,6 +55,7 @@ class _ThirdPageState extends State<ThirdPage> {
                           number.text, FirebaseAuth.instance.currentUser!.uid);
                       Navigator.of(context).pop();
                       Navigator.of(context).pop();
+                      Navigator.of(context).pop();
                     },
                     child: const Text(
                       "Salvar",

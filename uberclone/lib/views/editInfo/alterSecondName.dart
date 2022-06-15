@@ -54,6 +54,7 @@ class _SecondPageState extends State<SecondPage> {
                           FirebaseAuth.instance.currentUser!.uid);
                       Navigator.of(context).pop();
                       Navigator.of(context).pop();
+                      Navigator.of(context).pop();
                     },
                     child: const Text(
                       "Salvar",

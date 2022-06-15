@@ -55,6 +55,7 @@ class _FirstPageState extends State<FirstPage> {
                           FirebaseAuth.instance.currentUser!.uid);
                       Navigator.of(context).pop();
                       Navigator.of(context).pop();
+                      Navigator.of(context).pop();
                     },
                     child: const Text(
                       "Salvar",
