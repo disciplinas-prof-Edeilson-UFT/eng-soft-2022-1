@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:uberclone/data/funcFireStore.dart';
 import 'package:uberclone/utilities/validacao.dart';
 
+import '../../utilities/defaultColors.dart';
+
 class FirstPage extends StatefulWidget {
   const FirstPage({Key? key}) : super(key: key);
 
@@ -16,9 +18,10 @@ class _FirstPageState extends State<FirstPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromARGB(255, 43, 41, 41),
+      backgroundColor: AppColors.backgroundMain,
       appBar: AppBar(
-        backgroundColor: const Color.fromARGB(255, 43, 41, 41),
+        backgroundColor: AppColors.backgroundMain,
+        elevation: 0,
       ),
       body: SafeArea(
         child: Column(
@@ -52,6 +55,8 @@ class _FirstPageState extends State<FirstPage> {
                           FirebaseAuth.instance.currentUser!.uid);
                       Navigator.of(context).pop();
                       Navigator.of(context).pop();
+                      Navigator.of(context).pop();
+
                     },
                     child: const Text(
                       "Salvar",

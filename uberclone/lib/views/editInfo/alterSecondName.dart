@@ -1,6 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:uberclone/data/funcFireStore.dart';
+import 'package:uberclone/utilities/defaultColors.dart';
 import 'package:uberclone/utilities/validacao.dart';
 
 class SecondPage extends StatefulWidget {
@@ -16,9 +17,10 @@ class _SecondPageState extends State<SecondPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromARGB(255, 43, 41, 41),
+      backgroundColor: AppColors.backgroundMain,
       appBar: AppBar(
-        backgroundColor: const Color.fromARGB(255, 43, 41, 41),
+        backgroundColor: AppColors.backgroundMain,
+        elevation: 0,
       ),
       body: SafeArea(
         child: Column(
@@ -50,6 +52,7 @@ class _SecondPageState extends State<SecondPage> {
                     onPressed: () {
                       alterSecondName(secondName.text,
                           FirebaseAuth.instance.currentUser!.uid);
+                      Navigator.of(context).pop();
                       Navigator.of(context).pop();
                       Navigator.of(context).pop();
                     },
