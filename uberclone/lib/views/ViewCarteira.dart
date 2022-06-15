@@ -12,7 +12,6 @@ class ViewCarteira extends StatefulWidget {
 }
 
 class _ViewCarteiraState extends State<ViewCarteira> {
-  final List list = [];
   @override
   Widget build(BuildContext context) {
     return Scaffold(

@@ -8,10 +8,6 @@ version: 1.0.0+1
 environment:
   sdk: ">=2.16.2 <3.0.0"
 
-flutter_native_splash:
-  background_image: assets/image/splash_image.png
-  android_12:
-
 dependencies:
   flutter_native_splash: ^2.1.6
   flutter:
@@ -37,22 +33,19 @@ flutter:
 
 
   assets:
+
+    - assets/image/
+    - assets/mapa.png
+    - assets/pacote.png
+    - assets/carro.png
     - assets/image/imagembg.png
+    - assets/image/uber1.png
+    - assets/image/banner01.jpeg
+    - assets/image/binoculo.png
+
 
 
   fonts:
-    - family: Open Sans
-      fonts:
-        - asset: assets/fonts/OpenSans-VariableFont_wdth,wght.ttf
-    - family: IndieFlower
-      fonts:
-        - asset: assets/fonts/IndieFlower-Regular.ttf
-    - family: Rubik
-      fonts:
-        - asset: assets/fonts/Rubik-VariableFont_wght.ttf
-    - family: DMSans
-      fonts:
-        - asset: assets/fonts/DMSans-Medium.ttf
     - family: Uber Move Bold
       fonts:
         - asset: assets/fonts/UberMoveBold.otf

@@ -1,4 +1,6 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:uberclone/data/funcFireStore.dart';
 import 'package:uberclone/utilities/defaultColors.dart';
 import 'package:uberclone/utilities/validacao.dart';
 import 'package:uberclone/views/CorfirmedPage/CorfirmedPage.dart';
@@ -13,10 +15,10 @@ class WhereToReceivePage extends StatefulWidget {
 class _WhereToReceivePageState extends State<WhereToReceivePage> {
   TextEditingController myAnddres = TextEditingController();
   TextEditingController location = TextEditingController();
+  String id = FirebaseAuth.instance.currentUser!.uid;
 
   @override
   Widget build(BuildContext context) {
-    Size size = MediaQuery.of(context).size;
     return Scaffold(
       backgroundColor: AppColors.backgroundMain,
       appBar: AppBar(
@@ -37,12 +39,19 @@ class _WhereToReceivePageState extends State<WhereToReceivePage> {
           padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
           child: ListView(
             children: [
-              const Text("Para onde vai?",
-                  style: TextStyle(
-                    color: Colors.white,
-                    fontFamily: 'Uber Move Bold',
-                    fontSize: 30,
-                  )),
+              const Text(
+                "Para onde vai?",
+                style: TextStyle(
+                  color: Colors.white,
+                  fontFamily: 'Uber Move Bold',
+                  fontSize: 30,
+                ),
+              ),
+              const Padding(
+                padding: EdgeInsets.only(
+                  bottom: 20,
+                ),
+              ),
               TextFormField(
                 controller: myAnddres,
                 autofocus: true,
@@ -51,7 +60,7 @@ class _WhereToReceivePageState extends State<WhereToReceivePage> {
                   color: Colors.white,
                   fontSize: 18,
                 ),
-                decoration: InputDecoration(
+                decoration: const InputDecoration(
                   border: OutlineInputBorder(),
                   fillColor: AppColors.backgroundMain,
                   filled: true,
@@ -60,7 +69,7 @@ class _WhereToReceivePageState extends State<WhereToReceivePage> {
                     color: Colors.white,
                     fontFamily: 'uber move medium',
                   ),
-                  labelStyle: const TextStyle(color: AppColors.black),
+                  labelStyle: TextStyle(color: AppColors.black),
                 ),
                 validator: (value) => Validacao.validacaoName(name: value),
               ),
@@ -76,7 +85,7 @@ class _WhereToReceivePageState extends State<WhereToReceivePage> {
                   fontFamily: 'Uber Move Medium',
                   fontSize: 18,
                 ),
-                decoration: InputDecoration(
+                decoration: const InputDecoration(
                   border: OutlineInputBorder(),
                   fillColor: AppColors.backgroundMain,
                   filled: true,
@@ -85,25 +94,21 @@ class _WhereToReceivePageState extends State<WhereToReceivePage> {
                     color: Colors.white,
                     fontFamily: 'Uber Move Medium',
                   ),
-                  labelStyle: const TextStyle(color: AppColors.black),
+                  labelStyle: TextStyle(color: AppColors.black),
                 ),
                 validator: (value) => Validacao.validacaoName(name: value),
               ),
               const Padding(
-                padding: EdgeInsets.only(bottom: 15),
-              ),
-              Padding(
                 padding: EdgeInsets.only(bottom: 370),
               ),
               Container(
-                height: size.height * 0.08,
-                width: size.width * 0.90,
                 decoration: const BoxDecoration(color: AppColors.black),
                 child: OutlinedButton(
                   style: ElevatedButton.styleFrom(
                     onPrimary: Colors.transparent,
                   ),
                   onPressed: () {
+                    pickup_point_location(myAnddres.text, location.text);
                     Navigator.push(
                       context,
                       MaterialPageRoute(

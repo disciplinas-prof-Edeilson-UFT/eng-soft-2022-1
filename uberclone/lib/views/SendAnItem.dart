@@ -5,14 +5,16 @@ import 'package:uberclone/utilities/validacao.dart';
 import 'package:uberclone/utilities/defaultColors.dart';
 import 'package:uberclone/views/SendAnItemConfirmed.dart';
 
-class ViagemButton extends StatefulWidget {
-  const ViagemButton({Key? key}) : super(key: key);
+import '../utilities/defaultColors.dart';
+
+class SendAnItemPage extends StatefulWidget {
+  const SendAnItemPage({Key? key}) : super(key: key);
 
   @override
-  State<ViagemButton> createState() => _ViagemButtonState();
+  State<SendAnItemPage> createState() => _SendAnItemPageState();
 }
 
-class _ViagemButtonState extends State<ViagemButton> {
+class _SendAnItemPageState extends State<SendAnItemPage> {
   TextEditingController myAnddres = TextEditingController();
   TextEditingController location = TextEditingController();
   String id = FirebaseAuth.instance.currentUser!.uid;
@@ -36,7 +38,7 @@ class _ViagemButtonState extends State<ViagemButton> {
       ),
       body: SafeArea(
         child: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 10),
+          padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
           child: ListView(
             children: [
               const Text(
@@ -65,7 +67,7 @@ class _ViagemButtonState extends State<ViagemButton> {
                   border: OutlineInputBorder(),
                   fillColor: AppColors.backgroundMain,
                   filled: true,
-                  hintText: "Escolha sua localização de partida",
+                  hintText: "Escolha a localização do remetente",
                   hintStyle: TextStyle(
                     color: Colors.white,
                     fontFamily: 'Uber Move Medium',
@@ -90,7 +92,7 @@ class _ViagemButtonState extends State<ViagemButton> {
                   border: OutlineInputBorder(),
                   fillColor: AppColors.backgroundMain,
                   filled: true,
-                  hintText: "Escolha sua localização de chegada",
+                  hintText: "Escolha a localização do destinatário",
                   hintStyle: TextStyle(
                     color: Colors.white,
                     fontFamily: 'Uber Move Medium',
@@ -98,6 +100,9 @@ class _ViagemButtonState extends State<ViagemButton> {
                   labelStyle: TextStyle(color: AppColors.black),
                 ),
                 validator: (value) => Validacao.validacaoName(name: value),
+              ),
+              const Padding(
+                padding: EdgeInsets.only(bottom: 15),
               ),
               const Padding(
                 padding: EdgeInsets.only(bottom: 370),
@@ -110,6 +115,7 @@ class _ViagemButtonState extends State<ViagemButton> {
                   ),
                   onPressed: () {
                     pickup_point_location(myAnddres.text, location.text);
+
                     Navigator.push(
                       context,
                       MaterialPageRoute(

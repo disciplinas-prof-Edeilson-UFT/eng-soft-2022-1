@@ -7,7 +7,6 @@ import 'package:uberclone/utilities/auth_service.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  //await HiveConfig.start();
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
